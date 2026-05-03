@@ -29,12 +29,20 @@ const {
 } = Astro.props;
 
 const siteUrl = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
-const canonicalUrl = Astro.url.href;
+
+// FIX 1: Build canonical from siteUrl + pathname instead of Astro.url.href
+// Astro.url.href can return https://localhost/ in Vercel SSR (internal host issue)
+const canonicalUrl = `${siteUrl}${Astro.url.pathname}`;
 const ogImageUrl = `${siteUrl}/${image.replace(/^\/+/, '')}`;
 
 // Prepare hreflang data in frontmatter (safest way)
 const locales = ['en', 'it', 'vi', 'ar', 'fr', 'de', 'es', 'hi', 'id', 'ru', 'pt', 'ko', 'tl', 'nl', 'ms', 'tr'];
 const pathWithoutLang = Astro.url.pathname.replace(/^\/(it|vi|ar|fr|de|es|hi|id|ru|pt|ko|tl|nl|ms|tr)\//, '/');
+
+// FIX 2: Detect blog POST pages (not blog index/pagination)
+// Blog posts only exist in English — hreflang to other languages would point to non-200 pages
+// Blog post pattern: /blog/some-text-slug/ (not /blog/, /blog/2/, /blog/3/ etc.)
+const isBlogPost = /\/blog\/[a-z][a-z0-9-]+\/?$/.test(Astro.url.pathname);
 ---
 
 <!doctype html>
@@ -53,20 +61,30 @@ const pathWithoutLang = Astro.url.pathname.replace(/^\/(it|vi|ar|fr|de|es|hi|id|
     <!-- Canonical -->
     <link rel="canonical" href={canonicalUrl} />
 
-    <!-- ==================== HREFLANG (FIXES ALL DUPLICATE ISSUES) ==================== -->
-    {locales.map((l) => {
-      const href = l === 'en' 
-        ? `${siteUrl}${pathWithoutLang}` 
-        : `${siteUrl}/${l}${pathWithoutLang}`;
-      return <link rel="alternate" hreflang={l} href={href} />;
-    })}
-
-    <!-- x-default -->
-    <link 
-      rel="alternate" 
-      hreflang="x-default" 
-      href={`${siteUrl}${pathWithoutLang}`} 
-    />
+    <!-- ==================== HREFLANG ==================== -->
+    {isBlogPost ? (
+      // Blog posts: English-only content — only output en + x-default
+      // This prevents hreflang pointing to non-existent /ar/blog/slug/ pages (Ahrefs error fix)
+      <>
+        <link rel="alternate" hreflang="en" href={canonicalUrl} />
+        <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
+      </>
+    ) : (
+      // All other pages: full hreflang group for all supported languages
+      <>
+        {locales.map((l) => {
+          const href = l === 'en'
+            ? `${siteUrl}${pathWithoutLang}`
+            : `${siteUrl}/${l}${pathWithoutLang}`;
+          return <link rel="alternate" hreflang={l} href={href} />;
+        })}
+        <link
+          rel="alternate"
+          hreflang="x-default"
+          href={`${siteUrl}${pathWithoutLang}`}
+        />
+      </>
+    )}
 
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content={title} />

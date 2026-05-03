@@ -48,13 +48,17 @@ export default defineConfig({
   trailingSlash: 'always',
 
   redirects: {
-    // Fix duplicate route warnings
+    // FIX: Old URLs removed from redirects are still in sitemap — remove them from sitemap-0.xml.ts
+    // These redirects are correct (301 is fine), but the old slugs must NOT appear in sitemap
     '/musically-down': '/musical-down-tiktok-downloader/',
     '/musically-down/': '/musical-down-tiktok-downloader/',
     '/savetik-downloader-download-tiktok-videos-without-watermark': '/savetik-download-tiktok-video-without-watermark-free/',
     '/savetik-downloader-download-tiktok-videos-without-watermark/': '/savetik-download-tiktok-video-without-watermark-free/',
 
-    // Clean 404 redirects (optional but useful)
+    // FIX: savett broken redirect — the ..astro file was renamed so the trailing-slash URL now resolves
+    // No redirect entry needed here; handled by trailingSlash: 'always'
+
+    // Clean 404 redirects
     '/404/': '/404',
     '/it/404/': '/404',
     '/ko/404/': '/404',
@@ -71,11 +75,6 @@ export default defineConfig({
     '/tr/404/': '/404',
     '/tl/404/': '/404',
     '/vi/404/': '/404',
-
-    // Removed invalid redirects that were causing the build error:
-    // '/ar/ar/*': '/ar/$1',
-    // '/hi/hi/*': '/hi/$1',
-    // '/ru/ru/*': '/ru/$1',
   },
 
   vite: {
@@ -105,7 +104,7 @@ export default defineConfig({
         ],
       },
       workbox: { navigateFallback: '/404', globPatterns: ['*.js'] },
-      devOptions: { enabled: false, navigateFallbackAllowlist: [/^\/404$/], suppressWarnings: true },
+      devOptions: { enabled: false, navigateFallbackAllowlist: [/^\\/404$/], suppressWarnings: true },
     }),
     icon(),
   ],

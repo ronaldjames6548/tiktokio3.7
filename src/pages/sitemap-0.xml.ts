@@ -8,8 +8,11 @@ export const GET: APIRoute = async () => {
     { url: 'https://tiktokio.cam/blog/how-to-save-tiktok-videos-without-watermark/', changefreq: 'monthly', priority: 0.8 },
     { url: 'https://tiktokio.cam/contact/', changefreq: 'yearly', priority: 0.5 },
     { url: 'https://tiktokio.cam/privacy-policy/', changefreq: 'yearly', priority: 0.3 },
-    { url: 'https://tiktokio.cam/savetik-downloader-download-tiktok-videos-without-watermark/', changefreq: 'weekly', priority: 0.9 },
-    { url: 'https://tiktokio.cam/musically-down/', changefreq: 'weekly', priority: 0.9 },
+    // FIX: Replaced old redirect URLs with their final 200-status destinations
+    // ❌ REMOVED: 'https://tiktokio.cam/savetik-downloader-download-tiktok-videos-without-watermark/' (was 301)
+    // ❌ REMOVED: 'https://tiktokio.cam/musically-down/' (was 301)
+    { url: 'https://tiktokio.cam/savetik-download-tiktok-video-without-watermark-free/', changefreq: 'weekly', priority: 0.9 },
+    { url: 'https://tiktokio.cam/musical-down-tiktok-downloader/', changefreq: 'weekly', priority: 0.9 },
   ];
 
   const lastmod = new Date().toISOString();
