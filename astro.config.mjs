@@ -104,7 +104,11 @@ export default defineConfig({
         ],
       },
       workbox: { navigateFallback: '/404', globPatterns: ['*.js'] },
-      devOptions: { enabled: false, navigateFallbackAllowlist: [/^\\/404$/], suppressWarnings: true },
+      devOptions: { 
+        enabled: false, 
+        navigateFallbackAllowlist: [new RegExp('^/404$')], 
+        suppressWarnings: true 
+      },
     }),
     icon(),
   ],
