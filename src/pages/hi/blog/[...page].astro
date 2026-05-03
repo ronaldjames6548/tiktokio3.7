@@ -52,11 +52,11 @@ const lang = getLangFromUrl(safeUrl);
 const t = useTranslations(lang);
 ---
 
-<Layout title="Blog" dir={lang === 'hi' ? 'ltr' : 'ltr'}>
+<Layout title="TikTokio ब्लॉग - TikTok टिप्स और ट्यूटोरियल" dir={lang === 'hi' ? 'ltr' : 'ltr'}>
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">Our Blog</Fragment>
-			<Fragment slot="desc">Discover Industry Insights, Company News, and Expert Opinions.</Fragment>
+			<Fragment slot="title">हमारा ब्लॉग</Fragment>
+			<Fragment slot="desc">TikTokio ब्लॉग पर TikTok वीडियो बिना वॉटरमार्क डाउनलोड करने के बेहतरीन टिप्स, ट्यूटोरियल और आसान तरीके जानें।</Fragment>
 		</Sectionhead>
 		<Posts posts={page.data} />
 		<Pagination class="mt-20" prevUrl={page.url.prev} nextUrl={page.url.next} />

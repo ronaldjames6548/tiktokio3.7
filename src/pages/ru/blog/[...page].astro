@@ -52,11 +52,11 @@ const lang = getLangFromUrl(safeUrl);
 const t = useTranslations(lang);
 ---
 
-<Layout title="Blog" dir={lang === 'ru' ? 'ltr' : 'ltr'}>
+<Layout title="Блог TikTokio — Советы и гайды TikTok" dir={lang === 'ru' ? 'ltr' : 'ltr'}>
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">Our Blog</Fragment>
-			<Fragment slot="desc">Discover Industry Insights, Company News, and Expert Opinions.</Fragment>
+			<Fragment slot="title">Наш блог</Fragment>
+			<Fragment slot="desc">В блоге TikTokio — полезные советы, подробные гайды и лучшие способы скачать видео TikTok без водяного знака в отличном качестве.</Fragment>
 		</Sectionhead>
 		<Posts posts={page.data} />
 		<Pagination class="mt-20" prevUrl={page.url.prev} nextUrl={page.url.next} />

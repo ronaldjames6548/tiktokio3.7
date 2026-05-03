@@ -52,11 +52,11 @@ const lang = getLangFromUrl(safeUrl);
 const t = useTranslations(lang);
 ---
 
-<Layout title="Blog" dir={lang === 'tr' ? 'ltr' : 'ltr'}>
+<Layout title="Blog TikTokio - Mẹo Hay Tải TikTok Không Watermark" dir={lang === 'tr' ? 'ltr' : 'ltr'}>
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">Our Blog</Fragment>
-			<Fragment slot="desc">Discover Industry Insights, Company News, and Expert Opinions.</Fragment>
+			<Fragment slot="title">Blog Của Chúng Tôi</Fragment>
+			<Fragment slot="desc">Blog TikTokio chia sẻ mẹo hay, hướng dẫn chi tiết cách tải video TikTok không watermark chất lượng cao và cập nhật xu hướng mới nhất hiện nay.</Fragment>
 		</Sectionhead>
 		<Posts posts={page.data} />
 		<Pagination class="mt-20" prevUrl={page.url.prev} nextUrl={page.url.next} />

@@ -52,11 +52,11 @@ const lang = getLangFromUrl(safeUrl);
 const t = useTranslations(lang);
 ---
 
-<Layout title="Blog" dir={lang === 'ko' ? 'ltr' : 'ltr'}>
+<Layout title="TikTokio 블로그 - TikTok 팁과 튜토리얼" dir={lang === 'ko' ? 'ltr' : 'ltr'}>
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">Our Blog</Fragment>
-			<Fragment slot="desc">Discover Industry Insights, Company News, and Expert Opinions.</Fragment>
+			<Fragment slot="title">저희 블로그</Fragment>
+			<Fragment slot="desc">TikTokio 블로그에서 워터마크 없이 고화질 TikTok 영상을 다운로드하는 방법, 유용한 팁과 최신 튜토리얼을 확인하세요.</Fragment>
 		</Sectionhead>
 		<Posts posts={page.data} />
 		<Pagination class="mt-20" prevUrl={page.url.prev} nextUrl={page.url.next} />

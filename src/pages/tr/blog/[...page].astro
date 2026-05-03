@@ -52,11 +52,11 @@ const lang = getLangFromUrl(safeUrl);
 const t = useTranslations(lang);
 ---
 
-<Layout title="Blog" dir={lang === 'tr' ? 'ltr' : 'ltr'}>
+<Layout title="TikTokio Blog - TikTok İpuçları ve Rehberler" dir={lang === 'tr' ? 'ltr' : 'ltr'}>
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">Our Blog</Fragment>
-			<Fragment slot="desc">Discover Industry Insights, Company News, and Expert Opinions.</Fragment>
+			<Fragment slot="title">Blogumuz</Fragment>
+			<Fragment slot="desc">TikTokio Blog'da TikTok videolarını filigransız ve yüksek kalitede indirmenin en iyi ipuçları, rehberler ve yöntemlerini bulabilirsiniz.</Fragment>
 		</Sectionhead>
 		<Posts posts={page.data} />
 		<Pagination class="mt-20" prevUrl={page.url.prev} nextUrl={page.url.next} />

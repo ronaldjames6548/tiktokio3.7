@@ -52,11 +52,11 @@ const lang = getLangFromUrl(safeUrl);
 const t = useTranslations(lang);
 ---
 
-<Layout title="Blog" dir={lang === 'nl' ? 'ltr' : 'ltr'}>
+<Layout title="TikTokio Blog - Tips & Tutorials TikTok Zonder Watermerk" dir={lang === 'nl' ? 'ltr' : 'ltr'}>
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">Our Blog</Fragment>
-			<Fragment slot="desc">Discover Industry Insights, Company News, and Expert Opinions.</Fragment>
+			<Fragment slot="title">Onze Blog</Fragment>
+			<Fragment slot="desc">Op het TikTokio Blog vind je handige tips, tutorials en alles over het downloaden van TikTok videos zonder watermerk in hoge kwaliteit.</Fragment>
 		</Sectionhead>
 		<Posts posts={page.data} />
 		<Pagination class="mt-20" prevUrl={page.url.prev} nextUrl={page.url.next} />
