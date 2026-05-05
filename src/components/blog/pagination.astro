@@ -1,12 +1,6 @@
 ---
 import Link from "@components/ui/link.astro";
-// Remove old astro-i18next imports
-// import { localizePath } from "astro-i18next";
-// import { t } from "i18next";
-
-// Add new built-in i18n imports
 import { getLangFromUrl, useTranslations } from "../../i18n/utils";
-import { getRelativeLocaleUrl } from "astro:i18n";
 import { Icon } from "astro-icon/components";
 
 export interface Props {
@@ -25,34 +19,36 @@ const {
 	class: className,
 } = Astro.props;
 
-// Get current language and create translation function
 const safeUrl = Astro.url || new URL('/', Astro.site || 'http://localhost:4321');
 const lang = getLangFromUrl(safeUrl);
 const t = useTranslations(lang);
 
-// Helper function to create localized paths
-function localizePath(path: string) {
-	if (!path) return path;
-	return getRelativeLocaleUrl(lang, path);
-}
+// FIX: Removed localizePath() / getRelativeLocaleUrl() entirely.
+//
+// Root cause of /id/id/blog/2/ double-prefix:
+//   - page.url.next from Astro's paginate() already returns the fully-prefixed
+//     path e.g. '/id/blog/2/' — it is correct and ready to use as-is.
+//   - The old localizePath() called getRelativeLocaleUrl(lang, '/id/blog/2/')
+//     which blindly prepended /id/ again → '/id/id/blog/2/'
+//   - Astro i18n middleware then added a third /id/ → '/id/id/id/blog/2/'
+//
+// Fix: use prevUrl and nextUrl directly as href values. No transformation needed.
 ---
 
 {
 	(prevUrl || nextUrl) && (
 		<div class:list={["container flex", className]}>
 			<div class="flex flex-row mx-auto container justify-center gap-8">
-				<Link href={localizePath(prevUrl)} style="muted" class={`${!prevUrl ? "invisible" : ""}`}>
+				<Link href={prevUrl} style="muted" class={`${!prevUrl ? "invisible" : ""}`}>
 					<div class="flex flex-row align-middle">
 						<Icon name="ion:arrow-back" class="w-6 h-6" />
-
 						<p class="ml-2">{t(prevText)}</p>
 					</div>
 				</Link>
-				<Link href={localizePath(nextUrl)} style="muted" class={`${!nextUrl ? "invisible" : ""}`}>
+				<Link href={nextUrl} style="muted" class={`${!nextUrl ? "invisible" : ""}`}>
 					<div class="flex flex-row align-middle">
 						<span class="mr-2">{t(nextText)}</span>
 						<Icon name="ion:arrow-back" class="w-6 h-6" />
-
 					</div>
 				</Link>
 			</div>

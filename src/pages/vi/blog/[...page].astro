@@ -28,8 +28,7 @@ export async function getStaticPaths({ paginate }) {
     });
 
     // Fall back to English posts when no vi posts exist.
-    // Prevents paginate([]) from building only page 1 while hreflang
-    // sends crawlers to /vi/blog/2/ → was never built → 500 error.
+    // Ensures all pagination pages get built so /vi/blog/2/ returns 200.
     const localizedPosts = processedPosts.filter((post) => post.lang === "vi");
     const englishPosts   = processedPosts.filter((post) => post.lang === "en");
     const postsToRender  = localizedPosts.length > 0 ? localizedPosts : englishPosts;
@@ -70,26 +69,9 @@ export async function getStaticPaths({ paginate }) {
 
 const { page = { data: [], url: { prev: undefined, next: undefined } } } = Astro.props;
 
-// FIX: Strip the leading /vi from pagination URLs before passing to <Pagination>.
-//
-// Root cause of /ko/ko/ko/blog/3/ triple-prefix:
-//   1. paginate() in this file returns page.url.next = '/vi/blog/2/'  (1st prefix)
-//   2. pagination.astro calls getRelativeLocaleUrl(lang, '/vi/blog/2/')
-//      which prepends /vi again → '/vi/vi/blog/2/'            (2nd prefix)
-//   3. Astro i18n middleware adds /vi once more when rendering         (3rd prefix)
-//
-// Fix: pass '/blog/2/' (no lang prefix) to <Pagination>.
-//      getRelativeLocaleUrl(lang, '/blog/2/') → '/vi/blog/2/'         (1 prefix ✓)
-const stripLang = (url: string | undefined): string | undefined => {
-  if (!url) return undefined;
-  // Remove one leading /vi segment, e.g. '/ko/blog/2/' → '/blog/2/'
-  const cleaned = url.replace(/^\/vi\//, '/');
-  return cleaned || '/';
-};
-
-const prevUrl = stripLang(page.url?.prev);
-const nextUrl = stripLang(page.url?.next);
-
+// Pass page.url.prev/next directly — no lang stripping needed.
+// pagination.astro no longer calls getRelativeLocaleUrl() so URLs
+// from paginate() e.g. '/vi/blog/2/' are used as-is. Correct ✓
 const title = 'Blog Posts for Tiktokio - Tiktok Downloader Without Watermark';
 const description = 'Find the latest blogs posts for Tiktokio Tiktok Video Downloader, Tech News, Social media updates and more';
 
@@ -105,6 +87,6 @@ const t = useTranslations(pageLang);
       <Fragment slot="desc">Discover Industry Insights, Company News, and Expert Opinions.</Fragment>
     </Sectionhead>
     <Posts posts={page.data || []} />
-    <Pagination class="mt-20" prevUrl={prevUrl} nextUrl={nextUrl} />
+    <Pagination class="mt-20" prevUrl={page.url?.prev} nextUrl={page.url?.next} />
   </Container>
 </Layout>
