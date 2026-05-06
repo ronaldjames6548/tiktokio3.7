@@ -47,3 +47,10 @@ export function getRouteFromUrl(url: URL): string | undefined {
   }
   return path;
 }
+
+export function getLocalizedSlug(slug: string, lang: string): string {
+  if (slug.startsWith(`${lang}/`)) {
+    return slug.replace(`${lang}/`, '');
+  }
+  return slug;
+}
