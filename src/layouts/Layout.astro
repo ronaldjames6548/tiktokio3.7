@@ -29,20 +29,12 @@ const {
 } = Astro.props;
 
 const siteUrl = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
-
-// FIX 1: Build canonical from siteUrl + pathname instead of Astro.url.href
-// Astro.url.href can return https://localhost/ in Vercel SSR (internal host issue)
-const canonicalUrl = `${siteUrl}${Astro.url.pathname}`;
+const canonicalUrl = Astro.url.href;
 const ogImageUrl = `${siteUrl}/${image.replace(/^\/+/, '')}`;
 
 // Prepare hreflang data in frontmatter (safest way)
 const locales = ['en', 'it', 'vi', 'ar', 'fr', 'de', 'es', 'hi', 'id', 'ru', 'pt', 'ko', 'tl', 'nl', 'ms', 'tr'];
 const pathWithoutLang = Astro.url.pathname.replace(/^\/(it|vi|ar|fr|de|es|hi|id|ru|pt|ko|tl|nl|ms|tr)\//, '/');
-
-// FIX 2: Detect blog POST pages (not blog index/pagination)
-// Blog posts only exist in English — hreflang to other languages would point to non-200 pages
-// Blog post pattern: /blog/some-text-slug/ (not /blog/, /blog/2/, /blog/3/ etc.)
-const isBlogPost = /\/blog\/[a-z][a-z0-9-]+\/?$/.test(Astro.url.pathname);
 ---
 
 <!doctype html>
@@ -52,7 +44,6 @@ const isBlogPost = /\/blog\/[a-z][a-z0-9-]+\/?$/.test(Astro.url.pathname);
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
     <meta name="ahrefs-site-verification" content="0d2143a2ca098637c66936a08ea45310469848c903125248521f18dff3b33c68">
-    <script src="https://analytics.ahrefs.com/analytics.js" data-key="ZOuBZxDtgrVZVTdj/Wzm4w" async></script>
 
     <!-- Basic SEO -->
     <title>{title}</title>
@@ -62,30 +53,20 @@ const isBlogPost = /\/blog\/[a-z][a-z0-9-]+\/?$/.test(Astro.url.pathname);
     <!-- Canonical -->
     <link rel="canonical" href={canonicalUrl} />
 
-    <!-- ==================== HREFLANG ==================== -->
-    {isBlogPost ? (
-      // Blog posts: English-only content — only output en + x-default
-      // This prevents hreflang pointing to non-existent /ar/blog/slug/ pages (Ahrefs error fix)
-      <>
-        <link rel="alternate" hreflang="en" href={canonicalUrl} />
-        <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
-      </>
-    ) : (
-      // All other pages: full hreflang group for all supported languages
-      <>
-        {locales.map((l) => {
-          const href = l === 'en'
-            ? `${siteUrl}${pathWithoutLang}`
-            : `${siteUrl}/${l}${pathWithoutLang}`;
-          return <link rel="alternate" hreflang={l} href={href} />;
-        })}
-        <link
-          rel="alternate"
-          hreflang="x-default"
-          href={`${siteUrl}${pathWithoutLang}`}
-        />
-      </>
-    )}
+    <!-- ==================== HREFLANG (FIXES ALL DUPLICATE ISSUES) ==================== -->
+    {locales.map((l) => {
+      const href = l === 'en' 
+        ? `${siteUrl}${pathWithoutLang}` 
+        : `${siteUrl}/${l}${pathWithoutLang}`;
+      return <link rel="alternate" hreflang={l} href={href} />;
+    })}
+
+    <!-- x-default -->
+    <link 
+      rel="alternate" 
+      hreflang="x-default" 
+      href={`${siteUrl}${pathWithoutLang}`} 
+    />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content={title} />
@@ -109,7 +90,6 @@ const isBlogPost = /\/blog\/[a-z][a-z0-9-]+\/?$/.test(Astro.url.pathname);
     <!-- Favicons -->
     <link rel="icon" type="image/ico" href="/fav.ico" />
     <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.webp" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4342939946293194" crossorigin="anonymous"></script>
     <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=693b7cfd7d1fcb1f4b611473&product=sop' async='async'></script>
     <script type="text/javascript">
       (function(c,l,a,r,i,t,y){
