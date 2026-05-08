@@ -1,4 +1,6 @@
 ---
+export const prerender = true;
+
 import { getCollection } from "astro:content";
 import Pagination from "@components/blog/pagination.astro";
 import Posts from "@components/blog/posts.astro";
@@ -6,54 +8,58 @@ import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
 
-import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+export async function getStaticPaths({ paginate }) {
+  // Fetch all non-draft posts from the vi content folder.
+  // We intentionally do NOT filter by publishDate here — the strict
+  // "instanceof Date && <= new Date()" check was silently dropping posts
+  // with missing or slightly malformed dates, leaving fewer than 11 posts
+  // and causing paginate() to generate only 1 page, so /vi/blog/2 never
+  // existed at build time and Vercel returned 404.
+  const posts = await getCollection("blog", ({ id, data }) => {
+    return id.startsWith("vi/") && !data.draft;
+  });
 
-const safeUrl = Astro.url || new URL('/', Astro.site || 'http://localhost:4321');
-const lang = getLangFromUrl(safeUrl) || Astro.params.lang || 'en';
-const t = useTranslations(lang);
+  // Sort newest first
+  posts.sort(
+    (a, b) =>
+      (b.data.publishDate?.valueOf() ?? 0) -
+      (a.data.publishDate?.valueOf() ?? 0)
+  );
 
-const allPosts = await getCollection("blog", ({ id, data }) => {
-  return id.startsWith(`${lang}/`) && !data.draft;
-});
+  // paginate() generates /vi/blog/, /vi/blog/2/, /vi/blog/3/ etc.
+  // because this file lives at src/pages/vi/blog/[...page].astro
+  return paginate(posts, { pageSize: 10 });
+}
 
-const sortedPosts = allPosts.sort(
-  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
-);
+const { page } = Astro.props;
 
-const pageSize = 9;
-const currentPage = parseInt(Astro.params.page || '1');
-const start = (currentPage - 1) * pageSize;
-const end = start + pageSize;
-
-const paginatedPosts = sortedPosts.slice(start, end);
-const totalPages = Math.ceil(sortedPosts.length / pageSize);
-
-// Build complete locale-prefixed URLs.
-// These are used directly as href values in plain <a> tags in pagination.astro,
-// bypassing Link.astro which would incorrectly add another locale prefix.
-// English (default) has no prefix; all others get /{lang}/.
-const blogBase = lang === 'en' ? '/blog' : `/${lang}/blog`;
-const prevUrl = currentPage > 1
-  ? (currentPage === 2 ? blogBase : `${blogBase}/${currentPage - 1}`)
-  : null;
-const nextUrl = currentPage < totalPages
-  ? `${blogBase}/${currentPage + 1}`
-  : null;
+const title = "Blog – Tiktokio TikTok Downloader";
+const description =
+  "Khám phá các bài viết mới nhất về TikTok, mạng xã hội và công nghệ.";
 ---
 
-<Layout title="Blog" lang={lang}>
+<Layout title={title} description={description}>
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Our Blog</Fragment>
-      <Fragment slot="desc">Discover Industry Insights, Company News, and Expert Opinions.</Fragment>
+      <Fragment slot="title">Blog</Fragment>
+      <Fragment slot="desc">
+        Khám phá tin tức, hướng dẫn và cập nhật mới nhất.
+      </Fragment>
     </Sectionhead>
 
-    <Posts posts={paginatedPosts} />
+    <Posts posts={page.data} />
 
+    <!--
+      page.url.prev / page.url.next are already locale-prefixed by Astro's
+      paginate() — e.g. /vi/blog/ and /vi/blog/2/ — so pagination.astro
+      must NOT run getRelativeLocaleUrl() on them again (that caused the
+      /vi/vi/blog/2 double-locale bug). Use the fixed pagination.astro that
+      renders plain <a> tags with the URLs as-is.
+    -->
     <Pagination
       class="mt-20"
-      prevUrl={prevUrl}
-      nextUrl={nextUrl}
+      prevUrl={page.url.prev}
+      nextUrl={page.url.next}
     />
   </Container>
 </Layout>
