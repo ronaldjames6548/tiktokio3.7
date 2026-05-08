@@ -1,19 +1,24 @@
 import { ui, defaultLang } from './ui';
 
 export function getLangFromUrl(url: URL) {
-  // Handle undefined pathname during static build
-  if (!url || !url.pathname) {
+  if (!url?.pathname) {
     return defaultLang;
   }
-  
-  // Ensure pathname is a string before splitting
+
   const pathname = url.pathname;
   if (typeof pathname !== 'string') {
     return defaultLang;
   }
-  
-  const [, lang] = pathname.split('/');
-  if (lang in ui) return lang as keyof typeof ui;
+
+  // Split and get the first segment after root (language code)
+  const segments = pathname.split('/').filter(Boolean);
+  const firstSegment = segments[0];
+
+  // Check if it's a valid language
+  if (firstSegment && firstSegment in ui) {
+    return firstSegment as keyof typeof ui;
+  }
+
   return defaultLang;
 }
 
@@ -24,26 +29,18 @@ export function useTranslations(lang: keyof typeof ui) {
 }
 
 export function getRouteFromUrl(url: URL): string | undefined {
-  // Handle undefined pathname during static build
-  if (!url || !url.pathname) {
-    return undefined;
-  }
-  
+  if (!url?.pathname) return undefined;
+
   const pathname = url.pathname;
-  if (typeof pathname !== 'string') {
-    return undefined;
-  }
-  
-  const parts = pathname.split('/');
-  const path = parts.pop() || parts.pop();
-  
-  if (path === undefined) {
-    return undefined;
-  }
-  
+  if (typeof pathname !== 'string') return undefined;
+
+  const parts = pathname.split('/').filter(Boolean);
   const currentLang = getLangFromUrl(url);
-  if (defaultLang === currentLang) {
-    return path;
+
+  // Remove language prefix if not default
+  if (currentLang !== defaultLang && parts[0] === currentLang) {
+    parts.shift();
   }
-  return path;
+
+  return parts.join('/') || undefined;
 }

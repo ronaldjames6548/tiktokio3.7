@@ -1,61 +1,37 @@
 ---
-import Link from "@components/ui/link.astro";
-// Remove old astro-i18next imports
-// import { localizePath } from "astro-i18next";
-// import { t } from "i18next";
-
-// Add new built-in i18n imports
 import { getLangFromUrl, useTranslations } from "../../i18n/utils";
-import { getRelativeLocaleUrl } from "astro:i18n";
 import { Icon } from "astro-icon/components";
 
-export interface Props {
-	prevUrl: string;
-	nextUrl: string;
-	prevText?: string;
-	nextText?: string;
-	class?: string;
-}
+const { prevUrl, nextUrl, prevText = "blog.prev", nextText = "blog.next", class: className } = Astro.props;
 
-const {
-	prevUrl,
-	nextUrl,
-	prevText = "blog.prev",
-	nextText = "blog.next",
-	class: className,
-} = Astro.props;
-
-// Get current language and create translation function
 const safeUrl = Astro.url || new URL('/', Astro.site || 'http://localhost:4321');
 const lang = getLangFromUrl(safeUrl);
 const t = useTranslations(lang);
 
-// Helper function to create localized paths
-function localizePath(path: string) {
-	if (!path) return path;
-	return getRelativeLocaleUrl(lang, path);
-}
+// NOTE: We intentionally use plain <a> tags here instead of the <Link> component.
+// Link.astro applies getRelativeLocaleUrl() internally, which would add /vi/ again
+// to an already locale-prefixed URL like /vi/blog/2, producing /vi/vi/blog/2/.
+// The URLs passed in (prevUrl / nextUrl) are already fully resolved by [...page].astro.
 ---
 
-{
-	(prevUrl || nextUrl) && (
-		<div class:list={["container flex", className]}>
-			<div class="flex flex-row mx-auto container justify-center gap-8">
-				<Link href={localizePath(prevUrl)} style="muted" class={`${!prevUrl ? "invisible" : ""}`}>
-					<div class="flex flex-row align-middle">
-						<Icon name="ion:arrow-back" class="w-6 h-6" />
+{(prevUrl || nextUrl) && (
+  <div class:list={["container flex", className]}>
+    <div class="flex flex-row mx-auto container justify-center gap-8">
 
-						<p class="ml-2">{t(prevText)}</p>
-					</div>
-				</Link>
-				<Link href={localizePath(nextUrl)} style="muted" class={`${!nextUrl ? "invisible" : ""}`}>
-					<div class="flex flex-row align-middle">
-						<span class="mr-2">{t(nextText)}</span>
-						<Icon name="ion:arrow-back" class="w-6 h-6" />
+      {prevUrl && (
+        <a href={prevUrl} class="flex items-center gap-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 transition-colors">
+          <Icon name="ion:arrow-back" class="w-6 h-6" />
+          <span>{t(prevText)}</span>
+        </a>
+      )}
 
-					</div>
-				</Link>
-			</div>
-		</div>
-	)
-}
+      {nextUrl && (
+        <a href={nextUrl} class="flex items-center gap-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 transition-colors">
+          <span>{t(nextText)}</span>
+          <Icon name="ion:arrow-forward" class="w-6 h-6" />
+        </a>
+      )}
+
+    </div>
+  </div>
+)}

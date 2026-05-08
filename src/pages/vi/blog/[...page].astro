@@ -6,59 +6,54 @@ import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
 
-// Add new built-in i18n imports
 import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
 
-export async function getStaticPaths({ paginate }) {
-	var posts = await getCollection("blog", ({ data }) => {
-		return !data.draft;
-	});
-	
-	// Preprocess the posts to split the slugs and get the languages
-	var processedPosts = posts.map((post) => {
-		const [...slug] = post.slug.split("/");
-		let lang = "tr"; // Default to Turkish for this page
-		var firstSlug = post.slug.match(/^([^\/]*)\//);
-		if (firstSlug) {
-			lang = firstSlug[1];
-		}
-		return {
-			...post,
-			slug: slug.join("/"),
-			lang: lang,
-		};
-	});
-	
-	// Filter posts for Turkish language ("tr")
-	const localizedPosts = processedPosts.filter(
-		(post) => post.lang === "tr",
-	);
-	
-	localizedPosts.sort(
-		(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
-	);
-	
-	return paginate(localizedPosts, {
-		params: { blog: "blog" || undefined },
-		pageSize: 4,
-	});
-}
-
-const { page } = Astro.props;
-
-// Get current language and create translation function
 const safeUrl = Astro.url || new URL('/', Astro.site || 'http://localhost:4321');
-const lang = getLangFromUrl(safeUrl);
+const lang = getLangFromUrl(safeUrl) || Astro.params.lang || 'en';
 const t = useTranslations(lang);
+
+const allPosts = await getCollection("blog", ({ id, data }) => {
+  return id.startsWith(`${lang}/`) && !data.draft;
+});
+
+const sortedPosts = allPosts.sort(
+  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
+
+const pageSize = 9;
+const currentPage = parseInt(Astro.params.page || '1');
+const start = (currentPage - 1) * pageSize;
+const end = start + pageSize;
+
+const paginatedPosts = sortedPosts.slice(start, end);
+const totalPages = Math.ceil(sortedPosts.length / pageSize);
+
+// Build complete locale-prefixed URLs.
+// These are used directly as href values in plain <a> tags in pagination.astro,
+// bypassing Link.astro which would incorrectly add another locale prefix.
+// English (default) has no prefix; all others get /{lang}/.
+const blogBase = lang === 'en' ? '/blog' : `/${lang}/blog`;
+const prevUrl = currentPage > 1
+  ? (currentPage === 2 ? blogBase : `${blogBase}/${currentPage - 1}`)
+  : null;
+const nextUrl = currentPage < totalPages
+  ? `${blogBase}/${currentPage + 1}`
+  : null;
 ---
 
-<Layout title="Blog" dir={lang === 'tr' ? 'ltr' : 'ltr'}>
-	<Container>
-		<Sectionhead>
-			<Fragment slot="title">Our Blog</Fragment>
-			<Fragment slot="desc">Discover Industry Insights, Company News, and Expert Opinions.</Fragment>
-		</Sectionhead>
-		<Posts posts={page.data} />
-		<Pagination class="mt-20" prevUrl={page.url.prev} nextUrl={page.url.next} />
-	</Container>
+<Layout title="Blog" lang={lang}>
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">Our Blog</Fragment>
+      <Fragment slot="desc">Discover Industry Insights, Company News, and Expert Opinions.</Fragment>
+    </Sectionhead>
+
+    <Posts posts={paginatedPosts} />
+
+    <Pagination
+      class="mt-20"
+      prevUrl={prevUrl}
+      nextUrl={nextUrl}
+    />
+  </Container>
 </Layout>
