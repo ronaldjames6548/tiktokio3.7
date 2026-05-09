@@ -33,7 +33,7 @@ function InputScreen({}: Props) {
   const [showModal, setShowModal] = createSignal(false);
   const [pendingDownloadUrl, setPendingDownloadUrl] = createSignal("");
   const [pendingFilename, setPendingFilename] = createSignal("");
-: HTMLDivElement | undefined;
+  let adContainerRef: HTMLDivElement | undefined;
   let modalAdContainerRef: HTMLDivElement | undefined; // ref for the modal ad slot
 
   // ── Shared helper: inject new ad script into any container div ───────────
