@@ -2,7 +2,7 @@ import { toast, Toaster } from "solid-toast";
 import { createSignal, onCleanup, onMount, Show } from "solid-js";
 import InputSection from "./MdInputSection";
 import ResultSection from "./MdResultSection";
-import AdBanner from "./AdBanner"; // Adjust path if needed
+// AdBanner replaced by direct script injection — new ad: //dv.buddhiknutty.com/tKbFxPhhfAa/27065
 
 interface TikTokData {
   status: string | null;
@@ -33,9 +33,21 @@ function InputScreen({}: Props) {
   const [showModal, setShowModal] = createSignal(false);
   const [pendingDownloadUrl, setPendingDownloadUrl] = createSignal("");
   const [pendingFilename, setPendingFilename] = createSignal("");
-  const [modalAdKey, setModalAdKey] = createSignal(0);
+: HTMLDivElement | undefined;
+  let modalAdContainerRef: HTMLDivElement | undefined; // ref for the modal ad slot
 
-  let adContainerRef: HTMLDivElement | undefined;
+  // ── Shared helper: inject new ad script into any container div ───────────
+  const NEW_AD_SRC = '//dv.buddhiknutty.com/tKbFxPhhfAa/27065';
+
+  const injectAdScript = (container: HTMLDivElement) => {
+    container.innerHTML = ''; // clear any previous render
+    const s = document.createElement('script');
+    s.setAttribute('data-cfasync', 'false');
+    s.async = true;
+    s.type = 'text/javascript';
+    s.src = NEW_AD_SRC;
+    container.appendChild(s);
+  };
 
   // Function to extract TikTok URL from text that might contain promotional content
   const extractTikTokUrl = (text: string): string => {
@@ -337,15 +349,21 @@ function InputScreen({}: Props) {
     });
   };
 
-  // Function to handle download button click
+  // Function to handle download button click — opens modal with new ad script
   const handleDownloadClick = (downloadUrl: string, filename: string) => {
     setPendingDownloadUrl(downloadUrl);
     setPendingFilename(filename);
     setShowModal(true);
     document.body.classList.add('mx-modal-open');
-    
-    // Force ad to reload by changing the key
-    setModalAdKey(prev => prev + 1);
+
+    // Inject (or re-inject) the ad script into the modal ad slot
+    // Small delay ensures the modal DOM is visible before script load
+    setTimeout(() => {
+      if (modalAdContainerRef) {
+        injectAdScript(modalAdContainerRef);
+        console.log("Modal ad script injected:", NEW_AD_SRC);
+      }
+    }, 80);
   };
 
   // Function to close modal and start download
@@ -392,19 +410,11 @@ function InputScreen({}: Props) {
     setPendingFilename("");
   };
 
-  // Load ad script when component mounts (for main ad section after form)
+  // Load ad script when component mounts (persistent banner below form)
   onMount(() => {
-    console.log("onMount: adContainerRef is", adContainerRef);
     if (adContainerRef) {
-      const script = document.createElement('script');
-      script.setAttribute('data-cfasync', 'false');
-      script.async = true;
-      script.type = 'text/javascript';
-      script.src = '//qh.misweenownself.com/tCciuVIqr69/105741';
-      adContainerRef.appendChild(script);
-      console.log("Ad script loaded into main container");
-    } else {
-      console.warn("adContainerRef not set—ad won't load");
+      injectAdScript(adContainerRef);
+      console.log("Ad script loaded into main container:", NEW_AD_SRC);
     }
   });
 
@@ -577,8 +587,13 @@ function InputScreen({}: Props) {
         />
       </Show>
 
-      {/* Advertisement Section after form - Only show when NO data */}
-      
+      {/* Persistent ad banner — shown when there is NO result yet */}
+      <Show when={!data()}>
+        <div
+          ref={adContainerRef}
+          class="mt-4 w-full flex justify-center"
+        />
+      </Show>
 
       <Show when={!!data() && !!data()?.result}>
         <ResultSection
@@ -603,15 +618,11 @@ function InputScreen({}: Props) {
         <div class="mx-modal-content">
           
           <div class="mx-modal-body" id="ad-content">
-            <Show when={showModal()}>
-              <AdBanner 
-                key={modalAdKey()}
-                class="mx-auto" 
-                width="336px" 
-                height="280px"
-                forceReload={true}
-              />
-            </Show>
+            {/* New ad script injected programmatically into this container */}
+            <div
+              ref={modalAdContainerRef}
+              class="mx-auto min-h-[250px] flex items-center justify-center w-full"
+            />
           </div>
 		  <div class="mx-modal-header">
             <button
