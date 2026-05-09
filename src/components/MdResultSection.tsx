@@ -24,7 +24,7 @@ function ResultSection(props: ResultSectionProps) {
       s.setAttribute('data-cfasync', 'false');
       s.async = true;
       s.type = 'text/javascript';
-	  s.src = '//qh.misweenownself.com/tCciuVIqr69/105741';
+	  s.src = '//zr.intortarguing.com/tzOodVa0qXn5/27065';
 
 	  adSlotRef.appendChild(s);
     }
@@ -53,7 +53,7 @@ function ResultSection(props: ResultSectionProps) {
     : "Video TikTok";
 
   return (
-    <div class="mt-6 w-full max-w-4xl mx-auto">
+    <div class="mt-6 w-full max-w-6xl mx-auto">
       {/* Main Card Container with Relative Positioning for Background */}
       <div 
         class="relative rounded-lg shadow-sm border border-gray-200 overflow-hidden p-4"
