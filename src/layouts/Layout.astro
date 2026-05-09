@@ -28,11 +28,10 @@ const {
   variant = 'default',
 } = Astro.props;
 
-const siteUrl = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
-const canonicalUrl = Astro.url.href;
+const siteUrl = (Astro.site ? Astro.site.toString().replace(/\/$/, '') : '') || 'https://tiktokio.cam';
+const canonicalUrl = `${siteUrl}${Astro.url.pathname}`;
 const ogImageUrl = `${siteUrl}/${image.replace(/^\/+/, '')}`;
 
-// Prepare hreflang data in frontmatter (safest way)
 const locales = ['en', 'it', 'vi', 'ar', 'fr', 'de', 'es', 'hi', 'id', 'ru', 'pt', 'ko', 'tl', 'nl', 'ms', 'tr'];
 const pathWithoutLang = Astro.url.pathname.replace(/^\/(it|vi|ar|fr|de|es|hi|id|ru|pt|ko|tl|nl|ms|tr)\//, '/');
 ---
@@ -53,7 +52,6 @@ const pathWithoutLang = Astro.url.pathname.replace(/^\/(it|vi|ar|fr|de|es|hi|id|
     <!-- Canonical -->
     <link rel="canonical" href={canonicalUrl} />
 
-    <!-- ==================== HREFLANG (FIXES ALL DUPLICATE ISSUES) ==================== -->
     {locales.map((l) => {
       const href = l === 'en' 
         ? `${siteUrl}${pathWithoutLang}` 
