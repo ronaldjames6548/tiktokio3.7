@@ -241,15 +241,15 @@ function ResultSection(props: ResultSectionProps) {
   </a>
 </div>
           </div>
-        </div>{/* end flex row */}
+        </div>
 
-        {/* ── Advertisement (below stats, above card bottom edge) ── */}
+        {/* ── Advertisement: below stats row ── */}
         <div class="relative z-10 mt-4 w-full flex justify-center">
           <div ref={adSlotRef} class="w-full" />
         </div>
 
-      </div>{/* end card */}
-    </div>{/* end outer wrapper */}
+      </div>
+    </div>
   );
 }
 
