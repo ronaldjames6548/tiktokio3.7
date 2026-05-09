@@ -13,78 +13,37 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   output: 'server',
   site: 'https://tiktokio.cam',
-
   adapter: vercel({
     webAnalytics: { enabled: true },
     speedInsights: { enabled: true },
     imageService: true,
   }),
-
   i18n: {
     defaultLocale: 'en',
-    locales: [
-      'en',
-      'ar',
-      'de',
-      'es',
-      'fr',
-      'hi',
-      'id',
-      'it',
-      'ko',
-      'ms',
-      'nl',
-      'pt',
-      'ru',
-      'tl',
-      'tr',
-      'vi',
-    ],
+    locales: ['en', 'ar', 'de', 'es', 'fr', 'hi', 'id', 'it', 'ko', 'ms', 'nl', 'pt', 'ru', 'tl', 'tr', 'vi'],
     routing: {
-      prefixDefaultLocale: false, // English pages at root, other languages prefixed
+      prefixDefaultLocale: false, // English at root, others prefixed (e.g., /es/, /fr/)
     },
   },
-
-  trailingSlash: 'always',
-
+  trailingSlash: 'always', // Matches your sitemap URL generation
   redirects: {
-    // Fix duplicate route warnings
     '/musically-down': '/musical-down-tiktok-downloader/',
     '/musically-down/': '/musical-down-tiktok-downloader/',
     '/savetik-downloader-download-tiktok-videos-without-watermark': '/savetik-download-tiktok-video-without-watermark-free/',
     '/savetik-downloader-download-tiktok-videos-without-watermark/': '/savetik-download-tiktok-video-without-watermark-free/',
-
-    // Clean 404 redirects (optional but useful)
+    // Clean 404 redirects
     '/404/': '/404',
-    '/it/404/': '/404',
-    '/ko/404/': '/404',
-    '/ar/404/': '/404',
-    '/fr/404/': '/404',
-    '/de/404/': '/404',
-    '/es/404/': '/404',
-    '/hi/404/': '/404',
-    '/id/404/': '/404',
-    '/ru/404/': '/404',
-    '/pt/404/': '/404',
-    '/nl/404/': '/404',
-    '/ms/404/': '/404',
-    '/tr/404/': '/404',
-    '/tl/404/': '/404',
-    '/vi/404/': '/404',
-
-    // Removed invalid redirects that were causing the build error:
-    // '/ar/ar/*': '/ar/$1',
-    // '/hi/hi/*': '/hi/$1',
-    // '/ru/ru/*': '/ru/$1',
+    '/it/404/': '/404', '/ko/404/': '/404', '/ar/404/': '/404', '/fr/404/': '/404',
+    '/de/404/': '/404', '/es/404/': '/404', '/hi/404/': '/404', '/id/404/': '/404',
+    '/ru/404/': '/404', '/pt/404/': '/404', '/nl/404/': '/404', '/ms/404/': '/404',
+    '/tr/404/': '/404', '/tl/404/': '/404', '/vi/404/': '/404',
   },
-
   vite: {
     plugins: [tailwindcss()],
-    define: { __DATE__: `'${new Date().toISOString()}'` },
+    define: { DATE: `'${new Date().toISOString()}'` },
     ssr: { external: ['@tobyg74/tiktok-api-dl'] },
     optimizeDeps: { exclude: ['@tobyg74/tiktok-api-dl'] },
   },
-
   integrations: [
     alpinejs(),
     solidJs(),
@@ -109,7 +68,6 @@ export default defineConfig({
     }),
     icon(),
   ],
-
   markdown: {
     rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, autolinkConfig]],
   },
