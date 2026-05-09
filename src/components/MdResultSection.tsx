@@ -1,4 +1,6 @@
 // src/components/ResultSection.tsx
+import { onMount } from "solid-js";
+
 interface ResultSectionProps {
   data: any; // TikTokData | null
   getVideoUrl: () => string;
@@ -11,6 +13,21 @@ function ResultSection(props: ResultSectionProps) {
   if (!props.data || !props.data.result) {
     return null;
   }
+
+  // ── Ad slot ref + script injection ──────────────────────────────────────
+  let adSlotRef: HTMLDivElement | undefined;
+
+  onMount(() => {
+    if (adSlotRef) {
+      adSlotRef.innerHTML = ''; // safety clear
+      const s = document.createElement('script');
+      s.setAttribute('data-cfasync', 'false');
+      s.async = true;
+      s.type = 'text/javascript';
+      s.src = '//dv.buddhiknutty.com/tKbFxPhhfAa/27065';
+      adSlotRef.appendChild(s);
+    }
+  });
 
   // Helper to generate filename based on type
   const generateFilename = (baseName: string, type: 'video' | 'audio' | 'watermark') => {
@@ -224,11 +241,15 @@ function ResultSection(props: ResultSectionProps) {
   </a>
 </div>
           </div>
-        </div>
-      </div>
+        </div>{/* end flex row */}
 
-      
-    </div>
+        {/* ── Advertisement (below stats, above card bottom edge) ── */}
+        <div class="relative z-10 mt-4 w-full flex justify-center">
+          <div ref={adSlotRef} class="w-full" />
+        </div>
+
+      </div>{/* end card */}
+    </div>{/* end outer wrapper */}
   );
 }
 
