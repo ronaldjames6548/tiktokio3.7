@@ -38,7 +38,9 @@ function MdInputScreen() {
 
     for (const pattern of patterns) {
       const matches = text.match(pattern);
-      if (matches?.length) return matches[0].replace(/[.,!?;]+$/, '');
+      if (matches?.length) {
+        return matches[0].replace(/[.,!?;]+$/, '');
+      }
     }
     return text.trim();
   };
@@ -55,7 +57,7 @@ function MdInputScreen() {
     return clean.replace(/\/+$/, '');
   };
 
-  // ==================== DOWNLOAD HANDLER (Direct) ====================
+  // ==================== DIRECT DOWNLOAD HANDLER ====================
   const handleDownloadClick = (downloadUrl: string, filename: string) => {
     if (!downloadUrl) {
       toast.error("Download URL not available");
@@ -70,22 +72,19 @@ function MdInputScreen() {
     link.click();
     setTimeout(() => document.body.removeChild(link), 100);
 
-    toast.success("Download started!", { duration: 2000, position: "bottom-center" });
+    toast.success("Download started!", { 
+      duration: 2000, 
+      position: "bottom-center" 
+    });
   };
 
-  // ==================== FETCH & OTHER LOGIC ====================
+  // ==================== PLACE YOUR EXISTING LOGIC HERE ====================
   const fetchData = async () => {
-    // Your existing fetchData logic goes here
-    // (I kept it minimal — replace with your full version)
+    // ← Paste your full fetchData function here
     setLoading(true);
     setError("");
-
     try {
-      // ... your fetch code ...
-      // For now placeholder:
-      // const res = await fetch(...);
-      // setData(json);
-      toast.success("Video loaded successfully!");
+      // ... your original fetch logic ...
     } catch (err: any) {
       setError(err.message);
       toast.error(err.message || "Something went wrong");
@@ -94,13 +93,24 @@ function MdInputScreen() {
     }
   };
 
-  const handlePaste = async () => { /* Your existing paste logic */ };
-  const cancelAutoProcessing = () => { /* Your existing logic */ };
-  const handleSubmit = (e: Event) => { /* Your existing submit logic */ };
+  const handlePaste = async () => {
+    // ← Paste your full handlePaste logic here
+  };
+
+  const cancelAutoProcessing = () => {
+    setAutoProcessing(false);
+  };
+
+  const handleSubmit = (e: Event) => {
+    e.preventDefault();
+    if (autoProcessing()) return;
+    fetchData();
+  };
 
   const getVideoUrl = () => {
     const result = data()?.result;
-    return result?.videoSD || result?.videoHD || result?.video_hd || result?.videoWatermark || result?.music || "";
+    return result?.videoSD || result?.videoHD || result?.video_hd || 
+           result?.videoWatermark || result?.music || "";
   };
 
   const getAuthorInfo = () => ({
@@ -139,7 +149,7 @@ function MdInputScreen() {
           getVideoUrl={getVideoUrl}
           getAuthorInfo={getAuthorInfo}
           getSafeFilename={getSafeFilename}
-          onDownloadClick={handleDownloadClick}   {/* Now direct download */}
+          onDownloadClick={handleDownloadClick}
         />
       </Show>
     </div>
