@@ -1,6 +1,6 @@
 // src/components/MdInputScreen.tsx
 import { toast, Toaster } from "solid-toast";
-import { createSignal, onCleanup, Show } from "solid-js";
+import { createSignal, Show } from "solid-js";
 import InputSection from "./MdInputSection";
 import ResultSection from "./MdResultSection";
 
@@ -15,6 +15,11 @@ interface TikTokData {
     video_hd: string | null;
     videoWatermark: string | null;
     music: string | null;
+    thumbnail?: string | null;
+    views?: number;
+    likes?: number;
+    comments?: number;
+    shares?: number;
   } | null;
 }
 
@@ -57,49 +62,66 @@ function MdInputScreen() {
     return clean.replace(/\/+$/, '');
   };
 
-  // ==================== DIRECT DOWNLOAD HANDLER ====================
-  const handleDownloadClick = (downloadUrl: string, filename: string) => {
-    if (!downloadUrl) {
-      toast.error("Download URL not available");
+  // ==================== FETCH VIDEO DATA ====================
+  const fetchData = async () => {
+    const inputUrl = url().trim();
+    if (!inputUrl) {
+      toast.error("Please enter a TikTok URL");
       return;
     }
 
-    const link = document.createElement('a');
-    link.href = downloadUrl;
-    link.download = filename;
-    link.style.display = 'none';
-    document.body.appendChild(link);
-    link.click();
-    setTimeout(() => document.body.removeChild(link), 100);
-
-    toast.success("Download started!", { 
-      duration: 2000, 
-      position: "bottom-center" 
-    });
-  };
-
-  // ==================== PLACE YOUR EXISTING LOGIC HERE ====================
-  const fetchData = async () => {
-    // ← Paste your full fetchData function here
     setLoading(true);
     setError("");
+    setData(null);
+
     try {
-      // ... your original fetch logic ...
+      const cleanedUrl = cleanTikTokUrl(inputUrl);
+
+      if (!isValidTikTokUrl(cleanedUrl)) {
+        throw new Error("Please enter a valid TikTok URL");
+      }
+
+      const apiUrl = `/api/tik.json?url=${encodeURIComponent(cleanedUrl)}`;
+      const res = await fetch(apiUrl);
+      const json = await res.json();
+
+      if (!res.ok || json.status === "error" || json.error) {
+        throw new Error(json.error || "Failed to fetch video");
+      }
+
+      if (!json.result) {
+        throw new Error("No video data found");
+      }
+
+      setData(json);
+      toast.success("Video loaded successfully!", { duration: 2000 });
+
     } catch (err: any) {
-      setError(err.message);
-      toast.error(err.message || "Something went wrong");
+      console.error(err);
+      const message = err.message || "Something went wrong";
+      setError(message);
+      toast.error(message);
     } finally {
       setLoading(false);
     }
   };
 
+  // ==================== PASTE HANDLER ====================
   const handlePaste = async () => {
-    // ← Paste your full handlePaste logic here
+    try {
+      const text = await navigator.clipboard.readText();
+      const cleaned = cleanTikTokUrl(text);
+      setUrl(cleaned);
+
+      if (isValidTikTokUrl(cleaned)) {
+        toast.success("URL pasted! Click Download to process.");
+      }
+    } catch {
+      toast.error("Failed to read clipboard");
+    }
   };
 
-  const cancelAutoProcessing = () => {
-    setAutoProcessing(false);
-  };
+  const cancelAutoProcessing = () => setAutoProcessing(false);
 
   const handleSubmit = (e: Event) => {
     e.preventDefault();
@@ -107,6 +129,7 @@ function MdInputScreen() {
     fetchData();
   };
 
+  // ==================== HELPERS FOR RESULT SECTION ====================
   const getVideoUrl = () => {
     const result = data()?.result;
     return result?.videoSD || result?.videoHD || result?.video_hd || 
@@ -121,6 +144,24 @@ function MdInputScreen() {
   const getSafeFilename = () => {
     const author = getAuthorInfo().nickname;
     return author.replace(/[^a-zA-Z0-9]/g, '_').substring(0, 50);
+  };
+
+  // Direct Download (No Modal)
+  const handleDownloadClick = (downloadUrl: string, filename: string) => {
+    if (!downloadUrl) {
+      toast.error("Download URL not available");
+      return;
+    }
+
+    const link = document.createElement('a');
+    link.href = downloadUrl;
+    link.download = filename;
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    setTimeout(() => document.body.removeChild(link), 100);
+
+    toast.success("Download started!", { duration: 2000 });
   };
 
   return (
