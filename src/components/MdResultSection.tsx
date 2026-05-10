@@ -1,3 +1,4 @@
+/** @jsxImportSource solid-js */
 // src/components/ResultSection.tsx
 import { onMount } from "solid-js";
 
