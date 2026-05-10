@@ -1,15 +1,11 @@
 ---
+export const prerender = true;
+
 import { getCollection } from "astro:content";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
 import { getArticleReadingTime } from "@utils/blog";
 
-// Remove old astro-i18next imports
-// import { localizePath } from "astro-i18next";
-// import i18next, { changeLanguage } from "i18next";
-// changeLanguage("it");
-
-// Add new built-in i18n imports
 import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
 import { getRelativeLocaleUrl } from "astro:i18n";
 import { Icon } from "astro-icon/components";
@@ -17,14 +13,14 @@ import { Icon } from "astro-icon/components";
 // Generate a new path for every collection post
 export async function getStaticPaths() {
 	const blogEntries = await getCollection("blog");
-	// Filter for Italian blog posts (posts starting with "it/")
+	// Filter for it blog posts
 	const localizedBlogEntries = blogEntries.filter((entry) =>
 		entry.slug && entry.slug.startsWith("it/")
 	);
-	
+
 	return localizedBlogEntries.map((post) => {
 		let slug = post.slug;
-		// Remove the "it/" prefix and any "blog/" if present
+		// Remove the "it/" prefix
 		slug = slug.substring(3).replaceAll("blog/", "");
 		return {
 			params: { slug: slug },
@@ -51,7 +47,7 @@ function localizePath(path: string) {
 }
 ---
 
-<Layout title={post.data.title} lang={lang}>
+<Layout title={post.data.title} lang={lang} dir="ltr">
 	<Container>
 		<div class="mx-auto prose prose-lg dark:prose-invert mt-14">
 			<a
@@ -95,14 +91,13 @@ function localizePath(path: string) {
 			<a href={localizePath("/blog")}>
 				<div class="flex flex-row align-middle justify-center dark:text-stone-200">
 					<Icon name="ion:arrow-back" class="w-6 h-6" />
-
 					<p class="ml-2">Back to blog</p>
 				</div>
 			</a>
 		</div>
 		<div
 			class="mx-auto prose prose-lg dark:prose-invert mt-20"
-			x-data="{
+			x-data="{{
 				initGiscus: function() {
 					let script = document.createElement('script');
 					script.src = 'https://giscus.app/client.js';
@@ -122,7 +117,7 @@ function localizePath(path: string) {
 					script.async = true;
 					this.$el.appendChild(script);
 				}
-			}"
+			}}"
 			x-init="initGiscus()">
 		</div>
 	</Container>

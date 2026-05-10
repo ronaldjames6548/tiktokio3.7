@@ -25,7 +25,7 @@ export default defineConfig({
       prefixDefaultLocale: false, // English at root, others prefixed (e.g., /es/, /fr/)
     },
   },
-  trailingSlash: 'always', // Matches your sitemap URL generation
+  trailingSlash: 'always',
   redirects: {
     '/musically-down': '/musical-down-tiktok-downloader/',
     '/musically-down/': '/musical-down-tiktok-downloader/',
@@ -37,6 +37,9 @@ export default defineConfig({
     '/de/404/': '/404', '/es/404/': '/404', '/hi/404/': '/404', '/id/404/': '/404',
     '/ru/404/': '/404', '/pt/404/': '/404', '/nl/404/': '/404', '/ms/404/': '/404',
     '/tr/404/': '/404', '/tl/404/': '/404', '/vi/404/': '/404',
+    // Fix: 404 on spike-mod-apk URL with spaces (%20) — redirect to correct hyphenated URL
+    '/blog/spike-mod-apk%202025-v5-9-205-unlocked-all%20characters-max-level/':
+      '/blog/spike-mod-apk-2025-v5-9-205-unlocked-all-characters-max-level/',
   },
   vite: {
     plugins: [tailwindcss()],
