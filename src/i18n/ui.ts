@@ -188,11 +188,11 @@ export const ui = {
     'main.heading6_text': 'TikTokio does not store history or logs of the videos you download.',
 
 	'tvd.h2': 'How it Works to Download TikTok videos Online',
-	'tvd.text': 'Welcome to TikTokio - TikTok video downloader Online. Download TikTok videos watermark-free in HD quality with TikTokio in a world where popular material on TikTok becomes viral in an instant. Our free Online Video Downlaoder provides everything you need. Someone who just wants to Save TikTok video. Tiktokio comes with One of the biggest advantages of its universal device compatibility. Unlike other TikTok downloader apps that are platform-specific, our web-based TikTok Downlaod tool works on every device with any browser. Here is how to download TikTok videos without watermark on different devices:',
+	'tvd.text': 'Welcome to TikTokio - TikTok video downloader Online. Download TikTok videos watermark-free in HD quality with TikTokio in a world where popular material on TikTok becomes viral in an instant. Our free Online Video Downlaoder provides everything you need. Someone who just wants to <a href="/savett-tiktok-downloader-save-tiktok-videos/">Save TikTok video</a>. Tiktokio comes with One of the biggest advantages of its universal device compatibility. Unlike other TikTok downloader apps that are platform-specific, our web-based TikTok Downlaod tool works on every device with any browser. Here is how to <a href="/savefrom-download-from-tiktok/">download TikTok videos</a> without watermark on different devices:',
 	'tvd.how1': 'Copy the TikTok Video Link',
 	'tvd.how1text': 'Open TikTok app, TikTok Lite or Website and copy the video link you want to download.',
 	'tvd.how2': 'Paste the TikTok Video URL',
-	'tvd.how2text': 'Paste the copied TikTok Video link into our TikTok downloader <a href="/download-tiktok-video/">https://tiktokio.cam]</a> input field.',
+	'tvd.how2text': 'Paste the copied TikTok Video link into our TikTok downloader <a href="/download-tiktok-video/">Tiktokio</a> input field.',
 	'tvd.how3': 'Download TikTok Video',
 	'tvd.how3text': 'After process to retreive the The Videos. Click "Download" to get your favorite Tiktok download and save the video to your device in seconds.',
 	
@@ -404,10 +404,10 @@ export const ui = {
 	 // SaveTT  Feature section
 	'stt.h2': 'SaveTT', 
 	'stt.h2_1': ' - Save TikTok Videos Without Watermark in Seconds',
-	'stt.text1': 'SaveTT is online TikTok video downloader. Your 100% free tool to download TikTok Videos just in seconds. SaveTT helps user to Save TikTok videos and use offiline in your device, tik tok saving lets you retain the high quality video and enjoy your unlimited TikTok downloads without any watermarks. ',
+	'stt.text1': 'SaveTT is online TikTok video downloader. Your 100% free tool to download TikTok Videos just in seconds. SaveTT helps user to Save TikTok videos and use offiline in your device, tik tok saving lets you retain the high quality video and enjoy your unlimited <a href="/snaptik-tiktok-downloader-download-video-tiktok-without-watermark/" class="duration-300 hover:text-gray-900">TikTok downloads</a>TikTok downloads without any watermarks. ',
 	'stt.text2': 'This is very easy to get download tiktok videos, with <a href="/" class="duration-300 hover:text-gray-900">TikTokio</a>, you can perform a SAVETT seach and Save your favorite TikTok Video content in high definition (HD) without any branding or logo. Whether you call it a save tiktok tool or a save tt, our platform is designed for speed, safety and simplicity.',
 	'stt.text3': 'With our SaveTiktok Downloader, you can download videos from Tiktok without the logo and User ID above and below the video, just like you would with a regular download. You may download Tiktok videos in .mp3 and .mp4 formats for all kinds of devices, including PCs, Macs, Androids and iPhones.',
-	'stt.text4': 'SaveTT is the ultimate tool to download TikTok videos without a watermark instantly. Save TikTok video using SaveTT’s powerful TikTok video downloader. Try the ultimate Save TT tool today! for Tik Tok saving videos.',
+	'stt.text4': 'SaveTT is the ultimate tool to download TikTok videos without a watermark instantly. <a href="/savetik-download-tiktok-video-without-watermark-free" class="font-semibold text-green-600 hover:text-green-800 underline">Save Tiktok video</a>using SaveTT’s powerful TikTok video downloader. Try the ultimate Save TT tool today! for Tik Tok saving videos.',
 	'stt.featureh': 'Features of TikTokio - Save Tiktok video Downloader:', 
 	'stt.fth1': 'Unlimited Download', 
 	'stt.feature1': 'Download Tik Tok video without any Limit! with Musicaldown Tiktok Video downloader Without Watermark For Free. ',
