@@ -44,8 +44,12 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
     define: { DATE: `'${new Date().toISOString()}'` },
-    ssr: { noExternal: ['@tobyg74/tiktok-api-dl'] },
-    optimizeDeps: { include: ['@tobyg74/tiktok-api-dl'] },
+    ssr: {
+      external: ['@tobyg74/tiktok-api-dl'],
+    },
+    optimizeDeps: {
+      exclude: ['@tobyg74/tiktok-api-dl'],
+    },
   },
   integrations: [
     alpinejs(),
