@@ -7,11 +7,17 @@ import Layout from "@layouts/Layout.astro";
 
 // Add new built-in i18n imports
 import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+import { ui } from "../../i18n/ui";
 
 // Get current language and create translation function
 const safeUrl = Astro.url || new URL('/', Astro.site || 'http://localhost:4321');
 const lang = getLangFromUrl(safeUrl);
 const t = useTranslations(lang);
+
+// Tagalog-only long-form guide and extra FAQs (content lives in ui.tl)
+const tl = ui.tl as Record<string, string>;
+const guideKeys = ['device', 'format', 'slideshow', 'trouble', 'apk', 'spelling', 'responsible'];
+const extraFaqs = [7, 8, 9, 10].filter((n) => tl[`faq.question${n}`]);
 ---
 
 <Layout dir={lang === 'tl' ? 'ltr' : 'ltr'}>
@@ -19,6 +25,32 @@ const t = useTranslations(lang);
 	<Container>
 		
 		<Features />
+		<section class="max-w-7xl mx-auto px-4 py-8 text-gray-900 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:mt-6 [&_h3]:mb-2 [&_p]:mb-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-4 [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:mb-4 [&_li]:mb-2">
+			<p class="text-sm text-gray-600">{tl['tl.updated']}</p>
+			{guideKeys.map((k) => (
+				<div class="mt-10">
+					<h2 class="text-2xl md:text-3xl font-bold text-gray-900">{tl[`guide.${k}.h2`]}</h2>
+					<div class="w-24 h-1 bg-orange-400 mt-2 mb-4"></div>
+					<div class="text-lg leading-relaxed" set:html={tl[`guide.${k}.html`]} />
+				</div>
+			))}
+		</section>
 		<Faq />
+		{extraFaqs.length > 0 && (
+			<div class="mx-auto max-w-7xl px-6 pb-12 lg:px-8">
+				<div class="grid md:grid-cols-2 gap-6">
+					{extraFaqs.map((n) => (
+						<div class="rounded-lg border-color-blue shadow bg-card text-card-foreground shadow-sm">
+							<div class="flex flex-col space-y-1.5 p-6">
+								<div class="font-semibold tracking-tight text-lg">{tl[`faq.question${n}`]}</div>
+							</div>
+							<div class="p-6 pt-0">
+								<p class="text-muted-foreground">{tl[`faq.answer${n}`]}</p>
+							</div>
+						</div>
+					))}
+				</div>
+			</div>
+		)}
 	</Container>
 </Layout>
