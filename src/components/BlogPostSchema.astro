@@ -1,0 +1,45 @@
+---
+// JSON-LD BlogPosting schema for blog post pages (fixes Ahrefs "Article page missing Article structured data")
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+  datePublished: Date | string;
+  dateModified?: Date | string;
+  author?: string;
+  category?: string;
+  tags?: string[];
+  lang?: string;
+}
+
+const { title, description = '', image, datePublished, dateModified, author = 'TikTokio Team', category, tags = [], lang = 'en' } = Astro.props;
+
+const siteUrl = (Astro.site ? Astro.site.toString().replace(/\/$/, '') : '') || 'https://tiktokio.cam';
+const pageUrl = `${siteUrl}${Astro.url.pathname}`;
+const toIso = (d: Date | string) => (d instanceof Date ? d : new Date(d)).toISOString();
+const imageUrl = image
+  ? (image.startsWith('http') ? image : `${siteUrl}/${image.replace(/^\/+/, '')}`)
+  : `${siteUrl}/meta/opengraph.webp`;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
+  headline: title.slice(0, 110),
+  description,
+  image: [imageUrl],
+  datePublished: toIso(datePublished),
+  dateModified: toIso(dateModified ?? datePublished),
+  author: { '@type': 'Person', name: (author || 'TikTokio Team').trim() },
+  publisher: {
+    '@type': 'Organization',
+    name: 'TikTokio',
+    url: siteUrl,
+    logo: { '@type': 'ImageObject', url: `${siteUrl}/apple-touch-icon-180x180.webp` },
+  },
+  inLanguage: lang,
+  ...(category ? { articleSection: category } : {}),
+  ...(tags.length ? { keywords: tags.join(', ') } : {}),
+};
+---
+<script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />

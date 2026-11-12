@@ -28,7 +28,7 @@ export const GET: APIRoute = async () => {
       const posts = await getCollection('blog', ({ id }) => id.startsWith(`${locale}/`));
       posts.forEach(post => {
         blogPosts.push({
-          slug: post.id.replace(`${locale}/`, ''),
+          slug: post.id.replace(`${locale}/`, '').replace(/\.mdx?$/, ''),
           localePrefix: locale === 'en' ? '' : `/${locale}`,
           updated: post.data.updatedDate || post.data.pubDate || lastmod
         });

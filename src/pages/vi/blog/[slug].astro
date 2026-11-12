@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
+import BlogPostSchema from "@components/BlogPostSchema.astro";
 import { getArticleReadingTime } from "@utils/blog";
 
 import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
@@ -49,6 +50,7 @@ function localizePath(path: string) {
 ---
 
 <Layout title={data.title} lang={currentLang}>
+	<BlogPostSchema slot="head" title={data.title} description={data.snippet} image={data.image?.src} datePublished={data.publishDate} author={data.author} category={data.category} tags={data.tags} lang={currentLang} />
   <Container>
     <div class="mx-auto prose prose-lg dark:prose-invert mt-14">
       {data.category && (
