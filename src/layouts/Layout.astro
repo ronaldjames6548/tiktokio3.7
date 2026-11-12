@@ -72,6 +72,8 @@ const pathWithoutLang = Astro.url.pathname.replace(/^\/(it|vi|ar|fr|de|es|hi|id|
     <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:site_name" content="TikTokio" />
+    <meta name="application-name" content="TikTokio" />
+    <meta name="apple-mobile-web-app-title" content="TikTokio" />
     <meta property="og:locale" content={lang === 'en' ? 'en_US' : `${lang}_${lang.toUpperCase()}`} />
     <meta property="og:image" content={ogImageUrl} />
     <meta property="og:image:alt" content={title} />

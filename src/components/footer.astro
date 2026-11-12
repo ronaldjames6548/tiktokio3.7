@@ -18,6 +18,24 @@ function localizePath(path: string) {
 	if (!path || (path && path.startsWith('http')) || path === '#') return path;
 	return getRelativeLocaleUrl(lang, path);
 }
+
+// Homepage detection (/ or /xx/) - Google reads the site name from the homepage WebSite markup
+const isHome = /^\/([a-z]{2}\/)?$/.test(Astro.url?.pathname || "/");
+const websiteSchema = {
+	"@context": "https://schema.org",
+	"@type": "WebSite",
+	"@id": "https://tiktokio.cam/#website",
+	"name": "TikTokio",
+	"alternateName": ["TikTokio.cam", "TikTokio Downloader"],
+	"url": "https://tiktokio.cam/",
+	"description": "TikTokio – #1 Free TikTok Video Downloader Online No Watermark. Download TikTok videos in HD instantly 100% free, no app, no registration!",
+	"inLanguage": lang === "en" ? "en-US" : lang,
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": { "@type": "EntryPoint", "urlTemplate": "https://tiktokio.cam/?url={search_term_string}" },
+		"query-input": "required name=search_term_string"
+	}
+};
 ---
 
 <footer class="pb-12 pt-8 dark:bg-stone-950">
@@ -71,26 +89,10 @@ function localizePath(path: string) {
 		<!-- OPTIMIZED SCHEMA MARKUP FOR BETTER SERP -->
 		<!-- ============================================ -->
 		
-		<!-- 1. WebSite Schema (CRITICAL - Shows brand name in SERP) -->
-		<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "WebSite",
-			"name": "TikTokio",
-			"alternateName": "TikTokio - Free TikTok Video Downloader Online No Watermark",
-			"url": "https://tiktokio.cam",
-			"description": "TikTokio – #1 Free TikTok Video Downloader Online No Watermark. Download TikTok videos in HD instantly 100% free, no app, no registration!",
-			"potentialAction": {
-				"@type": "SearchAction",
-				"target": {
-					"@type": "EntryPoint",
-					"urlTemplate": "https://tiktokio.cam/?url={search_term_string}"
-				},
-				"query-input": "required name=search_term_string"
-			},
-			"inLanguage": "en-US"
-		}
-		</script>
+		<!-- 1. WebSite Schema (homepage only - controls the site name shown in Google results) -->
+		{isHome && (
+			<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+		)}
 		
 		<!-- 2. Organization Schema -->
 		<script type="application/ld+json">
