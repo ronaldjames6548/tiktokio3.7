@@ -1,0 +1,18 @@
+---
+import { ui } from "../i18n/ui";
+
+// English homepage long-form guide sections (content: home.guide.* keys in ui.en)
+const en = ui.en as Record<string, string>;
+const guideKeys = ["usecases", "device", "photo", "format", "spelling", "trouble", "apk", "responsible"];
+---
+
+<section class="max-w-7xl mx-auto px-4 py-8 text-gray-900 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:mt-6 [&_h3]:mb-2 [&_p]:mb-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-4 [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:mb-4 [&_li]:mb-2">
+	<p class="text-sm text-gray-600">{en["home.updated"]}</p>
+	{guideKeys.map((k) => (
+		<div class="mt-10">
+			<h2 class="text-2xl md:text-3xl font-bold text-gray-900">{en[`home.guide.${k}.h2`]}</h2>
+			<div class="w-24 h-1 bg-orange-400 mt-2 mb-4"></div>
+			<div class="text-lg leading-relaxed" set:html={en[`home.guide.${k}.html`]} />
+		</div>
+	))}
+</section>
