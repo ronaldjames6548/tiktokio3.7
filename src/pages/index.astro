@@ -6,6 +6,7 @@ import Layout from "@layouts/Layout.astro";
 import Hero from "@components/hero.astro";
 import Features from "@components/features.astro";
 import Faq from "@components/faq.astro";
+import MoreLinks from "@components/morelinks.astro";
 
 // Add new built-in i18n imports
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
@@ -22,6 +23,7 @@ const t = useTranslations(lang);
     <Container>
       <Features />
       <Faq />
+      <MoreLinks />
     </Container>
   </div>
 </Layout>
