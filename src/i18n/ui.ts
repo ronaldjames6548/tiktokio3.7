@@ -24,88 +24,88 @@ export const ui = {
   en: {
   
   // Main Site metadata
-	'site.title': 'TikTokio - Free TikTok Video Downloader Online No Watermark',
-    'site.description': 'TikTokio – #1 Free TikTok Video Downloader Online No Watermark for Unlimited TikTok downloads. Download TikTok videos with link in HD.',
+	'site.title': 'TikTokio – TikTok Video Downloader No Watermark',
+    'site.description': 'TikTokio lets you download TikTok videos without watermark in full HD. Save MP4 videos or MP3 audio in seconds. 100% free with unlimited downloads.',
 	'site.keywords': 'TikTokio, TikTok video downloader online, download TikTok video, Unlimited TikTok downloads, free TikTok downloader, save TikTok videos, TikTok downloader online',
 
 	// TikTok Video Downloader Page metadata
-    'tvd.title': 'Tiktokio – TikTok Video Downloader No Watermark Free HD',
-    'tvd.description': 'Download TikTok videos without watermark with Online Tiktok Video Downloader in full HD via Tiktokio. Fastest online TikTok downloader in seconds',
+    'tvd.title': 'TikTokio TikTok Video Downloader No Watermark Free HD',
+    'tvd.description': 'TikTokio is a fast way to download TikTok videos without watermark online. 100% free with unlimited downloads. No app or sign-up needed.',
     'tvd.keywords': 'TikTokio, TikTok video downloader, download TikTok video, free TikTok downloader, save TikTok videos, TikTok downloader online',
     
 	// TikTok Downloader Page metadata
-	'td.title': 'Tiktokio TikTok Downloader – Free No Watermark HD Download',
-    'td.description': 'Tiktokio TikTok Downloader removes watermarks instantly. Download TikTok videos & sounds in HD for free on mobile or PC. Fast, safe, no app.',
+	'td.title': 'TikTokio TikTok Downloader – Free No Watermark HD',
+    'td.description': 'Use TikTokio to save TikTok videos in HD without watermark, fast and free. No app or sign-up needed. Works on iPhone, Android and PC.',
     'td.keywords': 'TikTokio, TikTok downloader without watermark, save TikTok videos online, how to download TikTok videos, best TikTok downloader tool, TikTok downloader website, TikTok video downloader app, free TikTok video saver. download TikTok MP4',
     
 	// Download TikTok Video Page metadata
-	'dtv.title': 'Tiktokio Download TikTok Video No Watermark – Free HD Fast',
-    'dtv.description': 'With Tiktokio download TikTok video in full HD without watermark in seconds. Fastest free Tiktokio downloader with Unlimited downloads.',
+	'dtv.title': 'Download TikTok Video No Watermark – TikTokio Free',
+    'dtv.description': 'Download TikTok Video without watermark – TikTokio. Works on iPhone, Android and PC. Save MP4 videos or MP3 audio in seconds. No app or sign-up needed.',
     'dtv.keywords': 'TikTokio, download TikTok video without watermark, TikTok video downloader online, free TikTok downloader, download TikTok videos online, save TikTok videos without watermark',
 
 	// Download Foto Tiktok Page metadata
-	'dft.title': 'TikTok Photo Downloader – Download Slideshow Images No Watermark',
-    'dft.description': 'Download Foto Tiktok. Download TikTok photo slideshows & carousels without watermark full HD in seconds Free, no login, works on iPhone & Android!',
+	'dft.title': 'TikTok Photo Downloader – No Watermark | TikTokio',
+    'dft.description': 'Download TikTok photo slideshows and carousel images without watermark in full HD. Save MP4 videos or MP3 audio in seconds. No app or sign-up needed.',
     'dft.keywords': 'tiktok photo downloader no watermark, download tiktok slideshow images, save tiktok photo carousel without watermark, tiktok photo downloader 2025, download all photos from tiktok post',
 
 	// Musically Down Page metadata
-	'md.title': 'Musically Down - Download TikTok Video Without Watermark Online',
-    'md.description': 'Musically Download TikTok video downloader! download TikTok videos with or without watermark online. Save TikTok videos in HD and MP3 from any device.',
+	'md.title': 'Musically Down – TikTok Video Downloader No Watermark',
+    'md.description': 'Musically Down lets you download TikTok videos without watermark in full HD. Save MP4 videos or MP3 audio in seconds. 100% free with unlimited downloads.',
     'md.keywords': 'TikTokio, musicallydown, musically down, musicallydown com, mussically down.com, musicallydown.com tiktok',
 
 	// Savefrom Download From Tiktok Page metadata
-	'savef.title': 'SaveFrom - TikTok Video Downloads - Savefromnet Tiktok Downloader',
-    'savef.description': 'Discover the fastest TikTok video downloader by savefromnet. download any TikTok video in HD without watermark in seconds. Start downloading now!',
+	'savef.title': 'SaveFrom – TikTok Video Downloader No Watermark',
+    'savef.description': 'Use SaveFrom to save TikTok videos in HD without watermark, fast and free. 100% free with unlimited downloads. No app or sign-up needed.',
     'savef.keywords': 'TikTokio, tiktok video download, tiktok video downloader, download tiktok video, tiktok video download without watermark, tiktok download video',
 
 	// Savetik Downloader Page metadata
-	'savetik.title': 'SaveTik Downloader - Save Tiktok Videos Without WaterMark Free',
-    'savetik.description': 'SaveTik Downloader is Tiktok video downloader without watermark. You can Save TikTok videos from any device.',
+	'savetik.title': 'SaveTik – TikTok Video Downloader No Watermark',
+    'savetik.description': 'SaveTik is a fast way to download TikTok videos without watermark online. No app or sign-up needed. Works on iPhone, Android and PC.',
     'savetik.keywords': 'TikTokio, download TikTok video without watermark, TikTok video downloader online, free TikTok downloader, download TikTok videos online, save TikTok videos without watermark',
 
 	// Savett Page metadata
-	'savett.title': 'SaveTT -  Save TikTok Videos Without Watermark in Seconds',
-    'savett.description': 'SaveTT is best way to download TikTok Videos online in seconds. Use SaveTT to save tiktok videos in HD without watermarks. Fast, free and works on all devices.',
+	'savett.title': 'SaveTT – TikTok Video Downloader No Watermark',
+    'savett.description': 'SaveTT lets you download TikTok videos without watermark in full HD. Works on iPhone, Android and PC. Save MP4 videos or MP3 audio in seconds.',
     'savett.keywords': 'TikTokio, SaveTT, save tt, save tiktok, tiktok save, tik tok saving, download TikTok video without watermark, TikTok video downloader online, free TikTok downloader, download TikTok videos online, save TikTok videos without watermark',
 
 	// SnapTik Page metadata
-	'snaptik.title': 'SnapTik - TT Video Downloader Download TikTok Videos Without Watermark',
-    'snaptik.description': 'SnapTik - Download TikTok videos instantly with SnapTik - Tik Videos Saver. SnapTik is a free TikTok video downloader that allows you to download TikTok videos.',
+	'snaptik.title': 'SnapTik – TikTok Video Downloader No Watermark',
+    'snaptik.description': 'Use SnapTik to save TikTok videos in HD without watermark, fast and free. Save MP4 videos or MP3 audio in seconds. 100% free with unlimited downloads.',
     'snaptik.keywords': 'TikTokio, snaptik, download video tiktok, download tiktok, tiktok downloader, download video tiktok tanpa watermark',
 
 	// SssTik Page metadata
-	'ssstik.title': 'SSSTik - TikTok Downloader Download TikTok videos online.',
-    'ssstik.description': 'ssstiktok let you download video tiktok instantly. Fastest tiktok downloader to Save TT videos with high quality TikTok to MP4. Save Videos from TiKTok on All Types of Devices.',
+	'ssstik.title': 'SSSTik – TikTok Video Downloader No Watermark',
+    'ssstik.description': 'SSSTik is a fast way to download TikTok videos without watermark online. 100% free with unlimited downloads. No app or sign-up needed.',
     'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, ssstik.io mp3, ssstik. io',
 
 	// SssTikTok Page metadata
-	'ssstiktok.title': 'SSSTikTok - TikTok Downloader Without Watermark Download TikTok Video Online',
-    'ssstiktok.description': 'SSSTikTok TikTok video downloader online is a free service to download TikTok videos without watermark in high-quality format. TikTok to Mp4 video download.',
+	'ssstiktok.title': 'SSSTikTok – TikTok Video Downloader No Watermark',
+    'ssstiktok.description': 'SSSTikTok lets you download TikTok videos without watermark in full HD. No app or sign-up needed. Works on iPhone, Android and PC.',
     'ssstiktok.keywords': 'TikTokio, download TikTok video without watermark, TikTok video downloader online, free TikTok downloader, download TikTok videos online, save TikTok videos without watermark',
 
 	// Tikmate Page metadata
-	'tikmate.title': 'Tikmate - Download video tiktok, Tiktok downloader MP4 free',
-    'tikmate.description': 'Tikmate is fast and easy TikTok video downlaoder, with no watermark and HD. Tikmate downloader is best to save with or without watermark video with no login or user information',
+	'tikmate.title': 'Tikmate – TikTok Video Downloader No Watermark',
+    'tikmate.description': 'Use Tikmate to save TikTok videos in HD without watermark, fast and free. Works on iPhone, Android and PC. Save MP4 videos or MP3 audio in seconds.',
     'tikmate.keywords': 'TikTokio, download video tiktok without watermark, tikmate downloader online, free TikTok downloader, download TikTok videos online, save TikTok videos without watermark',
 
 	// Tiksave Page metadata
-	'tiksave.title': 'Tiktokio - Download TikTok Video Online Without Watermark easily',
-    'tiksave.description': 'Easily download TikTok videos without watermark with Tiktokio free Tiktok downloader. Save Tiktok video in MP4 format. No sign-up, free downloads on all device.',
+	'tiksave.title': 'TikSave – TikTok Video Downloader No Watermark',
+    'tiksave.description': 'TikSave is a fast way to download TikTok videos without watermark online. Save MP4 videos or MP3 audio in seconds. 100% free with unlimited downloads.',
     'tiksave.keywords': 'TikTokio, download TikTok video without watermark, TikTok video downloader online, free TikTok downloader, download TikTok videos online, save TikTok videos without watermark',
 
 	// TikToksss Page metadata
-	'tiktoksss.title': 'Tiktokio - Download TikTok Video Online Without Watermark easily',
-    'tiktoksss.description': 'Easily download TikTok videos without watermark with Tiktokio free Tiktok downloader. Save Tiktok video in MP4 format. No sign-up, free downloads on all device.',
+	'tiktoksss.title': 'TikTokSSS – TikTok Video Downloader No Watermark',
+    'tiktoksss.description': 'TikTokSSS lets you download TikTok videos without watermark in full HD. 100% free with unlimited downloads. No app or sign-up needed.',
     'tiktoksss.keywords': 'TikTokio, download TikTok video without watermark, TikTok video downloader online, free TikTok downloader, download TikTok videos online, save TikTok videos without watermark',
 
 	// Tmate Page metadata
-	'tmate.title': 'Tiktokio - Download TikTok Video Online Without Watermark easily',
-    'tmate.description': 'Easily download TikTok videos without watermark with Tiktokio free Tiktok downloader. Save Tiktok video in MP4 format. No sign-up, free downloads on all device.',
+	'tmate.title': 'Tmate – TikTok Video Downloader No Watermark',
+    'tmate.description': 'Use Tmate to save TikTok videos in HD without watermark, fast and free. No app or sign-up needed. Works on iPhone, Android and PC.',
     'tmate.keywords': 'TikTokio, download TikTok video without watermark, TikTok video downloader online, free TikTok downloader, download TikTok videos online, save TikTok videos without watermark',
 
 	// Ttdownloader Page metadata
-	'ttdownloader.title': 'Tiktokio - Download TikTok Video Online Without Watermark easily',
-    'ttdownloader.description': 'Easily download TikTok videos without watermark with Tiktokio free Tiktok downloader. Save Tiktok video in MP4 format. No sign-up, free downloads on all device.',
+	'ttdownloader.title': 'TTDownloader – TikTok Video Downloader No Watermark',
+    'ttdownloader.description': 'TTDownloader is a fast way to download TikTok videos without watermark online. Works on iPhone, Android and PC. Save MP4 videos or MP3 audio in seconds.',
     'ttdownloader.keywords': 'TikTokio, download TikTok video without watermark, TikTok video downloader online, free TikTok downloader, download TikTok videos online, save TikTok videos without watermark',
  
     // Hero section
@@ -575,76 +575,84 @@ export const ui = {
 	'home.guide.apk.html': '<p>You do not need to install anything to use TikTokio. It is a website and it opens in your browser. If you see a file named “TikTokio APK” or “mod APK” on another site, be careful. “Mod” files are changed by unknown people and can contain malware, flood you with ads or steal an account. It is safer to stay in the browser and not install from unknown sources.</p><p>One more reminder: TikTokio never asks for your TikTok password. If a downloader asks for it, leave the page.</p>',
 	'home.guide.responsible.h2': 'Using TikTokio Responsibly',
 	'home.guide.responsible.html': '<p>Every TikTok video belongs to its creator. Use TikTokio for a personal copy, for study, or for content you have permission to use. Do not repost someone else’s work as your own and do not sell it. This is not legal advice, so ask a lawyer if you have a specific situation.</p><p>TikTokio is not affiliated with, endorsed by or owned by TikTok or ByteDance. TikTok is a trademark of its owner. If you made a video and want a copy removed, <a href="/contact/" class="font-semibold text-blue-800 hover:text-orange-600 underline">contact us</a>. Please also read our <a href="/privacy-policy/" class="font-semibold text-blue-800 hover:text-orange-600 underline">Privacy Policy</a> and <a href="/terms-of-service/" class="font-semibold text-blue-800 hover:text-orange-600 underline">Terms of Service</a>.</p>',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'TikTok Thumbnail Downloader – No Watermark | TikTokio',
+    'thumb.description': 'Save any TikTok video thumbnail or cover image in original HD quality. 100% free with unlimited downloads. No app or sign-up needed.',
+    'terms.title': 'Terms and Conditions – TikTokio',
+    'terms.description': 'Read the TikTokio Terms and Conditions covering user responsibilities, content usage, privacy and liability for our free TikTok downloader.',
+    'blog.meta.title': 'TikTokio Blog – TikTok Downloader Tips & Guides',
+    'blog.meta.description': 'Read the TikTokio blog for TikTok download guides, tips and tricks. Learn how to save TikTok videos without watermark in HD and stay updated.',
+    'blog.post_suffix': 'Read more on TikTokio, the free TikTok video downloader without watermark.',
   },
 
 vi: {
 // Main Site metadata
-'site.title': 'TikTokio - Trình tải video TikTok miễn phí trực tuyến không watermark',
-'site.description': 'TikTokio – Trình tải video TikTok #1 miễn phí trực tuyến không watermark cho phép tải TikTok không giới hạn. Tải video TikTok qua liên kết chất lượng HD.',
+'site.title': 'TikTokio – Trình Tải Video TikTok Không Watermark',
+'site.description': 'TikTokio giúp bạn tải video TikTok không có watermark với chất lượng HD đầy đủ. Lưu video MP4 hoặc âm thanh MP3 chỉ trong vài giây.',
 'site.keywords': 'TikTokio, trình tải video TikTok trực tuyến, tải video TikTok, tải TikTok không giới hạn, trình tải TikTok miễn phí, lưu video TikTok, trình tải TikTok trực tuyến',
 // TikTok Video Downloader Page metadata
-'tvd.title': 'Tiktokio – Trình tải video TikTok không watermark miễn phí chất lượng HD',
-'tvd.description': 'Tải video TikTok không watermark bằng Trình tải video TikTok trực tuyến trên Tiktokio. Tải TikTok nhanh nhất chỉ trong vài giây',
+'tvd.title': 'TikTokio Trình Tải Video TikTok Không Watermark Miễn Phí HD',
+'tvd.description': 'TikTokio là cách nhanh để tải video TikTok không có watermark trực tuyến. Hoàn toàn miễn phí, tải không giới hạn. Không cần cài ứng dụng hay đăng ký.',
 'tvd.keywords': 'TikTokio, trình tải video TikTok, tải video TikTok, trình tải TikTok miễn phí, lưu video TikTok, trình tải TikTok trực tuyến',
 // TikTok Downloader Page metadata
-'td.title': 'Tiktokio Trình tải TikTok – Tải miễn phí không watermark chất lượng HD',
-'td.description': 'Tiktokio Trình tải TikTok xóa watermark ngay lập tức. Tải video & âm thanh TikTok chất lượng HD miễn phí trên điện thoại hoặc máy tính. Nhanh chóng, an toàn, không cần ứng dụng.',
+'td.title': 'TikTokio Trình Tải TikTok – Miễn Phí Không Watermark HD',
+'td.description': 'Dùng TikTokio để lưu video TikTok HD không có watermark, nhanh và miễn phí. Không cần cài ứng dụng hay đăng ký. Hoạt động trên iPhone, Android và máy tính.',
 'td.keywords': 'TikTokio, trình tải TikTok không watermark, lưu video TikTok trực tuyến, cách tải video TikTok, công cụ tải TikTok tốt nhất, website tải TikTok, ứng dụng tải video TikTok, trình lưu video TikTok miễn phí. tải TikTok MP4',
 // Download TikTok Video Page metadata
-'dtv.title': 'Tiktokio Tải video TikTok không watermark – Miễn phí nhanh chóng chất lượng HD',
-'dtv.description': 'Với Tiktokio, tải video TikTok chất lượng full HD không watermark chỉ trong vài giây. Trình tải Tiktokio nhanh nhất với số lượng tải không giới hạn.',
+'dtv.title': 'Tải Video TikTok Không Watermark – TikTokio Miễn Phí',
+'dtv.description': 'Tải Video TikTok không có watermark – TikTokio. Hoạt động trên iPhone, Android và máy tính. Lưu video MP4 hoặc âm thanh MP3 chỉ trong vài giây.',
 'dtv.keywords': 'TikTokio, tải video TikTok không watermark, trình tải video TikTok trực tuyến, trình tải TikTok miễn phí, tải video TikTok trực tuyến, lưu video TikTok không watermark',
 // Download Foto Tiktok Page metadata
-'dft.title': 'Trình tải ảnh TikTok – Tải ảnh slideshow không watermark',
-'dft.description': 'Tải ảnh TikTok. Tải ảnh slideshow & carousel TikTok không watermark chất lượng full HD chỉ trong vài giây. Miễn phí, không cần đăng nhập, hoạt động trên iPhone & Android!',
+'dft.title': 'Trình Tải Ảnh TikTok – Không Watermark | TikTokio',
+'dft.description': 'Tải ảnh slideshow và ảnh carousel TikTok không có watermark ở chất lượng HD. Lưu video MP4 hoặc âm thanh MP3 chỉ trong vài giây.',
 'dft.keywords': 'trình tải ảnh tiktok không watermark, tải ảnh slideshow tiktok, lưu carousel ảnh tiktok không watermark, trình tải ảnh tiktok 2025, tải tất cả ảnh từ bài đăng tiktok',
 // Musically Down Page metadata
-'md.title': 'Musically Down - Tải video TikTok không watermark trực tuyến',
-'md.description': 'Musically Download trình tải video TikTok! Tải video TikTok có hoặc không watermark trực tuyến. Lưu video TikTok chất lượng HD và MP3 từ mọi thiết bị.',
+'md.title': 'Musically Down – Trình Tải Video TikTok Không Watermark',
+'md.description': 'Musically Down giúp bạn tải video TikTok không có watermark với chất lượng HD đầy đủ. Lưu video MP4 hoặc âm thanh MP3 chỉ trong vài giây.',
 'md.keywords': 'TikTokio, musicallydown, musically down, musicallydown com, mussically down.com, musicallydown.com tiktok',
 // Savefrom Download From Tiktok Page metadata
-'savef.title': 'SaveFrom - Tải video TikTok - Trình tải Tiktok Savefromnet',
-'savef.description': 'Khám phá trình tải video TikTok nhanh nhất từ savefromnet. Tải mọi video TikTok chất lượng HD không watermark chỉ trong vài giây. Bắt đầu tải ngay!',
+'savef.title': 'SaveFrom – Trình Tải Video TikTok Không Watermark',
+'savef.description': 'Dùng SaveFrom để lưu video TikTok HD không có watermark, nhanh và miễn phí. Hoàn toàn miễn phí, tải không giới hạn. Không cần cài ứng dụng hay đăng ký.',
 'savef.keywords': 'TikTokio, tải video tiktok, trình tải video tiktok, tải video tiktok, tải video tiktok không watermark, tải video tiktok',
 // Savetik Downloader Page metadata
-'savetik.title': 'SaveTik Downloader - Lưu video Tiktok không WaterMark miễn phí',
-'savetik.description': 'SaveTik Downloader là trình tải video tiktok không watermark. Bạn có thể Lưu video TikTok từ mọi thiết bị.',
+'savetik.title': 'SaveTik – Trình Tải Video TikTok Không Watermark',
+'savetik.description': 'SaveTik là cách nhanh để tải video TikTok không có watermark trực tuyến. Không cần cài ứng dụng hay đăng ký. Hoạt động trên iPhone, Android và máy tính.',
 'savetik.keywords': 'TikTokio, tải video TikTok không watermark, trình tải video TikTok trực tuyến, trình tải TikTok miễn phí, tải video TikTok trực tuyến, lưu video TikTok không watermark',
 // Savett Page metadata
-'savett.title': 'SaveTT - Lưu video TikTok không watermark chỉ trong vài giây',
-'savett.description': 'SaveTT là cách tốt nhất để tải video TikTok trực tuyến chỉ trong vài giây. Sử dụng SaveTT để lưu video tiktok chất lượng HD không watermark. Nhanh chóng, miễn phí và hoạt động trên mọi thiết bị.',
+'savett.title': 'SaveTT – Trình Tải Video TikTok Không Watermark',
+'savett.description': 'SaveTT giúp bạn tải video TikTok không có watermark với chất lượng HD đầy đủ. Hoạt động trên iPhone, Android và máy tính. Không cần cài ứng dụng hay đăng ký.',
 'savett.keywords': 'TikTokio, SaveTT, save tt, lưu tiktok, tiktok lưu, lưu tik tok, tải video TikTok không watermark, trình tải video TikTok trực tuyến, trình tải TikTok miễn phí, tải video TikTok trực tuyến, lưu video TikTok không watermark',
 // SnapTik Page metadata
-'snaptik.title': 'SnapTik - Trình tải video TT Tải video TikTok không watermark',
-'snaptik.description': 'SnapTik - Tải video TikTok ngay lập tức với SnapTik - Trình lưu video Tik. SnapTik là trình tải video TikTok miễn phí cho phép bạn tải video TikTok.',
+'snaptik.title': 'SnapTik – Trình Tải Video TikTok Không Watermark',
+'snaptik.description': 'Dùng SnapTik để lưu video TikTok HD không có watermark, nhanh và miễn phí. Lưu video MP4 hoặc âm thanh MP3 chỉ trong vài giây.',
 'snaptik.keywords': 'TikTokio, snaptik, tải video tiktok, tải tiktok, trình tải tiktok, tải video tiktok không watermark',
 // SssTik Page metadata
-'ssstik.title': 'SSSTik - Trình tải TikTok Tải video TikTok trực tuyến.',
-'ssstik.description': 'ssstiktok cho phép bạn tải video tiktok ngay lập tức. Trình tải tiktok nhanh nhất để Lưu video TT chất lượng cao TikTok sang MP4. Lưu video từ TiKTok trên mọi loại thiết bị.',
+'ssstik.title': 'SSSTik – Trình Tải Video TikTok Không Watermark',
+'ssstik.description': 'SSSTik là cách nhanh để tải video TikTok không có watermark trực tuyến. Hoàn toàn miễn phí, tải không giới hạn. Không cần cài ứng dụng hay đăng ký.',
 'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, ssstik.io mp3, ssstik. io',
 // SssTikTok Page metadata
-'ssstiktok.title': 'SSSTikTok - Trình tải TikTok không watermark Tải video TikTok trực tuyến',
-'ssstiktok.description': 'SSSTikTok trình tải video TikTok trực tuyến là dịch vụ miễn phí để tải video TikTok không watermark ở định dạng chất lượng cao. Tải TikTok sang video Mp4.',
+'ssstiktok.title': 'SSSTikTok – Trình Tải Video TikTok Không Watermark',
+'ssstiktok.description': 'SSSTikTok giúp bạn tải video TikTok không có watermark với chất lượng HD đầy đủ. Không cần cài ứng dụng hay đăng ký. Hoàn toàn miễn phí, tải không giới hạn.',
 'ssstiktok.keywords': 'TikTokio, tải video TikTok không watermark, trình tải video TikTok trực tuyến, trình tải TikTok miễn phí, tải video TikTok trực tuyến, lưu video TikTok không watermark',
 // Tikmate Page metadata
-'tikmate.title': 'Tikmate - Tải video tiktok, Trình tải Tiktok MP4 miễn phí',
-'tikmate.description': 'Tikmate là trình tải video TikTok nhanh chóng và dễ dàng, không watermark và chất lượng HD. Trình tải Tikmate tốt nhất để lưu video có hoặc không watermark mà không cần đăng nhập hay thông tin người dùng',
+'tikmate.title': 'Tikmate – Trình Tải Video TikTok Không Watermark',
+'tikmate.description': 'Dùng Tikmate để lưu video TikTok HD không có watermark, nhanh và miễn phí. Hoạt động trên iPhone, Android và máy tính. Hoàn toàn miễn phí, tải không giới hạn.',
 'tikmate.keywords': 'TikTokio, tải video tiktok không watermark, trình tải tikmate trực tuyến, trình tải TikTok miễn phí, tải video TikTok trực tuyến, lưu video TikTok không watermark',
 // Tiksave Page metadata
-'tiksave.title': 'Tiktokio - Tải video TikTok trực tuyến không watermark dễ dàng',
-'tiksave.description': 'Dễ dàng tải video TikTok không watermark với trình tải Tiktok miễn phí Tiktokio. Lưu video Tiktok định dạng MP4. Không cần đăng ký, tải miễn phí trên mọi thiết bị.',
+'tiksave.title': 'TikSave – Trình Tải Video TikTok Không Watermark',
+'tiksave.description': 'TikSave là cách nhanh để tải video TikTok không có watermark trực tuyến. Lưu video MP4 hoặc âm thanh MP3 chỉ trong vài giây.',
 'tiksave.keywords': 'TikTokio, tải video TikTok không watermark, trình tải video TikTok trực tuyến, trình tải TikTok miễn phí, tải video TikTok trực tuyến, lưu video TikTok không watermark',
 // TikToksss Page metadata
-'tiktoksss.title': 'Tiktokio - Tải video TikTok trực tuyến không watermark dễ dàng',
-'tiktoksss.description': 'Dễ dàng tải video TikTok không watermark với trình tải Tiktok miễn phí Tiktokio. Lưu video Tiktok định dạng MP4. Không cần đăng ký, tải miễn phí trên mọi thiết bị.',
+'tiktoksss.title': 'TikTokSSS – Trình Tải Video TikTok Không Watermark',
+'tiktoksss.description': 'TikTokSSS giúp bạn tải video TikTok không có watermark với chất lượng HD đầy đủ. Hoàn toàn miễn phí, tải không giới hạn. Không cần cài ứng dụng hay đăng ký.',
 'tiktoksss.keywords': 'TikTokio, tải video TikTok không watermark, trình tải video TikTok trực tuyến, trình tải TikTok miễn phí, tải video TikTok trực tuyến, lưu video TikTok không watermark',
 // Tmate Page metadata
-'tmate.title': 'Tiktokio - Tải video TikTok trực tuyến không watermark dễ dàng',
-'tmate.description': 'Dễ dàng tải video TikTok không watermark với trình tải Tiktok miễn phí Tiktokio. Lưu video Tiktok định dạng MP4. Không cần đăng ký, tải miễn phí trên mọi thiết bị.',
+'tmate.title': 'Tmate – Trình Tải Video TikTok Không Watermark',
+'tmate.description': 'Dùng Tmate để lưu video TikTok HD không có watermark, nhanh và miễn phí. Không cần cài ứng dụng hay đăng ký. Hoạt động trên iPhone, Android và máy tính.',
 'tmate.keywords': 'TikTokio, tải video TikTok không watermark, trình tải video TikTok trực tuyến, trình tải TikTok miễn phí, tải video TikTok trực tuyến, lưu video TikTok không watermark',
 // Ttdownloader Page metadata
-'ttdownloader.title': 'Tiktokio - Tải video TikTok trực tuyến không watermark dễ dàng',
-'ttdownloader.description': 'Dễ dàng tải video TikTok không watermark với trình tải Tiktok miễn phí Tiktokio. Lưu video Tiktok định dạng MP4. Không cần đăng ký, tải miễn phí trên mọi thiết bị.',
+'ttdownloader.title': 'TTDownloader – Trình Tải Video TikTok Không Watermark',
+'ttdownloader.description': 'TTDownloader là cách nhanh để tải video TikTok không có watermark trực tuyến. Hoạt động trên iPhone, Android và máy tính. Không cần cài ứng dụng hay đăng ký.',
 'ttdownloader.keywords': 'TikTokio, tải video TikTok không watermark, trình tải video TikTok trực tuyến, trình tải TikTok miễn phí, tải video TikTok trực tuyến, lưu video TikTok không watermark',
 // Hero section
 'main.hero.title': 'TikTokio - Trình tải video TikTok trực tuyến',
@@ -965,76 +973,84 @@ vi: {
 // Blog section
 'blog.prev': 'Trước',
 'blog.next': 'Tiếp',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'Trình Tải Ảnh Bìa TikTok – Không Watermark | TikTokio',
+    'thumb.description': 'Lưu ảnh thu nhỏ hoặc ảnh bìa video TikTok với chất lượng HD gốc. Hoàn toàn miễn phí, tải không giới hạn. Không cần cài ứng dụng hay đăng ký.',
+    'terms.title': 'Điều Khoản và Điều Kiện – TikTokio',
+    'terms.description': 'Đọc Điều khoản và Điều kiện của TikTokio: trách nhiệm người dùng, quy định sử dụng nội dung, quyền riêng tư và giới hạn trách nhiệm.',
+    'blog.meta.title': 'Blog TikTokio – Mẹo và Hướng Dẫn Tải TikTok',
+    'blog.meta.description': 'Đọc blog TikTokio để xem hướng dẫn, mẹo và thủ thuật tải TikTok. Tìm hiểu cách lưu video TikTok không watermark chất lượng HD.',
+    'blog.post_suffix': 'Đọc thêm trên TikTokio, trình tải video TikTok miễn phí không watermark.',
 },
 
 it: {
 // Main Site metadata
-'site.title': 'TikTokio - Scarica Video TikTok Online Gratuitamente Senza Watermark',
-'site.description': 'TikTokio – Il miglior scaricatore video TikTok online gratuito senza watermark per download TikTok illimitati. Scarica video TikTok con link in HD.',
+'site.title': 'TikTokio – Scaricatore Video TikTok Senza Filigrana',
+'site.description': 'TikTokio ti permette di scaricare video TikTok senza filigrana in HD completo. Salva video MP4 o audio MP3 in pochi secondi. Funziona su iPhone, Android e PC.',
 'site.keywords': 'TikTokio, scaricatore video TikTok online, scarica video TikTok, download TikTok illimitati, scaricatore TikTok gratuito, salva video TikTok, scaricatore TikTok online',
 // TikTok Video Downloader Page metadata
-'tvd.title': 'Tiktokio – Scaricatore Video TikTok Senza Watermark in HD Gratuito',
-'tvd.description': 'Scarica video TikTok senza watermark con lo Scaricatore Video TikTok Online in full HD tramite Tiktokio. Il più veloce scaricatore TikTok online in pochi secondi',
+'tvd.title': 'TikTokio Scaricatore Video TikTok Senza Filigrana Gratis HD',
+'tvd.description': 'TikTokio è un modo rapido per scaricare video TikTok senza filigrana online. Gratis al 100% con download illimitati. Nessuna app né registrazione necessaria.',
 'tvd.keywords': 'TikTokio, scaricatore video TikTok, scarica video TikTok, scaricatore TikTok gratuito, salva video TikTok, scaricatore TikTok online',
 // TikTok Downloader Page metadata
-'td.title': 'Tiktokio Scaricatore TikTok – Download Gratuito Senza Watermark in HD',
-'td.description': 'Tiktokio Scaricatore TikTok rimuove istantaneamente i watermark. Scarica video e audio TikTok in HD gratuitamente su mobile o PC. Veloce, sicuro, nessuna app richiesta.',
+'td.title': 'TikTokio Downloader TikTok – Gratis Senza Filigrana HD',
+'td.description': 'Usa TikTokio per salvare video TikTok in HD senza filigrana, veloce e gratis. Nessuna app né registrazione necessaria. Funziona su iPhone, Android e PC.',
 'td.keywords': 'TikTokio, scaricatore TikTok senza watermark, salva video TikTok online, come scaricare video TikTok, miglior strumento scaricatore TikTok, sito scaricatore TikTok, app scaricatore video TikTok, salvataggio video TikTok gratuito, scarica TikTok MP4',
 // Download TikTok Video Page metadata
-'dtv.title': 'Tiktokio Scarica Video TikTok Senza Watermark – Veloce e in HD Gratuito',
-'dtv.description': 'Con Tiktokio scarica video TikTok in full HD senza watermark in pochi secondi. Il più veloce scaricatore Tiktokio gratuito con download illimitati.',
+'dtv.title': 'Scarica Video TikTok Senza Filigrana – TikTokio Gratis',
+'dtv.description': 'Scarica Video TikTok senza filigrana – TikTokio. Funziona su iPhone, Android e PC. Salva video MP4 o audio MP3 in pochi secondi.',
 'dtv.keywords': 'TikTokio, scarica video TikTok senza watermark, scaricatore video TikTok online, scaricatore TikTok gratuito, scarica video TikTok online, salva video TikTok senza watermark',
 // Download Foto Tiktok Page metadata
-'dft.title': 'Scaricatore Foto TikTok – Scarica Immagini Slideshow Senza Watermark',
-'dft.description': 'Scarica Foto TikTok. Scarica slideshow e caroselli di foto TikTok senza watermark in full HD in pochi secondi. Gratuito, senza login, funziona su iPhone e Android!',
+'dft.title': 'Scarica Foto TikTok – Senza Filigrana | TikTokio',
+'dft.description': 'Scarica slideshow e foto carosello di TikTok senza filigrana in piena qualità HD. Salva video MP4 o audio MP3 in pochi secondi.',
 'dft.keywords': 'scaricatore foto tiktok senza watermark, scarica immagini slideshow tiktok, salva carosello foto tiktok senza watermark, scaricatore foto tiktok 2025, scarica tutte le foto da un post tiktok',
 // Musically Down Page metadata
-'md.title': 'Musically Down - Scarica Video TikTok Senza Watermark Online',
-'md.description': 'Musically Down scaricatore video TikTok! Scarica video TikTok con o senza watermark online. Salva video TikTok in HD e MP3 da qualsiasi dispositivo.',
+'md.title': 'Musically Down – Scaricatore Video TikTok Senza Filigrana',
+'md.description': 'Musically Down ti permette di scaricare video TikTok senza filigrana in HD completo. Salva video MP4 o audio MP3 in pochi secondi.',
 'md.keywords': 'TikTokio, musicallydown, musically down, musicallydown com, mussically down.com, musicallydown.com tiktok',
 // Savefrom Download From Tiktok Page metadata
-'savef.title': 'SaveFrom - Download Video TikTok - Scaricatore Tiktok Savefromnet',
-'savef.description': 'Scopri il più veloce scaricatore video TikTok di savefromnet. Scarica qualsiasi video TikTok in HD senza watermark in pochi secondi. Inizia subito a scaricare!',
+'savef.title': 'SaveFrom – Scaricatore Video TikTok Senza Filigrana',
+'savef.description': 'Usa SaveFrom per salvare video TikTok in HD senza filigrana, veloce e gratis. Gratis al 100% con download illimitati. Nessuna app né registrazione necessaria.',
 'savef.keywords': 'TikTokio, download video tiktok, scaricatore video tiktok, scarica video tiktok, download video tiktok senza watermark, scarica video tiktok',
 // Savetik Downloader Page metadata
-'savetik.title': 'SaveTik Downloader - Salva Video Tiktok Senza WaterMark Gratuitamente',
-'savetik.description': 'SaveTik Downloader è uno scaricatore video Tiktok senza watermark. Puoi salvare video TikTok da qualsiasi dispositivo.',
+'savetik.title': 'SaveTik – Scaricatore Video TikTok Senza Filigrana',
+'savetik.description': 'SaveTik è un modo rapido per scaricare video TikTok senza filigrana online. Nessuna app né registrazione necessaria. Funziona su iPhone, Android e PC.',
 'savetik.keywords': 'TikTokio, scarica video TikTok senza watermark, scaricatore video TikTok online, scaricatore TikTok gratuito, scarica video TikTok online, salva video TikTok senza watermark',
 // Savett Page metadata
-'savett.title': 'SaveTT - Salva Video TikTok Senza Watermark in Secondi',
-'savett.description': 'SaveTT è il modo migliore per scaricare video TikTok online in pochi secondi. Usa SaveTT per salvare video tiktok in HD senza watermark. Veloce, gratuito e funziona su tutti i dispositivi.',
+'savett.title': 'SaveTT – Scaricatore Video TikTok Senza Filigrana',
+'savett.description': 'SaveTT ti permette di scaricare video TikTok senza filigrana in HD completo. Funziona su iPhone, Android e PC. Salva video MP4 o audio MP3 in pochi secondi.',
 'savett.keywords': 'TikTokio, SaveTT, save tt, salva tiktok, salvataggio tiktok, download video TikTok senza watermark, scaricatore video TikTok online, scaricatore TikTok gratuito, scarica video TikTok online, salva video TikTok senza watermark',
 // SnapTik Page metadata
-'snaptik.title': 'SnapTik - Scaricatore Video TT Scarica Video TikTok Senza Watermark',
-'snaptik.description': 'SnapTik - Scarica istantaneamente video TikTok con SnapTik - Salvataggio Video Tik. SnapTik è un gratuito scaricatore video TikTok che ti permette di scaricare video TikTok.',
+'snaptik.title': 'SnapTik – Scaricatore Video TikTok Senza Filigrana',
+'snaptik.description': 'Usa SnapTik per salvare video TikTok in HD senza filigrana, veloce e gratis. Salva video MP4 o audio MP3 in pochi secondi. Funziona su iPhone, Android e PC.',
 'snaptik.keywords': 'TikTokio, snaptik, scarica video tiktok, scarica tiktok, scaricatore tiktok, scarica video tiktok senza watermark',
 // SssTik Page metadata
-'ssstik.title': 'SSSTik - Scaricatore TikTok Scarica Video TikTok Online',
-'ssstik.description': 'ssstiktok ti permette di scaricare istantaneamente video tiktok. Il più veloce scaricatore tiktok per salvare video TT in alta qualità da TikTok a MP4. Salva video da TiKTok su Tutti i Tipi di Dispositivi.',
+'ssstik.title': 'SSSTik – Scaricatore Video TikTok Senza Filigrana',
+'ssstik.description': 'SSSTik è un modo rapido per scaricare video TikTok senza filigrana online. Gratis al 100% con download illimitati. Nessuna app né registrazione necessaria.',
 'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, ssstik.io mp3, ssstik. io',
 // SssTikTok Page metadata
-'ssstiktok.title': 'SSSTikTok - Scaricatore TikTok Senza Watermark Scarica Video TikTok Online',
-'ssstiktok.description': 'SSSTikTok scaricatore video TikTok online è un servizio gratuito per scaricare video TikTok senza watermark in formato alta qualità. Download video TikTok in Mp4.',
+'ssstiktok.title': 'SSSTikTok – Scaricatore Video TikTok Senza Filigrana',
+'ssstiktok.description': 'SSSTikTok ti permette di scaricare video TikTok senza filigrana in HD completo. Nessuna app né registrazione necessaria. Funziona su iPhone, Android e PC.',
 'ssstiktok.keywords': 'TikTokio, scarica video TikTok senza watermark, scaricatore video TikTok online, scaricatore TikTok gratuito, scarica video TikTok online, salva video TikTok senza watermark',
 // Tikmate Page metadata
-'tikmate.title': 'Tikmate - Scarica video tiktok, Scaricatore Tiktok MP4 gratuito',
-'tikmate.description': 'Tikmate è uno scaricatore video TikTok veloce e semplice, senza watermark e in HD. Tikmate scaricatore è il migliore per salvare video con o senza watermark senza login né informazioni utente',
+'tikmate.title': 'Tikmate – Scaricatore Video TikTok Senza Filigrana',
+'tikmate.description': 'Usa Tikmate per salvare video TikTok in HD senza filigrana, veloce e gratis. Funziona su iPhone, Android e PC. Salva video MP4 o audio MP3 in pochi secondi.',
 'tikmate.keywords': 'TikTokio, scarica video tiktok senza watermark, scaricatore tikmate online, scaricatore TikTok gratuito, scarica video TikTok online, salva video TikTok senza watermark',
 // Tiksave Page metadata
-'tiksave.title': 'Tiktokio - Scarica Video TikTok Online Senza Watermark Facilmente',
-'tiksave.description': 'Scarica facilmente video TikTok senza watermark con lo scaricatore Tiktokio gratuito. Salva video Tiktok in formato MP4. Nessuna registrazione richiesta, download gratuiti su tutti i dispositivi.',
+'tiksave.title': 'TikSave – Scaricatore Video TikTok Senza Filigrana',
+'tiksave.description': 'TikSave è un modo rapido per scaricare video TikTok senza filigrana online. Salva video MP4 o audio MP3 in pochi secondi. Funziona su iPhone, Android e PC.',
 'tiksave.keywords': 'TikTokio, scarica video TikTok senza watermark, scaricatore video TikTok online, scaricatore TikTok gratuito, scarica video TikTok online, salva video TikTok senza watermark',
 // TikToksss Page metadata
-'tiktoksss.title': 'Tiktokio - Scarica Video TikTok Online Senza Watermark Facilmente',
-'tiktoksss.description': 'Scarica facilmente video TikTok senza watermark con lo scaricatore Tiktokio gratuito. Salva video Tiktok in formato MP4. Nessuna registrazione richiesta, download gratuiti su tutti i dispositivi.',
+'tiktoksss.title': 'TikTokSSS – Scaricatore Video TikTok Senza Filigrana',
+'tiktoksss.description': 'TikTokSSS ti permette di scaricare video TikTok senza filigrana in HD completo. Gratis al 100% con download illimitati. Funziona su iPhone, Android e PC.',
 'tiktoksss.keywords': 'TikTokio, scarica video TikTok senza watermark, scaricatore video TikTok online, scaricatore TikTok gratuito, scarica video TikTok online, salva video TikTok senza watermark',
 // Tmate Page metadata
-'tmate.title': 'Tiktokio - Scarica Video TikTok Online Senza Watermark Facilmente',
-'tmate.description': 'Scarica facilmente video TikTok senza watermark con lo scaricatore Tiktokio gratuito. Salva video Tiktok in formato MP4. Nessuna registrazione richiesta, download gratuiti su tutti i dispositivi.',
+'tmate.title': 'Tmate – Scaricatore Video TikTok Senza Filigrana',
+'tmate.description': 'Usa Tmate per salvare video TikTok in HD senza filigrana, veloce e gratis. Nessuna app né registrazione necessaria. Funziona su iPhone, Android e PC.',
 'tmate.keywords': 'TikTokio, scarica video TikTok senza watermark, scaricatore video TikTok online, scaricatore TikTok gratuito, scarica video TikTok online, salva video TikTok senza watermark',
 // Ttdownloader Page metadata
-'ttdownloader.title': 'Tiktokio - Scarica Video TikTok Online Senza Watermark Facilmente',
-'ttdownloader.description': 'Scarica facilmente video TikTok senza watermark con lo scaricatore Tiktokio gratuito. Salva video Tiktok in formato MP4. Nessuna registrazione richiesta, download gratuiti su tutti i dispositivi.',
+'ttdownloader.title': 'TTDownloader – Scaricatore Video TikTok Senza Filigrana',
+'ttdownloader.description': 'TTDownloader è un modo rapido per scaricare video TikTok senza filigrana online. Funziona su iPhone, Android e PC. Gratis al 100% con download illimitati.',
 'ttdownloader.keywords': 'TikTokio, scarica video TikTok senza watermark, scaricatore video TikTok online, scaricatore TikTok gratuito, scarica video TikTok online, salva video TikTok senza watermark',
 
 // Hero section
@@ -1375,93 +1391,101 @@ it: {
 // Blog section
 'blog.prev': 'Precedente',
 'blog.next': 'Successivo',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'Scarica Miniature TikTok – Senza Filigrana | TikTokio',
+    'thumb.description': 'Salva la miniatura o l\'immagine di copertina di qualsiasi video TikTok in HD. Gratis al 100% con download illimitati. Nessuna app né registrazione necessaria.',
+    'terms.title': 'Termini e Condizioni – TikTokio',
+    'terms.description': 'Leggi i Termini e Condizioni di TikTokio: responsabilità degli utenti, uso dei contenuti, privacy e limiti di responsabilità del servizio.',
+    'blog.meta.title': 'Blog TikTokio – Guide e Consigli per Scaricare TikTok',
+    'blog.meta.description': 'Leggi il blog di TikTokio per guide, consigli e trucchi sui download TikTok. Scopri come salvare video TikTok senza filigrana in HD.',
+    'blog.post_suffix': 'Scopri di più su TikTokio, il downloader di video TikTok gratuito senza filigrana.',
 },
 
 ar: {
   
   // Main Site metadata
-	'site.title': 'TikTokio - أداة تحميل فيديوهات تيك توك مجانية بدون علامة مائية أونلاين',
-    'site.description': 'TikTokio – الأداة رقم 1 لتحميل فيديوهات تيك توك أونلاين مجاناً وبدون علامة مائية لعدد غير محدود من التحميلات. قم بتحميل فيديوهات تيك توك عبر الرابط بجودة HD.',
+	'site.title': 'TikTokio – تحميل فيديو تيك توك بدون علامة مائية',
+    'site.description': 'يتيح لك TikTokio تحميل فيديوهات تيك توك بدون علامة مائية بجودة HD كاملة. احفظ فيديو MP4 أو صوت MP3 في ثوانٍ معدودة. مجاني 100% مع تحميلات غير محدودة.',
 	'site.keywords': 'TikTokio, أداة تحميل فيديوهات تيك توك أونلاين, تحميل فيديو تيك توك, تحميلات تيك توك غير محدودة, محمل تيك توك مجاني, حفظ فيديوهات تيك توك, محمل تيك توك أونلاين',
 
 	// TikTok Video Downloader Page metadata
-    'tvd.title': 'TikTokio – أداة تحميل فيديوهات تيك توك بدون علامة مائية مجانية بجودة HD',
-    'tvd.description': 'قم بتحميل فيديوهات تيك توك بدون علامة مائية باستخدام أداة تحميل تيك توك أونلاين بجودة Full HD عبر TikTokio. أسرع أداة تحميل تيك توك في ثوانٍ.',
+    'tvd.title': 'TikTokio تحميل فيديو تيك توك بدون علامة مائية مجانًا HD',
+    'tvd.description': 'TikTokio طريقة سريعة لتحميل فيديوهات تيك توك بدون علامة مائية عبر الإنترنت. مجاني 100% مع تحميلات غير محدودة. لا حاجة لتثبيت تطبيق أو تسجيل حساب.',
     'tvd.keywords': 'TikTokio, أداة تحميل فيديوهات تيك توك, تحميل فيديو تيك توك, محمل تيك توك مجاني, حفظ فيديوهات تيك توك, محمل تيك توك أونلاين',
     
 	// TikTok Downloader Page metadata
-	'td.title': 'TikTokio TikTok Downloader – تحميل مجاني بجودة HD وبدون علامة مائية',
-    'td.description': 'أداة TikTokio لتحميل تيك توك تزيل العلامات المائية فوراً. قم بتحميل فيديوهات وأصوات تيك توك بجودة HD مجاناً على الهاتف أو الكمبيوتر. سريع، آمن، وبدون تطبيقات.',
+	'td.title': 'TikTokio تحميل تيك توك – مجانًا بدون علامة مائية HD',
+    'td.description': 'استخدم TikTokio لحفظ فيديوهات تيك توك بجودة HD بدون علامة مائية بسرعة ومجانًا. لا حاجة لتثبيت تطبيق أو تسجيل حساب. يعمل على iPhone وAndroid والكمبيوتر.',
     'td.keywords': 'TikTokio, تحميل تيك توك بدون علامة مائية, حفظ فيديوهات تيك توك أونلاين, كيف أحمل فيديوهات تيك توك, أفضل أداة تحميل تيك توك, موقع تحميل تيك توك, تطبيق تحميل فيديو تيك توك, حافظ فيديوهات تيك توك مجاني, تحميل تيك توك MP4',
     
 	// Download TikTok Video Page metadata
-	'dtv.title': 'TikTokio تحميل فيديو تيك توك بدون علامة مائية – مجاني وسريع بجودة HD',
-    'dtv.description': 'مع TikTokio قم بتحميل فيديو تيك توك بجودة Full HD بدون علامة مائية في ثوانٍ. أسرع أداة تحميل TikTokio مجانية مع تحميلات غير محدودة.',
+	'dtv.title': 'تحميل فيديو تيك توك بدون علامة مائية – TikTokio مجانًا',
+    'dtv.description': 'تحميل فيديو تيك توك بدون علامة مائية – TikTokio. يعمل على iPhone وAndroid والكمبيوتر. احفظ فيديو MP4 أو صوت MP3 في ثوانٍ معدودة.',
     'dtv.keywords': 'TikTokio, تحميل فيديوهات تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
 
 	// Download Foto Tiktok Page metadata
-	'dft.title': 'TikTok Photo Downloader – تحميل صور السلايدشو بدون علامة مائية',
-    'dft.description': 'تحميل صور تيك توك. قم بتحميل سلايدشو وصور تيك توك بدون علامة مائية بجودة Full HD في ثوانٍ. مجاني، بدون تسجيل دخول، ويعمل على آيفون وأندرويد!',
+	'dft.title': 'تحميل صور تيك توك – بدون علامة مائية | TikTokio',
+    'dft.description': 'حمّل صور وشرائح تيك توك بدون علامة مائية بجودة HD كاملة. احفظ فيديو MP4 أو صوت MP3 في ثوانٍ معدودة. مجاني 100% مع تحميلات غير محدودة.',
     'dft.keywords': 'تحميل صور تيك توك بدون علامة مائية, تحميل صور سلايدشو تيك توك, حفظ صور تيك توك بدون علامة مائية, أداة تحميل صور تيك توك 2025, تحميل كل الصور من منشور تيك توك',
 
 	// Musically Down Page metadata
-	'md.title': 'Musically Down - تحميل فيديوهات تيك توك بدون علامة مائية أونلاين',
-    'md.description': 'محمل فيديوهات تيك توك Musically Download! قم بتحميل فيديوهات تيك توك بالعلامة المائية أو بدونها أونلاين. احفظ فيديوهات تيك توك بجودة HD وMP3 من أي جهاز.',
+	'md.title': 'Musically Down – تحميل فيديو تيك توك بدون علامة مائية',
+    'md.description': 'يتيح لك Musically Down تحميل فيديوهات تيك توك بدون علامة مائية بجودة HD كاملة. احفظ فيديو MP4 أو صوت MP3 في ثوانٍ معدودة. مجاني 100% مع تحميلات غير محدودة.',
     'md.keywords': 'TikTokio, musicallydown, musically down, musicallydown com, mussically down.com, musicallydown.com tiktok',
 
 	// Savefrom Download From Tiktok Page metadata
-	'savef.title': 'SaveFrom - تحميل فيديوهات تيك توك - Savefromnet Tiktok Downloader',
-    'savef.description': 'اكتشف أسرع أداة تحميل فيديوهات تيك توك من savefromnet. قم بتحميل أي فيديو تيك توك بجودة HD وبدون علامة مائية في ثوانٍ. ابدأ التحميل الآن!',
+	'savef.title': 'SaveFrom – تحميل فيديو تيك توك بدون علامة مائية',
+    'savef.description': 'استخدم SaveFrom لحفظ فيديوهات تيك توك بجودة HD بدون علامة مائية بسرعة ومجانًا. مجاني 100% مع تحميلات غير محدودة. لا حاجة لتثبيت تطبيق أو تسجيل حساب.',
     'savef.keywords': 'TikTokio, تحميل تيك توك, أداة تحميل تيك توك, تحميل فيديو من تيك توك, تحميل فيديوهات تيك توك بدون علامة مائية, تنزيل فيديو تيك توك',
 
 	// Savetik Downloader Page metadata
-	'savetik.title': 'SaveTik Downloader - حفظ فيديوهات تيك توك بدون علامة مائية مجاناً',
-    'savetik.description': 'SaveTik Downloader هو محمل فيديوهات تيك توك بدون علامة مائية. يمكنك حفظ فيديوهات تيك توك من أي جهاز.',
+	'savetik.title': 'SaveTik – تحميل فيديو تيك توك بدون علامة مائية',
+    'savetik.description': 'SaveTik طريقة سريعة لتحميل فيديوهات تيك توك بدون علامة مائية عبر الإنترنت. لا حاجة لتثبيت تطبيق أو تسجيل حساب. يعمل على iPhone وAndroid والكمبيوتر.',
     'savetik.keywords': 'TikTokio, تحميل فيديو تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
 
 	// Savett Page metadata
-	'savett.title': 'SaveTT - حفظ فيديوهات تيك توك بدون علامة مائية في ثوانٍ',
-    'savett.description': 'SaveTT هو أفضل طريقة لتحميل فيديوهات تيك توك أونلاين في ثوانٍ. استخدم SaveTT لحفظ فيديوهات تيك توك بجودة HD وبدون علامات مائية. سريع، مجاني ويعمل على جميع الأجهزة.',
+	'savett.title': 'SaveTT – تحميل فيديو تيك توك بدون علامة مائية',
+    'savett.description': 'يتيح لك SaveTT تحميل فيديوهات تيك توك بدون علامة مائية بجودة HD كاملة. يعمل على iPhone وAndroid والكمبيوتر. احفظ فيديو MP4 أو صوت MP3 في ثوانٍ معدودة.',
     'savett.keywords': 'TikTokio, SaveTT, save tt, save tiktok, tiktok save, حفظ تيك توك, تحميل فيديو تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
 
 	// SnapTik Page metadata
-	'snaptik.title': 'SnapTik - TT Video Downloader تحميل فيديوهات تيك توك بدون علامة مائية',
-    'snaptik.description': 'SnapTik - قم بتحميل فيديوهات تيك توك فوراً باستخدام SnapTik. سناب تيك هو أداة تحميل فيديوهات تيك توك مجانية تتيح لك تحميل الفيديوهات.',
+	'snaptik.title': 'SnapTik – تحميل فيديو تيك توك بدون علامة مائية',
+    'snaptik.description': 'استخدم SnapTik لحفظ فيديوهات تيك توك بجودة HD بدون علامة مائية بسرعة ومجانًا. احفظ فيديو MP4 أو صوت MP3 في ثوانٍ معدودة. مجاني 100% مع تحميلات غير محدودة.',
     'snaptik.keywords': 'TikTokio, snaptik, تحميل فيديو تيك توك, تحميل تيك توك, محمل تيك توك, تحميل فيديو تيك توك بدون علامة مائية',
 
 	// SssTik Page metadata
-	'ssstik.title': 'SSSTik - TikTok Downloader تحميل فيديوهات تيك توك أونلاين.',
-    'ssstik.description': 'ssstiktok تتيح لك تحميل فيديوهات تيك توك فوراً. أسرع أداة تحميل تيك توك لحفظ فيديوهات TT بجودة عالية وتحويل تيك توك إلى MP4. احفظ الفيديوهات من تيك توك على جميع الأجهزة.',
+	'ssstik.title': 'SSSTik – تحميل فيديو تيك توك بدون علامة مائية',
+    'ssstik.description': 'SSSTik طريقة سريعة لتحميل فيديوهات تيك توك بدون علامة مائية عبر الإنترنت. مجاني 100% مع تحميلات غير محدودة. لا حاجة لتثبيت تطبيق أو تسجيل حساب.',
     'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, ssstik.io mp3, ssstik. io',
 
 	// SssTikTok Page metadata
-	'ssstiktok.title': 'SSSTikTok - محمل تيك توك بدون علامة مائية تحميل فيديو تيك توك أونلاين',
-    'ssstiktok.description': 'أداة SSSTikTok لتحميل فيديوهات تيك توك أونلاين هي خدمة مجانية لتحميل الفيديوهات بدون علامة مائية وبجودة عالية. تحويل تيك توك إلى فيديو Mp4.',
+	'ssstiktok.title': 'SSSTikTok – تحميل فيديو تيك توك بدون علامة مائية',
+    'ssstiktok.description': 'يتيح لك SSSTikTok تحميل فيديوهات تيك توك بدون علامة مائية بجودة HD كاملة. لا حاجة لتثبيت تطبيق أو تسجيل حساب. يعمل على iPhone وAndroid والكمبيوتر.',
     'ssstiktok.keywords': 'TikTokio, تحميل فيديو تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
 
 	// Tikmate Page metadata
-	'tikmate.title': 'Tikmate - تحميل فيديو تيك توك، محمل تيك توك MP4 مجاني',
-    'tikmate.description': 'Tikmate هو أداة تحميل تيك توك سريعة وسهلة، بدون علامة مائية وبجودة HD. Tikmate هو الأفضل لحفظ الفيديوهات بالعلامة المائية أو بدونها وبدون تسجيل دخول.',
+	'tikmate.title': 'Tikmate – تحميل فيديو تيك توك بدون علامة مائية',
+    'tikmate.description': 'استخدم Tikmate لحفظ فيديوهات تيك توك بجودة HD بدون علامة مائية بسرعة ومجانًا. يعمل على iPhone وAndroid والكمبيوتر. احفظ فيديو MP4 أو صوت MP3 في ثوانٍ معدودة.',
     'tikmate.keywords': 'TikTokio, تحميل فيديو تيك توك بدون علامة مائية, tikmate أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
 
 	// Tiksave Page metadata
-	'tiksave.title': 'TikTokio - تحميل فيديوهات تيك توك أونلاين بدون علامة مائية بسهولة',
-    'tiksave.description': 'قم بتحميل فيديوهات تيك توك بسهولة بدون علامة مائية باستخدام أداة TikTokio المجانية. احفظ فيديو تيك توك بصيغة MP4. بدون تسجيل، تحميلات مجانية على جميع الأجهزة.',
+	'tiksave.title': 'TikSave – تحميل فيديو تيك توك بدون علامة مائية',
+    'tiksave.description': 'TikSave طريقة سريعة لتحميل فيديوهات تيك توك بدون علامة مائية عبر الإنترنت. احفظ فيديو MP4 أو صوت MP3 في ثوانٍ معدودة. مجاني 100% مع تحميلات غير محدودة.',
     'tiksave.keywords': 'TikTokio, تحميل فيديو تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
 
 	// TikToksss Page metadata
-	'tiktoksss.title': 'TikTokio - تحميل فيديوهات تيك توك أونلاين بدون علامة مائية بسهولة',
-    'tiktoksss.description': 'قم بتحميل فيديوهات تيك توك بسهولة بدون علامة مائية باستخدام أداة TikTokio المجانية. احفظ فيديو تيك توك بصيغة MP4. بدون تسجيل، تحميلات مجانية على جميع الأجهزة.',
+	'tiktoksss.title': 'TikTokSSS – تحميل فيديو تيك توك بدون علامة مائية',
+    'tiktoksss.description': 'يتيح لك TikTokSSS تحميل فيديوهات تيك توك بدون علامة مائية بجودة HD كاملة. مجاني 100% مع تحميلات غير محدودة. لا حاجة لتثبيت تطبيق أو تسجيل حساب.',
     'tiktoksss.keywords': 'TikTokio, تحميل فيديو تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
 
 	// Tmate Page metadata
-	'tmate.title': 'TikTokio - تحميل فيديوهات تيك توك أونلاين بدون علامة مائية بسهولة',
-    'tmate.description': 'قم بتحميل فيديوهات تيك توك بسهولة بدون علامة مائية باستخدام أداة TikTokio المجانية. احفظ فيديو تيك توك بصيغة MP4. بدون تسجيل، تحميلات مجانية على جميع الأجهزة.',
+	'tmate.title': 'Tmate – تحميل فيديو تيك توك بدون علامة مائية',
+    'tmate.description': 'استخدم Tmate لحفظ فيديوهات تيك توك بجودة HD بدون علامة مائية بسرعة ومجانًا. لا حاجة لتثبيت تطبيق أو تسجيل حساب. يعمل على iPhone وAndroid والكمبيوتر.',
     'tmate.keywords': 'TikTokio, تحميل فيديو تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
 
 	// Ttdownloader Page metadata
-	'ttdownloader.title': 'TikTokio - تحميل فيديوهات تيك توك أونلاين بدون علامة مائية بسهولة',
-    'ttdownloader.description': 'قم بتحميل فيديوهات تيك توك بسهولة بدون علامة مائية باستخدام أداة TikTokio المجانية. احفظ فيديو تيك توك بصيغة MP4. بدون تسجيل، تحميلات مجانية على جميع الأجهزة.',
+	'ttdownloader.title': 'TTDownloader – تحميل فيديو تيك توك بدون علامة مائية',
+    'ttdownloader.description': 'TTDownloader طريقة سريعة لتحميل فيديوهات تيك توك بدون علامة مائية عبر الإنترنت. يعمل على iPhone وAndroid والكمبيوتر. مجاني 100% مع تحميلات غير محدودة.',
     'ttdownloader.keywords': 'TikTokio, تحميل فيديو تيك توك بدون علامة مائية, أداة تحميل فيديوهات تيك توك أونلاين, محمل تيك توك مجاني, تحميل فيديوهات تيك توك أونلاين, حفظ فيديوهات تيك توك بدون علامة مائية',
  
     // Hero section
@@ -1850,93 +1874,101 @@ ar: {
     // Blog section
     'blog.prev': 'السابق',
     'blog.next': 'التالي',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'تحميل غلاف تيك توك – بدون علامة مائية | TikTokio',
+    'thumb.description': 'احفظ الصورة المصغرة أو غلاف أي فيديو تيك توك بجودة HD الأصلية. مجاني 100% مع تحميلات غير محدودة. لا حاجة لتثبيت تطبيق أو تسجيل حساب.',
+    'terms.title': 'الشروط والأحكام – TikTokio',
+    'terms.description': 'اقرأ شروط وأحكام TikTokio التي تشرح مسؤوليات المستخدم وقواعد استخدام المحتوى والخصوصية وحدود المسؤولية في خدمتنا المجانية.',
+    'blog.meta.title': 'مدونة TikTokio – نصائح وأدلة تحميل تيك توك',
+    'blog.meta.description': 'تصفح مدونة TikTokio لأدلة ونصائح وحيل تحميل تيك توك. تعلم كيف تحفظ فيديوهات تيك توك بدون علامة مائية بجودة HD وتابع آخر التحديثات.',
+    'blog.post_suffix': 'اقرأ المزيد على TikTokio، أداة تحميل فيديوهات تيك توك المجانية بدون علامة مائية.',
   },
 
   fr: {
   
   // Main Site metadata
-	'site.title': 'TikTokio - Téléchargeur Vidéo TikTok en Ligne Gratuit Sans Filigrane',
-    'site.description': 'TikTokio – Le meilleur téléchargeur de vidéos TikTok en ligne gratuit sans filigrane pour des téléchargements illimités. Téléchargez des vidéos TikTok via lien en HD.',
+	'site.title': 'TikTokio – Téléchargeur Vidéo TikTok Sans Filigrane',
+    'site.description': 'TikTokio vous permet de télécharger des vidéos TikTok sans filigrane en HD. Enregistrez des vidéos MP4 ou de l\'audio MP3 en quelques secondes.',
 	'site.keywords': 'TikTokio, téléchargeur vidéo TikTok en ligne, télécharger vidéo TikTok, téléchargements TikTok illimités, téléchargeur TikTok gratuit, enregistrer vidéos TikTok, TikTok downloader online',
 
 	// TikTok Video Downloader Page metadata
-    'tvd.title': 'TikTokio – Téléchargeur Vidéo TikTok Sans Filigrane Gratuit HD',
-    'tvd.description': 'Téléchargez des vidéos TikTok sans filigrane avec le téléchargeur TikTok en ligne en full HD via TikTokio. Le téléchargeur TikTok le plus rapide en quelques secondes.',
+    'tvd.title': 'TikTokio Téléchargeur Vidéo TikTok Sans Filigrane Gratuit HD',
+    'tvd.description': 'TikTokio est un moyen rapide de télécharger des vidéos TikTok sans filigrane. 100 % gratuit, téléchargements illimités. Sans application ni inscription.',
     'tvd.keywords': 'TikTokio, téléchargeur vidéo TikTok, télécharger vidéo TikTok, téléchargeur TikTok gratuit, enregistrer vidéos TikTok, TikTok downloader online',
     
 	// TikTok Downloader Page metadata
-	'td.title': 'TikTokio TikTok Downloader – Téléchargement HD Gratuit Sans Filigrane',
-    'td.description': 'TikTokio TikTok Downloader supprime instantanément les filigranes. Téléchargez des vidéos et sons TikTok en HD gratuitement sur mobile ou PC. Rapide, sûr, sans application.',
+	'td.title': 'TikTokio Téléchargeur TikTok – Gratuit Sans Filigrane HD',
+    'td.description': 'Utilisez TikTokio pour enregistrer des vidéos TikTok HD sans filigrane, vite et gratuit. Sans application ni inscription. Compatible iPhone, Android et PC.',
     'td.keywords': 'TikTokio, téléchargeur TikTok sans filigrane, enregistrer vidéos TikTok en ligne, comment télécharger vidéos TikTok, meilleur outil de téléchargement TikTok, site web TikTok downloader, application téléchargement vidéo TikTok, sauvegarde vidéo TikTok gratuite, télécharger TikTok MP4',
     
 	// Download TikTok Video Page metadata
-	'dtv.title': 'TikTokio Télécharger Vidéo TikTok Sans Filigrane – Gratuit HD Rapide',
-    'dtv.description': 'Avec TikTokio, téléchargez des vidéos TikTok en full HD sans filigrane en quelques secondes. Le téléchargeur TikTokio gratuit le plus rapide avec téléchargements illimités.',
+	'dtv.title': 'Télécharger Vidéo TikTok Sans Filigrane – TikTokio Gratuit',
+    'dtv.description': 'Télécharger Vidéo TikTok sans filigrane – TikTokio. Compatible iPhone, Android et PC. Enregistrez des vidéos MP4 ou de l\'audio MP3 en quelques secondes.',
     'dtv.keywords': 'TikTokio, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
 
 	// Download Foto Tiktok Page metadata
-	'dft.title': 'TikTok Photo Downloader – Télécharger Diaporamas Photos Sans Filigrane',
-    'dft.description': 'Télécharger Photo TikTok. Téléchargez des diaporamas et carrousels de photos TikTok sans filigrane en full HD en quelques secondes. Gratuit, sans inscription, fonctionne sur iPhone et Android !',
+	'dft.title': 'Télécharger Photo TikTok – Sans Filigrane | TikTokio',
+    'dft.description': 'Téléchargez les diaporamas et photos carrousel TikTok sans filigrane en pleine HD. Enregistrez des vidéos MP4 ou de l\'audio MP3 en quelques secondes.',
     'dft.keywords': 'téléchargeur photo tiktok sans filigrane, télécharger images diaporama tiktok, enregistrer carrousel photo tiktok sans filigrane, tiktok photo downloader 2025, télécharger toutes les photos d’un post tiktok',
 
 	// Musically Down Page metadata
-	'md.title': 'Musically Down - Télécharger Vidéo TikTok Sans Filigrane En Ligne',
-    'md.description': 'Téléchargeur de vidéos TikTok Musically Down ! Téléchargez des vidéos TikTok avec ou sans filigrane en ligne. Enregistrez des vidéos TikTok en HD et MP3 depuis n’importe quel appareil.',
+	'md.title': 'Musically Down – Téléchargeur Vidéo TikTok Sans Filigrane',
+    'md.description': 'Musically Down vous permet de télécharger des vidéos TikTok sans filigrane en HD. Enregistrez des vidéos MP4 ou de l\'audio MP3 en quelques secondes.',
     'md.keywords': 'TikTokio, musicallydown, musically down, musicallydown com, mussically down.com, musicallydown.com tiktok',
 
 	// Savefrom Download From Tiktok Page metadata
-	'savef.title': 'SaveFrom - Téléchargements Vidéo TikTok - Savefromnet Tiktok Downloader',
-    'savef.description': 'Découvrez le téléchargeur vidéo TikTok le plus rapide par savefromnet. Téléchargez n’importe quelle vidéo TikTok en HD sans filigrane en quelques secondes. Commencez à télécharger maintenant !',
+	'savef.title': 'SaveFrom – Téléchargeur Vidéo TikTok Sans Filigrane',
+    'savef.description': 'Utilisez SaveFrom pour enregistrer des vidéos TikTok HD sans filigrane, vite et gratuit. 100 % gratuit, téléchargements illimités.',
     'savef.keywords': 'TikTokio, téléchargement vidéo tiktok, téléchargeur vidéo tiktok, télécharger vidéo tiktok, téléchargement vidéo tiktok sans filigrane, télécharger vidéo tiktok',
 
 	// Savetik Downloader Page metadata
-	'savetik.title': 'SaveTik Downloader - Enregistrer Vidéos TikTok Sans Filigrane Gratuit',
-    'savetik.description': 'SaveTik Downloader est un téléchargeur de vidéos Tiktok sans filigrane. Vous pouvez enregistrer des vidéos TikTok depuis n’importe quel appareil.',
+	'savetik.title': 'SaveTik – Téléchargeur Vidéo TikTok Sans Filigrane',
+    'savetik.description': 'SaveTik est un moyen rapide de télécharger des vidéos TikTok sans filigrane. Sans application ni inscription. Compatible iPhone, Android et PC.',
     'savetik.keywords': 'TikTokio, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
 
 	// Savett Page metadata
-	'savett.title': 'SaveTT - Enregistrer Vidéos TikTok Sans Filigrane en Quelques Secondes',
-    'savett.description': 'SaveTT est le meilleur moyen de télécharger des vidéos TikTok en ligne en quelques secondes. Utilisez SaveTT pour enregistrer des vidéos tiktok en HD sans filigranes. Rapide, gratuit et compatible avec tous les appareils.',
+	'savett.title': 'SaveTT – Téléchargeur Vidéo TikTok Sans Filigrane',
+    'savett.description': 'SaveTT vous permet de télécharger des vidéos TikTok sans filigrane en HD. Compatible iPhone, Android et PC. 100 % gratuit, téléchargements illimités.',
     'savett.keywords': 'TikTokio, SaveTT, save tt, save tiktok, tiktok save, sauvegarde tik tok, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
 
 	// SnapTik Page metadata
-	'snaptik.title': 'SnapTik - TT Video Downloader Télécharger Vidéos TikTok Sans Filigrane',
-    'snaptik.description': 'SnapTik - Téléchargez des vidéos TikTok instantanément avec SnapTik - Tik Videos Saver. SnapTik est un téléchargeur de vidéos TikTok gratuit qui vous permet de télécharger des vidéos TikTok.',
+	'snaptik.title': 'SnapTik – Téléchargeur Vidéo TikTok Sans Filigrane',
+    'snaptik.description': 'Utilisez SnapTik pour enregistrer des vidéos TikTok HD sans filigrane, vite et gratuit. Enregistrez des vidéos MP4 ou de l\'audio MP3 en quelques secondes.',
     'snaptik.keywords': 'TikTokio, snaptik, télécharger vidéo tiktok, download tiktok, téléchargeur tiktok, télécharger vidéo tiktok sans filigrane',
 
 	// SssTik Page metadata
-	'ssstik.title': 'SSSTik - TikTok Downloader Télécharger des vidéos TikTok en ligne.',
-    'ssstik.description': 'ssstiktok vous permet de télécharger des vidéos tiktok instantanément. Le téléchargeur tiktok le plus rapide pour enregistrer des vidéos TT de haute qualité TikTok vers MP4. Enregistrez des vidéos TikTok sur tous types d’appareils.',
+	'ssstik.title': 'SSSTik – Téléchargeur Vidéo TikTok Sans Filigrane',
+    'ssstik.description': 'SSSTik est un moyen rapide de télécharger des vidéos TikTok sans filigrane. 100 % gratuit, téléchargements illimités. Sans application ni inscription.',
     'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, ssstik.io mp3, ssstik. io',
 
 	// SssTikTok Page metadata
-	'ssstiktok.title': 'SSSTikTok - Téléchargeur TikTok Sans Filigrane Télécharger Vidéo TikTok En Ligne',
-    'ssstiktok.description': 'SSSTikTok téléchargeur vidéo TikTok en ligne est un service gratuit pour télécharger des vidéos TikTok sans filigrane en format haute qualité. Téléchargement vidéo TikTok vers Mp4.',
+	'ssstiktok.title': 'SSSTikTok – Téléchargeur Vidéo TikTok Sans Filigrane',
+    'ssstiktok.description': 'SSSTikTok vous permet de télécharger des vidéos TikTok sans filigrane en HD. Sans application ni inscription. Compatible iPhone, Android et PC.',
     'ssstiktok.keywords': 'TikTokio, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
 
 	// Tikmate Page metadata
-	'tikmate.title': 'Tikmate - Télécharger vidéo tiktok, Tiktok downloader MP4 gratuit',
-    'tikmate.description': 'Tikmate est un téléchargeur de vidéos TikTok rapide et facile, sans filigrane et en HD. Le téléchargeur Tikmate est le meilleur pour enregistrer des vidéos avec ou sans filigrane sans inscription.',
+	'tikmate.title': 'Tikmate – Téléchargeur Vidéo TikTok Sans Filigrane',
+    'tikmate.description': 'Utilisez Tikmate pour enregistrer des vidéos TikTok HD sans filigrane, vite et gratuit. Compatible iPhone, Android et PC. Sans application ni inscription.',
     'tikmate.keywords': 'TikTokio, télécharger vidéo tiktok sans filigrane, téléchargeur tikmate en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
 
 	// Tiksave Page metadata
-	'tiksave.title': 'TikTokio - Télécharger Vidéo TikTok En Ligne Sans Filigrane facilement',
-    'tiksave.description': 'Téléchargez facilement des vidéos TikTok sans filigrane avec le téléchargeur TikTokio gratuit. Enregistrez des vidéos TikTok au format MP4. Pas d’inscription, téléchargements gratuits sur tous les appareils.',
+	'tiksave.title': 'TikSave – Téléchargeur Vidéo TikTok Sans Filigrane',
+    'tiksave.description': 'TikSave est un moyen rapide de télécharger des vidéos TikTok sans filigrane. Enregistrez des vidéos MP4 ou de l\'audio MP3 en quelques secondes.',
     'tiksave.keywords': 'TikTokio, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
 
 	// TikToksss Page metadata
-	'tiktoksss.title': 'TikTokio - Télécharger Vidéo TikTok En Ligne Sans Filigrane facilement',
-    'tiktoksss.description': 'Téléchargez facilement des vidéos TikTok sans filigrane avec le téléchargeur TikTokio gratuit. Enregistrez des vidéos TikTok au format MP4. Pas d’inscription, téléchargements gratuits sur tous les appareils.',
+	'tiktoksss.title': 'TikTokSSS – Téléchargeur Vidéo TikTok Sans Filigrane',
+    'tiktoksss.description': 'TikTokSSS vous permet de télécharger des vidéos TikTok sans filigrane en HD. 100 % gratuit, téléchargements illimités. Sans application ni inscription.',
     'tiktoksss.keywords': 'TikTokio, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
 
 	// Tmate Page metadata
-	'tmate.title': 'TikTokio - Télécharger Vidéo TikTok En Ligne Sans Filigrane facilement',
-    'tmate.description': 'Téléchargez facilement des vidéos TikTok sans filigrane avec le téléchargeur TikTokio gratuit. Enregistrez des vidéos TikTok au format MP4. Pas d’inscription, téléchargements gratuits sur tous les appareils.',
+	'tmate.title': 'Tmate – Téléchargeur Vidéo TikTok Sans Filigrane',
+    'tmate.description': 'Utilisez Tmate pour enregistrer des vidéos TikTok HD sans filigrane, vite et gratuit. Sans application ni inscription. Compatible iPhone, Android et PC.',
     'tmate.keywords': 'TikTokio, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
 
 	// Ttdownloader Page metadata
-	'ttdownloader.title': 'TikTokio - Télécharger Vidéo TikTok En Ligne Sans Filigrane facilement',
-    'ttdownloader.description': 'Téléchargez facilement des vidéos TikTok sans filigrane avec le téléchargeur TikTokio gratuit. Enregistrez des vidéos TikTok au format MP4. Pas d’inscription, téléchargements gratuits sur tous les appareils.',
+	'ttdownloader.title': 'TTDownloader – Téléchargeur Vidéo TikTok Sans Filigrane',
+    'ttdownloader.description': 'TTDownloader est un moyen rapide de télécharger des vidéos TikTok sans filigrane. Compatible iPhone, Android et PC. 100 % gratuit, téléchargements illimités.',
     'ttdownloader.keywords': 'TikTokio, télécharger vidéo TikTok sans filigrane, téléchargeur vidéo TikTok en ligne, téléchargeur TikTok gratuit, télécharger vidéos TikTok en ligne, enregistrer vidéos TikTok sans filigrane',
  
     // Hero section
@@ -2319,93 +2351,101 @@ ar: {
     // Blog section
     'blog.prev': 'Préc.',
     'blog.next': 'Suiv.',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'Télécharger Miniature TikTok – Sans Filigrane | TikTokio',
+    'thumb.description': 'Enregistrez la miniature ou l\'image de couverture de toute vidéo TikTok en HD. 100 % gratuit, téléchargements illimités. Sans application ni inscription.',
+    'terms.title': 'Conditions Générales – TikTokio',
+    'terms.description': 'Lisez les conditions générales de TikTokio : responsabilités des utilisateurs, usage des contenus, confidentialité et limites de responsabilité.',
+    'blog.meta.title': 'Blog TikTokio – Guides et Astuces pour TikTok',
+    'blog.meta.description': 'Découvrez le blog TikTokio : guides, astuces et conseils pour télécharger TikTok. Apprenez à enregistrer des vidéos TikTok sans filigrane en HD.',
+    'blog.post_suffix': 'Plus d\'infos sur TikTokio, le téléchargeur de vidéos TikTok gratuit sans filigrane.',
   },
 
   de: {
   
   // Main Site metadata
-	'site.title': 'TikTokio - Kostenloser TikTok Video Downloader Ohne Wasserzeichen Online',
-    'site.description': 'TikTokio – Der beste kostenlose TikTok Video Downloader online ohne Wasserzeichen für unbegrenzte Downloads. TikTok-Videos per Link in HD herunterladen.',
+	'site.title': 'TikTokio – TikTok Video Downloader Ohne Wasserzeichen',
+    'site.description': 'Mit TikTokio lädst du TikTok-Videos ohne Wasserzeichen in voller HD-Qualität herunter. Speichere MP4-Videos oder MP3-Audio in Sekunden.',
 	'site.keywords': 'TikTokio, TikTok Video Downloader online, TikTok Video herunterladen, unbegrenzte TikTok Downloads, kostenloser TikTok Downloader, TikTok Videos speichern, TikTok Downloader online',
 
 	// TikTok Video Downloader Page metadata
-    'tvd.title': 'TikTokio – TikTok Video Downloader Ohne Wasserzeichen Kostenlos HD',
-    'tvd.description': 'Laden Sie TikTok-Videos ohne Wasserzeichen mit dem Online TikTok Video Downloader in Full HD über TikTokio herunter. Schnellster Online TikTok Downloader.',
+    'tvd.title': 'TikTokio TikTok Video Downloader Ohne Wasserzeichen',
+    'tvd.description': 'TikTokio ist der schnelle Weg, TikTok-Videos ohne Wasserzeichen online zu laden. 100 % kostenlos mit unbegrenzten Downloads.',
     'tvd.keywords': 'TikTokio, TikTok Video Downloader, TikTok Video herunterladen, kostenloser TikTok Downloader, TikTok Videos speichern, TikTok Downloader online',
     
 	// TikTok Downloader Page metadata
-	'td.title': 'TikTokio TikTok Downloader – Kostenloser Download Ohne Wasserzeichen HD',
-    'td.description': 'Der TikTokio TikTok Downloader entfernt Wasserzeichen sofort. Laden Sie TikTok-Videos & Sounds kostenlos in HD auf Handy oder PC herunter. Schnell, sicher, ohne App.',
+	'td.title': 'TikTokio TikTok Downloader – Kostenlos Ohne Wasserzeichen HD',
+    'td.description': 'Speichere TikTok-Videos in HD ohne Wasserzeichen mit TikTokio – schnell und kostenlos. Keine App und keine Anmeldung nötig.',
     'td.keywords': 'TikTokio, TikTok Downloader ohne Wasserzeichen, TikTok Videos online speichern, wie man TikTok Videos herunterlädt, bestes TikTok Downloader Tool, TikTok Downloader Webseite, TikTok Video Downloader App, kostenloser TikTok Video Saver, TikTok MP4 herunterladen',
     
 	// Download TikTok Video Page metadata
-	'dtv.title': 'TikTokio TikTok Video Ohne Wasserzeichen Herunterladen – Kostenlos HD Schnell',
-    'dtv.description': 'Mit TikTokio laden Sie TikTok-Videos in Full HD ohne Wasserzeichen in Sekunden herunter. Schnellster kostenloser TikTokio Downloader mit unbegrenzten Downloads.',
+	'dtv.title': 'TikTok Video Herunterladen Ohne Wasserzeichen – TikTokio',
+    'dtv.description': 'TikTok Video Herunterladen ohne Wasserzeichen – TikTokio. Funktioniert auf iPhone, Android und PC. Speichere MP4-Videos oder MP3-Audio in Sekunden.',
     'dtv.keywords': 'TikTokio, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online, kostenloser TikTok Downloader, TikTok Videos online herunterladen, TikTok Videos ohne Wasserzeichen speichern',
 
 	// Download Foto Tiktok Page metadata
-	'dft.title': 'TikTok Foto Downloader – Diashow-Bilder Ohne Wasserzeichen Herunterladen',
-    'dft.description': 'TikTok Foto Download. Laden Sie TikTok Diashows & Karussells ohne Wasserzeichen in Full HD herunter. Kostenlos, ohne Login, funktioniert auf iPhone & Android!',
+	'dft.title': 'TikTok Foto Downloader – Ohne Wasserzeichen | TikTokio',
+    'dft.description': 'Lade TikTok-Fotos, Slideshows und Karussell-Bilder ohne Wasserzeichen in HD herunter. Speichere MP4-Videos oder MP3-Audio in Sekunden.',
     'dft.keywords': 'TikTok Foto Downloader ohne Wasserzeichen, TikTok Diashow Bilder herunterladen, TikTok Foto Karussell ohne Wasserzeichen speichern, TikTok Foto Downloader 2025, alle Fotos eines TikTok Posts herunterladen',
 
 	// Musically Down Page metadata
-	'md.title': 'Musically Down - TikTok Video Ohne Wasserzeichen Online Herunterladen',
-    'md.description': 'Musically Down TikTok Video Downloader! Laden Sie TikTok-Videos mit oder ohne Wasserzeichen online herunter. Speichern Sie TikTok-Videos in HD und MP3.',
+	'md.title': 'Musically Down – TikTok Video Downloader Ohne Wasserzeichen',
+    'md.description': 'Mit Musically Down lädst du TikTok-Videos ohne Wasserzeichen in voller HD-Qualität herunter. Speichere MP4-Videos oder MP3-Audio in Sekunden.',
     'md.keywords': 'TikTokio, musicallydown, musically down, musicallydown com, mussically down.com, musicallydown.com tiktok',
 
 	// Savefrom Download From Tiktok Page metadata
-	'savef.title': 'SaveFrom - TikTok Video Downloads - Savefromnet TikTok Downloader',
-    'savef.description': 'Entdecken Sie den schnellsten TikTok Video Downloader von savefromnet. Laden Sie jedes TikTok Video in HD ohne Wasserzeichen herunter.',
+	'savef.title': 'SaveFrom – TikTok Video Downloader Ohne Wasserzeichen',
+    'savef.description': 'Speichere TikTok-Videos in HD ohne Wasserzeichen mit SaveFrom – schnell und kostenlos. 100 % kostenlos mit unbegrenzten Downloads.',
     'savef.keywords': 'TikTokio, TikTok Video Download, TikTok Video Downloader, TikTok Video herunterladen, TikTok Video Download ohne Wasserzeichen, TikTok Video downloaden',
 
 	// Savetik Downloader Page metadata
-	'savetik.title': 'SaveTik Downloader - TikTok Videos Ohne Wasserzeichen Kostenlos Speichern',
-    'savetik.description': 'SaveTik Downloader ist ein TikTok Video Downloader ohne Wasserzeichen. Sie können TikTok-Videos von jedem Gerät speichern.',
+	'savetik.title': 'SaveTik – TikTok Video Downloader Ohne Wasserzeichen',
+    'savetik.description': 'SaveTik ist der schnelle Weg, TikTok-Videos ohne Wasserzeichen online zu laden. Keine App und keine Anmeldung nötig. Funktioniert auf iPhone, Android und PC.',
     'savetik.keywords': 'TikTokio, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online, kostenloser TikTok Downloader, TikTok Videos online herunterladen, TikTok Videos ohne Wasserzeichen speichern',
 
 	// Savett Page metadata
-	'savett.title': 'SaveTT - TikTok Videos Ohne Wasserzeichen in Sekunden Speichern',
-    'savett.description': 'SaveTT ist der beste Weg, TikTok-Videos online zu speichern. Nutzen Sie SaveTT für HD-Downloads ohne Wasserzeichen. Schnell, kostenlos und geräteübergreifend.',
+	'savett.title': 'SaveTT – TikTok Video Downloader Ohne Wasserzeichen',
+    'savett.description': 'Mit SaveTT lädst du TikTok-Videos ohne Wasserzeichen in voller HD-Qualität herunter. Funktioniert auf iPhone, Android und PC.',
     'savett.keywords': 'TikTokio, SaveTT, save tt, save tiktok, tiktok speichern, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online, kostenloser TikTok Downloader',
 
 	// SnapTik Page metadata
-	'snaptik.title': 'SnapTik - TT Video Downloader TikTok Videos Ohne Wasserzeichen Herunterladen',
-    'snaptik.description': 'SnapTik - Laden Sie TikTok-Videos sofort mit SnapTik herunter. SnapTik ist ein kostenloser TikTok Video Downloader.',
+	'snaptik.title': 'SnapTik – TikTok Video Downloader Ohne Wasserzeichen',
+    'snaptik.description': 'Speichere TikTok-Videos in HD ohne Wasserzeichen mit SnapTik – schnell und kostenlos. Speichere MP4-Videos oder MP3-Audio in Sekunden.',
     'snaptik.keywords': 'TikTokio, snaptik, Video TikTok herunterladen, download tiktok, tiktok downloader, Video TikTok ohne Wasserzeichen herunterladen',
 
 	// SssTik Page metadata
-	'ssstik.title': 'SSSTik - TikTok Downloader TikTok Videos online herunterladen.',
-    'ssstik.description': 'ssstiktok lässt Sie TikTok-Videos sofort herunterladen. Schnellster Downloader für TT-Videos in hoher Qualität (MP4).',
+	'ssstik.title': 'SSSTik – TikTok Video Downloader Ohne Wasserzeichen',
+    'ssstik.description': 'SSSTik ist der schnelle Weg, TikTok-Videos ohne Wasserzeichen online zu laden. 100 % kostenlos mit unbegrenzten Downloads.',
     'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, ssstik.io mp3',
 
 	// SssTikTok Page metadata
-	'ssstiktok.title': 'SSSTikTok - TikTok Downloader Ohne Wasserzeichen Video Online Herunterladen',
-    'ssstiktok.description': 'SSSTikTok Online Downloader ist ein kostenloser Service für TikTok-Videos ohne Wasserzeichen in HD. TikTok zu Mp4.',
+	'ssstiktok.title': 'SSSTikTok – TikTok Video Downloader Ohne Wasserzeichen',
+    'ssstiktok.description': 'Mit SSSTikTok lädst du TikTok-Videos ohne Wasserzeichen in voller HD-Qualität herunter. Keine App und keine Anmeldung nötig.',
     'ssstiktok.keywords': 'TikTokio, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online, kostenloser TikTok Downloader',
 
 	// Tikmate Page metadata
-	'tikmate.title': 'Tikmate - Video TikTok herunterladen, TikTok Downloader MP4 kostenlos',
-    'tikmate.description': 'Tikmate ist ein schneller und einfacher TikTok Video Downloader ohne Wasserzeichen in HD. Am besten ohne Login zu verwenden.',
+	'tikmate.title': 'Tikmate – TikTok Video Downloader Ohne Wasserzeichen',
+    'tikmate.description': 'Speichere TikTok-Videos in HD ohne Wasserzeichen mit Tikmate – schnell und kostenlos. Funktioniert auf iPhone, Android und PC.',
     'tikmate.keywords': 'TikTokio, Video TikTok ohne Wasserzeichen herunterladen, tikmate downloader online, kostenloser TikTok Downloader',
 
 	// Tiksave Page metadata
-	'tiksave.title': 'TikTokio - TikTok Video Online Ohne Wasserzeichen einfach herunterladen',
-    'tiksave.description': 'Laden Sie TikTok-Videos ohne Wasserzeichen mit dem kostenlosen TikTokio Downloader herunter. Speichern in MP4. Kein Abo erforderlich.',
+	'tiksave.title': 'TikSave – TikTok Video Downloader Ohne Wasserzeichen',
+    'tiksave.description': 'TikSave ist der schnelle Weg, TikTok-Videos ohne Wasserzeichen online zu laden. Speichere MP4-Videos oder MP3-Audio in Sekunden.',
     'tiksave.keywords': 'TikTokio, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online',
 
 	// TikToksss Page metadata
-	'tiktoksss.title': 'TikTokio - TikTok Video Online Ohne Wasserzeichen einfach herunterladen',
-    'tiktoksss.description': 'Laden Sie TikTok-Videos ohne Wasserzeichen mit dem kostenlosen TikTokio Downloader herunter. Speichern in MP4. Kein Abo erforderlich.',
+	'tiktoksss.title': 'TikTokSSS – TikTok Video Downloader Ohne Wasserzeichen',
+    'tiktoksss.description': 'Mit TikTokSSS lädst du TikTok-Videos ohne Wasserzeichen in voller HD-Qualität herunter. 100 % kostenlos mit unbegrenzten Downloads.',
     'tiktoksss.keywords': 'TikTokio, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online',
 
 	// Tmate Page metadata
-	'tmate.title': 'TikTokio - TikTok Video Online Ohne Wasserzeichen einfach herunterladen',
-    'tmate.description': 'Laden Sie TikTok-Videos ohne Wasserzeichen mit dem kostenlosen TikTokio Downloader herunter. Speichern in MP4. Kein Abo erforderlich.',
+	'tmate.title': 'Tmate – TikTok Video Downloader Ohne Wasserzeichen',
+    'tmate.description': 'Speichere TikTok-Videos in HD ohne Wasserzeichen mit Tmate – schnell und kostenlos. Keine App und keine Anmeldung nötig.',
     'tmate.keywords': 'TikTokio, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online',
 
 	// Ttdownloader Page metadata
-	'ttdownloader.title': 'TikTokio - TikTok Video Online Ohne Wasserzeichen einfach herunterladen',
-    'ttdownloader.description': 'Laden Sie TikTok-Videos ohne Wasserzeichen mit dem kostenlosen TikTokio Downloader herunter. Speichern in MP4. Kein Abo erforderlich.',
+	'ttdownloader.title': 'TTDownloader – TikTok Video Downloader Ohne Wasserzeichen',
+    'ttdownloader.description': 'TTDownloader ist der schnelle Weg, TikTok-Videos ohne Wasserzeichen online zu laden. Funktioniert auf iPhone, Android und PC.',
     'ttdownloader.keywords': 'TikTokio, TikTok Video ohne Wasserzeichen herunterladen, TikTok Video Downloader online',
  
     // Hero section
@@ -2788,93 +2828,101 @@ ar: {
     // Blog section
     'blog.prev': 'Zurück',
     'blog.next': 'Weiter',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'TikTok Thumbnail Downloader – Ohne Wasserzeichen | TikTokio',
+    'thumb.description': 'Speichere das Vorschaubild oder Cover jedes TikTok-Videos in HD-Qualität. 100 % kostenlos mit unbegrenzten Downloads. Keine App und keine Anmeldung nötig.',
+    'terms.title': 'Nutzungsbedingungen – TikTokio',
+    'terms.description': 'Lies die Nutzungsbedingungen von TikTokio: Pflichten der Nutzer, Regeln zur Inhaltsnutzung, Datenschutz und Haftung unseres Dienstes.',
+    'blog.meta.title': 'TikTokio Blog – Tipps & Anleitungen für TikTok Downloads',
+    'blog.meta.description': 'Im TikTokio Blog findest du Anleitungen, Tipps und Tricks zum TikTok Download. Erfahre, wie du TikTok-Videos ohne Wasserzeichen in HD speicherst.',
+    'blog.post_suffix': 'Mehr auf TikTokio, dem kostenlosen TikTok Video Downloader ohne Wasserzeichen.',
   },
 
 es: {
   
   // Main Site metadata
-	'site.title': 'TikTokio - Descargador de videos de TikTok sin marca de agua gratis',
-    'site.description': 'TikTokio – El mejor descargador de videos de TikTok online sin marca de agua para descargas ilimitadas. Descarga videos de TikTok con enlace en HD.',
+	'site.title': 'TikTokio – Descargador de Videos TikTok Sin Marca de Agua',
+    'site.description': 'TikTokio te permite descargar videos de TikTok sin marca de agua en HD completo. Guarda videos MP4 o audio MP3 en segundos. Sin apps ni registro.',
 	'site.keywords': 'TikTokio, descargador de videos de TikTok, descargar video de TikTok sin marca de agua, descargas ilimitadas de TikTok, TikTok downloader gratis, guardar videos de TikTok',
 
 	// TikTok Video Downloader Page metadata
-    'tvd.title': 'TikTokio – Descargar videos de TikTok sin marca de agua gratis HD',
-    'tvd.description': 'Descarga videos de TikTok sin marca de agua con el descargador online en Full HD a través de TikTokio. El descargador de TikTok más rápido en segundos.',
+    'tvd.title': 'TikTokio Descargador de Videos TikTok Sin Marca de Agua',
+    'tvd.description': 'TikTokio es una forma rápida de descargar videos de TikTok sin marca de agua online. 100 % gratis con descargas ilimitadas. Sin apps ni registro.',
     'tvd.keywords': 'TikTokio, descargador de videos de TikTok, descargar video de TikTok, descargar TikTok sin marca de agua, guardar videos de TikTok',
     
 	// TikTok Downloader Page metadata
-	'td.title': 'TikTokio TikTok Downloader – Descarga gratis sin marca de agua HD',
-    'td.description': 'TikTokio elimina las marcas de agua al instante. Descarga videos y sonidos de TikTok en HD gratis en móvil o PC. Rápido, seguro y sin apps.',
+	'td.title': 'TikTokio Descargador TikTok – Gratis Sin Marca de Agua HD',
+    'td.description': 'Usa TikTokio para guardar videos de TikTok en HD sin marca de agua, rápido y gratis. Sin apps ni registro. Funciona en iPhone, Android y PC.',
     'td.keywords': 'TikTokio, descargar TikTok sin marca de agua, guardar videos de TikTok online, cómo descargar videos de TikTok, mejor herramienta para descargar TikTok, descargar TikTok MP4',
     
 	// Download TikTok Video Page metadata
-	'dtv.title': 'TikTokio Descargar Video de TikTok sin marca de agua – Gratis y Rápido',
-    'dtv.description': 'Con TikTokio descarga videos de TikTok en Full HD sin marca de agua en segundos. El descargador gratuito más rápido con descargas ilimitadas.',
+	'dtv.title': 'Descargar Video de TikTok Sin Marca de Agua – TikTokio',
+    'dtv.description': 'Descargar Video de TikTok sin marca de agua – TikTokio. Funciona en iPhone, Android y PC. Guarda videos MP4 o audio MP3 en segundos. Sin apps ni registro.',
     'dtv.keywords': 'TikTokio, descargar video de TikTok sin marca de agua, descargador de videos TikTok online, guardar videos de TikTok sin marca de agua',
 
 	// Download Foto Tiktok Page metadata
-	'dft.title': 'TikTok Photo Downloader – Descargar fotos de diapositivas sin marca de agua',
-    'dft.description': 'Descargar fotos de TikTok. Descarga diapositivas y carruseles de fotos de TikTok sin marca de agua en Full HD. ¡Gratis, sin registro, funciona en iPhone y Android!',
+	'dft.title': 'Descargar Fotos de TikTok – Sin Marca de Agua | TikTokio',
+    'dft.description': 'Descarga presentaciones y fotos en carrusel de TikTok sin marca de agua en HD completo. Guarda videos MP4 o audio MP3 en segundos. Sin apps ni registro.',
     'dft.keywords': 'descargador de fotos de tiktok sin marca de agua, descargar imágenes de diapositivas de tiktok, guardar carrusel de fotos de tiktok, descargar todas las fotos de un post de tiktok',
 
 	// Musically Down Page metadata
-	'md.title': 'Musically Down - Descargar videos de TikTok sin marca de agua online',
-    'md.description': '¡Descargador de TikTok Musically Down! Descarga videos de TikTok con o sin marca de agua. Guarda videos de TikTok en HD y MP3 desde cualquier dispositivo.',
+	'md.title': 'Musically Down – Descargador TikTok Sin Marca de Agua',
+    'md.description': 'Musically Down te permite descargar videos de TikTok sin marca de agua en HD completo. Guarda videos MP4 o audio MP3 en segundos. Sin apps ni registro.',
     'md.keywords': 'TikTokio, musicallydown, descargar tiktok musically down, musicallydown tiktok mp3',
 
 	// Savefrom Download From Tiktok Page metadata
-	'savef.title': 'SaveFrom - Descargas de videos de TikTok - Savefromnet TikTok Downloader',
-    'savef.description': 'Descubre el descargador de TikTok más rápido de savefromnet. Descarga cualquier video de TikTok en HD sin marca de agua. ¡Empieza a descargar ahora!',
+	'savef.title': 'SaveFrom – Descargador de Videos TikTok Sin Marca de Agua',
+    'savef.description': 'Usa SaveFrom para guardar videos de TikTok en HD sin marca de agua, rápido y gratis. 100 % gratis con descargas ilimitadas. Sin apps ni registro.',
     'savef.keywords': 'TikTokio, descargar video de tiktok, tiktok video download, descargar tiktok sin marca de agua, savefrom tiktok',
 
 	// Savetik Downloader Page metadata
-	'savetik.title': 'SaveTik Downloader - Guardar videos de TikTok sin marca de agua gratis',
-    'savetik.description': 'SaveTik Downloader es un descargador de videos de TikTok sin marca de agua. Puedes guardar videos de TikTok desde cualquier dispositivo.',
+	'savetik.title': 'SaveTik – Descargador de Videos TikTok Sin Marca de Agua',
+    'savetik.description': 'SaveTik es una forma rápida de descargar videos de TikTok sin marca de agua online. Sin apps ni registro. Funciona en iPhone, Android y PC.',
     'savetik.keywords': 'TikTokio, descargar video de TikTok sin marca de agua, descargador de TikTok online, savetik gratis',
 
 	// Savett Page metadata
-	'savett.title': 'SaveTT - Guardar videos de TikTok sin marca de agua en segundos',
-    'savett.description': 'SaveTT es la mejor forma de descargar videos de TikTok online. Usa SaveTT para guardar videos en HD sin marcas de agua. Rápido, gratis y compatible con todo.',
+	'savett.title': 'SaveTT – Descargador de Videos TikTok Sin Marca de Agua',
+    'savett.description': 'SaveTT te permite descargar videos de TikTok sin marca de agua en HD completo. Funciona en iPhone, Android y PC. Guarda videos MP4 o audio MP3 en segundos.',
     'savett.keywords': 'TikTokio, SaveTT, descargar tiktok gratis, guardar videos de tiktok sin logo',
 
 	// SnapTik Page metadata
-	'snaptik.title': 'SnapTik - TT Video Downloader Descargar videos de TikTok sin marca de agua',
-    'snaptik.description': 'SnapTik - Descarga videos de TikTok al instante. SnapTik es un descargador gratuito que te permite bajar videos de TikTok de forma fácil.',
+	'snaptik.title': 'SnapTik – Descargador de Videos TikTok Sin Marca de Agua',
+    'snaptik.description': 'Usa SnapTik para guardar videos de TikTok en HD sin marca de agua, rápido y gratis. Guarda videos MP4 o audio MP3 en segundos. Sin apps ni registro.',
     'snaptik.keywords': 'TikTokio, snaptik, descargar video de tiktok, tiktok downloader sin marca de agua',
 
 	// SssTik Page metadata
-	'ssstik.title': 'SSSTik - TikTok Downloader Descargar videos de TikTok online.',
-    'ssstik.description': 'SSSTikTok te permite descargar videos de TikTok al instante. El descargador más rápido para guardar videos TT en MP4 de alta calidad.',
+	'ssstik.title': 'SSSTik – Descargador de Videos TikTok Sin Marca de Agua',
+    'ssstik.description': 'SSSTik es una forma rápida de descargar videos de TikTok sin marca de agua online. 100 % gratis con descargas ilimitadas. Sin apps ni registro.',
     'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, descargar mp3 de tiktok ssstik',
 
 	// SssTikTok Page metadata
-	'ssstiktok.title': 'SSSTikTok - Descargar video de TikTok sin marca de agua online',
-    'ssstiktok.description': 'SSSTikTok es un servicio gratuito para descargar videos de TikTok sin marca de agua en formato de alta calidad. Convertidor de TikTok a Mp4.',
+	'ssstiktok.title': 'SSSTikTok – Descargador de Videos TikTok Sin Marca de Agua',
+    'ssstiktok.description': 'SSSTikTok te permite descargar videos de TikTok sin marca de agua en HD completo. Sin apps ni registro. Funciona en iPhone, Android y PC.',
     'ssstiktok.keywords': 'TikTokio, descargar video de TikTok sin marca de agua, ssstiktok online gratis',
 
 	// Tikmate Page metadata
-	'tikmate.title': 'Tikmate - Descargar video de TikTok, TikTok Downloader MP4 gratis',
-    'tikmate.description': 'Tikmate es un descargador de TikTok rápido y fácil, sin marcas de agua y en HD. Ideal para guardar videos sin necesidad de iniciar sesión.',
+	'tikmate.title': 'Tikmate – Descargador de Videos TikTok Sin Marca de Agua',
+    'tikmate.description': 'Usa Tikmate para guardar videos de TikTok en HD sin marca de agua, rápido y gratis. Funciona en iPhone, Android y PC. 100 % gratis con descargas ilimitadas.',
     'tikmate.keywords': 'TikTokio, descargar video de tiktok sin marca de agua, tikmate online gratis',
 
 	// Tiksave Page metadata
-	'tiksave.title': 'TikTokio - Descargar video de TikTok online sin marca de agua fácilmente',
-    'tiksave.description': 'Descarga fácilmente videos de TikTok sin marca de agua con TikTokio. Guarda videos en formato MP4. Sin registros, descargas gratis en todo dispositivo.',
+	'tiksave.title': 'TikSave – Descargador de Videos TikTok Sin Marca de Agua',
+    'tiksave.description': 'TikSave es una forma rápida de descargar videos de TikTok sin marca de agua online. Guarda videos MP4 o audio MP3 en segundos. Sin apps ni registro.',
     'tiksave.keywords': 'TikTokio, descargar video de tiktok sin logo, tiksave online',
 
 	// TikToksss Page metadata
-	'tiktoksss.title': 'TikTokio - Descargar video de TikTok online sin marca de agua fácilmente',
-    'tiktoksss.description': 'Descarga videos de TikTok sin marca de agua en formato MP4 de forma rápida y gratuita con TikTokio. Sin registros.',
+	'tiktoksss.title': 'TikTokSSS – Descargador de Videos TikTok Sin Marca de Agua',
+    'tiktoksss.description': 'TikTokSSS te permite descargar videos de TikTok sin marca de agua en HD completo. 100 % gratis con descargas ilimitadas. Sin apps ni registro.',
     'tiktoksss.keywords': 'TikTokio, descargar tiktok sin marca de agua, tiktoksss online',
 
 	// Tmate Page metadata
-	'tmate.title': 'TikTokio - Descargar video de TikTok online sin marca de agua fácilmente',
-    'tmate.description': 'Usa Tmate para descargar videos de TikTok sin marca de agua. Descargas rápidas en MP4 y HD.',
+	'tmate.title': 'Tmate – Descargador de Videos TikTok Sin Marca de Agua',
+    'tmate.description': 'Usa Tmate para guardar videos de TikTok en HD sin marca de agua, rápido y gratis. Sin apps ni registro. Funciona en iPhone, Android y PC.',
     'tmate.keywords': 'TikTokio, tmate tiktok downloader, descargar tiktok sin marca de agua',
 
 	// Ttdownloader Page metadata
-	'ttdownloader.title': 'TikTokio - Descargar video de TikTok online sin marca de agua fácilmente',
-    'ttdownloader.description': 'Herramienta online gratuita para bajar videos de TikTok en alta calidad y sin el logo de la aplicación.',
+	'ttdownloader.title': 'TTDownloader – Descargador TikTok Sin Marca de Agua',
+    'ttdownloader.description': 'TTDownloader es una forma rápida de descargar videos de TikTok sin marca de agua online. Funciona en iPhone, Android y PC. Sin apps ni registro.',
     'ttdownloader.keywords': 'TikTokio, ttdownloader, descargar tiktok sin marca de agua',
  
     // Hero section
@@ -3252,93 +3300,101 @@ es: {
     // Blog section
     'blog.prev': 'Ant.',
     'blog.next': 'Sig.',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'Descargar Miniaturas de TikTok – TikTokio',
+    'thumb.description': 'Guarda la miniatura o portada de cualquier video de TikTok en HD original. 100 % gratis con descargas ilimitadas. Sin apps ni registro.',
+    'terms.title': 'Términos y Condiciones – TikTokio',
+    'terms.description': 'Lee los Términos y Condiciones de TikTokio: responsabilidades del usuario, uso del contenido, privacidad y límites de responsabilidad del servicio.',
+    'blog.meta.title': 'Blog de TikTokio – Guías y Trucos para TikTok',
+    'blog.meta.description': 'Descubre el blog de TikTokio con guías, consejos y trucos para descargar TikTok. Aprende a guardar videos de TikTok sin marca de agua en HD.',
+    'blog.post_suffix': 'Lee más en TikTokio, el descargador gratis de videos de TikTok sin marca de agua.',
   },
 
  hi: {
   
   // Main Site metadata
-	'site.title': 'TikTokio - फ्री टिकटॉक वीडियो डाउनलोडर ऑनलाइन बिना वॉटरमार्क',
-    'site.description': 'TikTokio – असीमित डाउनलोड के लिए #1 फ्री टिकटॉक वीडियो डाउनलोडर ऑनलाइन बिना वॉटरमार्क। एचडी में लिंक के साथ टिकटॉक वीडियो डाउनलोड करें।',
+	'site.title': 'TikTokio – टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क',
+    'site.description': 'TikTokio से टिकटॉक वीडियो बिना वॉटरमार्क के फुल HD में डाउनलोड करें। MP4 वीडियो या MP3 ऑडियो कुछ ही सेकंड में सेव करें। 100% मुफ़्त और अनलिमिटेड डाउनलोड।',
 	'site.keywords': 'TikTokio, टिकटॉक वीडियो डाउनलोडर ऑनलाइन, टिकटॉक वीडियो डाउनलोड करें, असीमित टिकटॉक डाउनलोड, फ्री टिकटॉक डाउनलोडर, टिकटॉक वीडियो सेव करें, टिकटॉक डाउनलोडर ऑनलाइन',
 
 	// TikTok Video Downloader Page metadata
-    'tvd.title': 'TikTokio – टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क फ्री एचडी',
-    'tvd.description': 'TikTokio के माध्यम से ऑनलाइन टिकटॉक वीडियो डाउनलोडर के साथ बिना वॉटरमार्क के फुल एचडी में टिकटॉक वीडियो डाउनलोड करें। सेकंडों में सबसे तेज़ ऑनलाइन टिकटॉक डाउनलोडर।',
+    'tvd.title': 'TikTokio टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क मुफ़्त HD',
+    'tvd.description': 'TikTokio टिकटॉक वीडियो बिना वॉटरमार्क के ऑनलाइन डाउनलोड करने का तेज़ तरीका है। 100% मुफ़्त और अनलिमिटेड डाउनलोड। किसी ऐप या रजिस्ट्रेशन की ज़रूरत नहीं।',
     'tvd.keywords': 'TikTokio, टिकटॉक वीडियो डाउनलोडर, टिकटॉक वीडियो डाउनलोड करें, फ्री टिकटॉक डाउनलोडर, टिकटॉक वीडियो सेव करें, टिकटॉक डाउनलोडर ऑनलाइन',
     
 	// TikTok Downloader Page metadata
-	'td.title': 'TikTokio टिकटॉक डाउनलोडर – फ्री बिना वॉटरमार्क एचडी डाउनलोड',
-    'td.description': 'TikTokio टिकटॉक डाउनलोडर तुरंत वॉटरमार्क हटा देता है। मोबाइल या पीसी पर मुफ्त में एचडी में टिकटॉक वीडियो और साउंड डाउनलोड करें। तेज़, सुरक्षित, कोई ऐप नहीं।',
+	'td.title': 'TikTokio टिकटॉक डाउनलोडर – मुफ़्त बिना वॉटरमार्क HD',
+    'td.description': 'TikTokio से टिकटॉक वीडियो बिना वॉटरमार्क के HD में सेव करें, तेज़ और मुफ़्त। किसी ऐप या रजिस्ट्रेशन की ज़रूरत नहीं। iPhone, Android और PC पर काम करता है।',
     'td.keywords': 'TikTokio, बिना वॉटरमार्क टिकटॉक डाउनलोडर, टिकटॉक वीडियो ऑनलाइन सेव करें, टिकटॉक वीडियो कैसे डाउनलोड करें, बेस्ट टिकटॉक डाउनलोडर टूल, टिकटॉक वीडियो सेव करने वाली वेबसाइट, फ्री टिकटॉक वीडियो सेवर, टिकटॉक एमपी4 डाउनलोड',
     
 	// Download TikTok Video Page metadata
-	'dtv.title': 'TikTokio टिकटॉक वीडियो डाउनलोड बिना वॉटरमार्क – फ्री एचडी फास्ट',
-    'dtv.description': 'TikTokio के साथ सेकंडों में बिना वॉटरमार्क के फुल एचडी में टिकटॉक वीडियो डाउनलोड करें। असीमित डाउनलोड के साथ सबसे तेज़ फ्री टिकटॉक डाउनलोडर।',
+	'dtv.title': 'टिकटॉक वीडियो डाउनलोड करें बिना वॉटरमार्क – TikTokio मुफ़्त',
+    'dtv.description': 'टिकटॉक वीडियो डाउनलोड करें बिना वॉटरमार्क के – TikTokio. iPhone, Android और PC पर काम करता है। MP4 वीडियो या MP3 ऑडियो कुछ ही सेकंड में सेव करें।',
     'dtv.keywords': 'TikTokio, बिना वॉटरमार्क टिकटॉक वीडियो डाउनलोड करें, ऑनलाइन टिकटॉक वीडियो डाउनलोडर, फ्री टिकटॉक डाउनलोडर, ऑनलाइन टिकटॉक वीडियो सेव करें',
 
 	// Download Foto Tiktok Page metadata
-	'dft.title': 'TikTok फोटो डाउनलोडर – बिना वॉटरमार्क के स्लाइडशो इमेज डाउनलोड करें',
-    'dft.description': 'टिकटॉक फोटो डाउनलोड करें। बिना वॉटरमार्क फुल एचडी में टिकटॉक फोटो स्लाइडशो और हिंडोला (carousels) डाउनलोड करें। फ्री, कोई लॉगिन नहीं, आईफोन और एंड्रॉइड पर काम करता है!',
+	'dft.title': 'टिकटॉक फोटो डाउनलोडर – बिना वॉटरमार्क | TikTokio',
+    'dft.description': 'टिकटॉक फोटो स्लाइडशो और कैरोसेल इमेज बिना वॉटरमार्क के फुल HD में डाउनलोड करें। MP4 वीडियो या MP3 ऑडियो कुछ ही सेकंड में सेव करें।',
     'dft.keywords': 'टिकटॉक फोटो डाउनलोडर बिना वॉटरमार्क, टिकटॉक स्लाइडशो इमेज डाउनलोड करें, बिना वॉटरमार्क टिकटॉक फोटो सेव करें, टिकटॉक पोस्ट से सभी फोटो डाउनलोड करें',
 
 	// Musically Down Page metadata
-	'md.title': 'Musically Down - टिकटॉक वीडियो बिना वॉटरमार्क ऑनलाइन डाउनलोड करें',
-    'md.description': 'म्यूजिकली डाउन टिकटॉक वीडियो डाउनलोडर! वॉटरमार्क के साथ या बिना टिकटॉक वीडियो ऑनलाइन डाउनलोड करें। किसी भी डिवाइस से एचडी और एमपी3 में टिकटॉक वीडियो सेव करें।',
+	'md.title': 'Musically Down – टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क',
+    'md.description': 'Musically Down से टिकटॉक वीडियो बिना वॉटरमार्क के फुल HD में डाउनलोड करें। MP4 वीडियो या MP3 ऑडियो कुछ ही सेकंड में सेव करें।',
     'md.keywords': 'TikTokio, musicallydown, म्यूजिकली डाउन, म्यूजिकली डाउन टिकटॉक',
 
 	// Savefrom Download From Tiktok Page metadata
-	'savef.title': 'SaveFrom - टिकटॉक वीडियो डाउनलोड - Savefromnet टिकटॉक डाउनलोडर',
-    'savef.description': 'savefromnet द्वारा सबसे तेज़ टिकटॉक वीडियो डाउनलोडर। बिना वॉटरमार्क एचडी में कोई भी टिकटॉक वीडियो सेकंडों में डाउनलोड करें। अभी डाउनलोड शुरू करें!',
+	'savef.title': 'SaveFrom – टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क',
+    'savef.description': 'SaveFrom से टिकटॉक वीडियो बिना वॉटरमार्क के HD में सेव करें, तेज़ और मुफ़्त। 100% मुफ़्त और अनलिमिटेड डाउनलोड। किसी ऐप या रजिस्ट्रेशन की ज़रूरत नहीं।',
     'savef.keywords': 'TikTokio, टिकटॉक वीडियो डाउनलोड, टिकटॉक डाउनलोडर, बिना वॉटरमार्क टिकटॉक वीडियो डाउनलोड',
 
 	// Savetik Downloader Page metadata
-	'savetik.title': 'SaveTik डाउनलोडर - बिना वॉटरमार्क टिकटॉक वीडियो फ्री में सेव करें',
-    'savetik.description': 'SaveTik डाउनलोडर बिना वॉटरमार्क वाला टिकटॉक वीडियो डाउनलोडर है। आप किसी भी डिवाइस से टिकटॉक वीडियो सेव कर सकते हैं।',
+	'savetik.title': 'SaveTik – टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क',
+    'savetik.description': 'SaveTik टिकटॉक वीडियो बिना वॉटरमार्क के ऑनलाइन डाउनलोड करने का तेज़ तरीका है। किसी ऐप या रजिस्ट्रेशन की ज़रूरत नहीं। iPhone, Android और PC पर काम करता है।',
     'savetik.keywords': 'TikTokio, बिना वॉटरमार्क टिकटॉक वीडियो डाउनलोड, ऑनलाइन टिकटॉक डाउनलोडर, फ्री टिकटॉक डाउनलोडर',
 
 	// Savett Page metadata
-	'savett.title': 'SaveTT - सेकंडों में बिना वॉटरमार्क के टिकटॉक वीडियो सेव करें',
-    'savett.description': 'सेकंडों में ऑनलाइन टिकटॉक वीडियो डाउनलोड करने के लिए SaveTT सबसे अच्छा तरीका है। बिना वॉटरमार्क के एचडी में वीडियो सेव करने के लिए SaveTT का उपयोग करें। तेज़, मुफ्त और सभी उपकरणों पर काम करता है।',
+	'savett.title': 'SaveTT – टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क',
+    'savett.description': 'SaveTT से टिकटॉक वीडियो बिना वॉटरमार्क के फुल HD में डाउनलोड करें। iPhone, Android और PC पर काम करता है। MP4 वीडियो या MP3 ऑडियो कुछ ही सेकंड में सेव करें।',
     'savett.keywords': 'TikTokio, SaveTT, सेव टीटी, टिकटॉक सेव, टिकटॉक डाउनलोडर',
 
 	// SnapTik Page metadata
-	'snaptik.title': 'SnapTik - टीटी वीडियो डाउनलोडर बिना वॉटरमार्क टिकटॉक वीडियो डाउनलोड करें',
-    'snaptik.description': 'SnapTik - टिकटॉक वीडियो तुरंत डाउनलोड करें। स्नैप टिक एक फ्री टिकटॉक वीडियो डाउनलोडर है जो आपको टिकटॉक वीडियो डाउनलोड करने की अनुमति देता है।',
+	'snaptik.title': 'SnapTik – टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क',
+    'snaptik.description': 'SnapTik से टिकटॉक वीडियो बिना वॉटरमार्क के HD में सेव करें, तेज़ और मुफ़्त। MP4 वीडियो या MP3 ऑडियो कुछ ही सेकंड में सेव करें।',
     'snaptik.keywords': 'TikTokio, snaptik, टिकटॉक वीडियो डाउनलोड, स्नैप टिक, बिना वॉटरमार्क टिकटॉक डाउनलोड',
 
 	// SssTik Page metadata
-	'ssstik.title': 'SSSTik - टिकटॉक डाउनलोडर टिकटॉक वीडियो ऑनलाइन डाउनलोड करें।',
-    'ssstik.description': 'ssstiktok आपको तुरंत टिकटॉक वीडियो डाउनलोड करने देता है। हाई क्वालिटी टिकटॉक एमपी4 के साथ टीटी वीडियो सेव करने के लिए सबसे तेज़ डाउनलोडर।',
+	'ssstik.title': 'SSSTik – टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क',
+    'ssstik.description': 'SSSTik टिकटॉक वीडियो बिना वॉटरमार्क के ऑनलाइन डाउनलोड करने का तेज़ तरीका है। 100% मुफ़्त और अनलिमिटेड डाउनलोड। किसी ऐप या रजिस्ट्रेशन की ज़रूरत नहीं।',
     'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ssstiktok mp3 डाउनलोड',
 
 	// SssTikTok Page metadata
-	'ssstiktok.title': 'SSSTikTok - बिना वॉटरमार्क टिकटॉक डाउनलोडर ऑनलाइन वीडियो डाउनलोड करें',
-    'ssstiktok.description': 'SSSTikTok ऑनलाइन टिकटॉक वीडियो डाउनलोडर हाई-क्वालिटी फॉर्मेट में बिना वॉटरमार्क के वीडियो डाउनलोड करने की एक फ्री सेवा है। टिकटॉक टू एमपी4।',
+	'ssstiktok.title': 'SSSTikTok – टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क',
+    'ssstiktok.description': 'SSSTikTok से टिकटॉक वीडियो बिना वॉटरमार्क के फुल HD में डाउनलोड करें। किसी ऐप या रजिस्ट्रेशन की ज़रूरत नहीं। iPhone, Android और PC पर काम करता है।',
     'ssstiktok.keywords': 'TikTokio, बिना वॉटरमार्क टिकटॉक वीडियो डाउनलोड, फ्री टिकटॉक डाउनलोडर',
 
 	// Tikmate Page metadata
-	'tikmate.title': 'Tikmate - टिकटॉक वीडियो डाउनलोड करें, टिकटॉक डाउनलोडर एमपी4 फ्री',
-    'tikmate.description': 'Tikmate बिना वॉटरमार्क और एचडी के तेज़ और आसान टिकटॉक वीडियो डाउनलोडर है। लॉगिन के बिना वीडियो सेव करने के लिए टिकमेट सबसे अच्छा है।',
+	'tikmate.title': 'Tikmate – टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क',
+    'tikmate.description': 'Tikmate से टिकटॉक वीडियो बिना वॉटरमार्क के HD में सेव करें, तेज़ और मुफ़्त। iPhone, Android और PC पर काम करता है। 100% मुफ़्त और अनलिमिटेड डाउनलोड।',
     'tikmate.keywords': 'TikTokio, टिकमेट डाउनलोडर, बिना वॉटरमार्क टिकटॉक वीडियो डाउनलोड',
 
 	// Tiksave Page metadata
-	'tiksave.title': 'TikTokio - टिकटॉक वीडियो ऑनलाइन बिना वॉटरमार्क आसानी से डाउनलोड करें',
-    'tiksave.description': 'TikTokio फ्री डाउनलोडर के साथ बिना वॉटरमार्क टिकटॉक वीडियो आसानी से डाउनलोड करें। एमपी4 फॉर्मेट में सेव करें। कोई साइन-अप नहीं।',
+	'tiksave.title': 'TikSave – टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क',
+    'tiksave.description': 'TikSave टिकटॉक वीडियो बिना वॉटरमार्क के ऑनलाइन डाउनलोड करने का तेज़ तरीका है। MP4 वीडियो या MP3 ऑडियो कुछ ही सेकंड में सेव करें।',
     'tiksave.keywords': 'TikTokio, टिकसेव, टिकटॉक वीडियो डाउनलोडर',
 
 	// TikToksss Page metadata
-	'tiktoksss.title': 'TikTokio - टिकटॉक वीडियो ऑनलाइन बिना वॉटरमार्क आसानी से डाउनलोड करें',
-    'tiktoksss.description': 'TikTokio फ्री टिकटॉक डाउनलोडर के साथ आसानी से बिना वॉटरमार्क के वीडियो डाउनलोड करें। एमपी4 फॉर्मेट में सेव करें। असीमित डाउनलोड।',
+	'tiktoksss.title': 'TikTokSSS – टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क',
+    'tiktoksss.description': 'TikTokSSS से टिकटॉक वीडियो बिना वॉटरमार्क के फुल HD में डाउनलोड करें। 100% मुफ़्त और अनलिमिटेड डाउनलोड। किसी ऐप या रजिस्ट्रेशन की ज़रूरत नहीं।',
     'tiktoksss.keywords': 'TikTokio, टिकटॉक एस एस एस, बिना वॉटरमार्क वीडियो डाउनलोड',
 
 	// Tmate Page metadata
-	'tmate.title': 'TikTokio - टिकटॉक वीडियो ऑनलाइन बिना वॉटरमार्क आसानी से डाउनलोड करें',
-    'tmate.description': 'TikTokio फ्री टिकटॉक डाउनलोडर के साथ बिना वॉटरमार्क वीडियो आसानी से डाउनलोड करें। एमपी4 फॉर्मेट में सेव करें।',
+	'tmate.title': 'Tmate – टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क',
+    'tmate.description': 'Tmate से टिकटॉक वीडियो बिना वॉटरमार्क के HD में सेव करें, तेज़ और मुफ़्त। किसी ऐप या रजिस्ट्रेशन की ज़रूरत नहीं। iPhone, Android और PC पर काम करता है।',
     'tmate.keywords': 'TikTokio, टी-मेट, टिकटॉक डाउनलोडर बिना वॉटरमार्क',
 
 	// Ttdownloader Page metadata
-	'ttdownloader.title': 'TikTokio - टिकटॉक वीडियो ऑनलाइन बिना वॉटरमार्क आसानी से डाउनलोड करें',
-    'ttdownloader.description': 'TikTokio फ्री टिकटॉक डाउनलोडर के साथ बिना वॉटरमार्क वीडियो आसानी से डाउनलोड करें। एमपी4 फॉर्मेट में सेव करें।',
+	'ttdownloader.title': 'TTDownloader – टिकटॉक वीडियो डाउनलोडर बिना वॉटरमार्क',
+    'ttdownloader.description': 'TTDownloader टिकटॉक वीडियो बिना वॉटरमार्क के ऑनलाइन डाउनलोड करने का तेज़ तरीका है। iPhone, Android और PC पर काम करता है। 100% मुफ़्त और अनलिमिटेड डाउनलोड।',
     'ttdownloader.keywords': 'TikTokio, टीटी डाउनलोडर, टिकटॉक वीडियो डाउनलोड',
  
     // Hero section
@@ -3672,93 +3728,101 @@ es: {
     // Blog section
     'blog.prev': 'पिछला',
     'blog.next': 'अगला',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'टिकटॉक थंबनेल डाउनलोडर – बिना वॉटरमार्क | TikTokio',
+    'thumb.description': 'किसी भी टिकटॉक वीडियो का थंबनेल या कवर इमेज ओरिजिनल HD क्वालिटी में सेव करें। 100% मुफ़्त और अनलिमिटेड डाउनलोड। किसी ऐप या रजिस्ट्रेशन की ज़रूरत नहीं।',
+    'terms.title': 'नियम और शर्तें – TikTokio',
+    'terms.description': 'TikTokio के नियम और शर्तें पढ़ें: उपयोगकर्ता की ज़िम्मेदारियाँ, कंटेंट उपयोग के नियम, गोपनीयता और सेवा की देयता सीमाएँ।',
+    'blog.meta.title': 'TikTokio ब्लॉग – टिकटॉक डाउनलोड गाइड और टिप्स',
+    'blog.meta.description': 'टिकटॉक डाउनलोड से जुड़ी गाइड, टिप्स और ट्रिक्स के लिए TikTokio ब्लॉग पढ़ें। बिना वॉटरमार्क के HD में टिकटॉक वीडियो सेव करना सीखें।',
+    'blog.post_suffix': 'TikTokio पर और पढ़ें, बिना वॉटरमार्क वाला मुफ़्त टिकटॉक वीडियो डाउनलोडर।',
   },
 
 id: {
   
   // Main Site metadata
-	'site.title': 'TikTokio - Pengunduh Video TikTok Gratis Tanpa Watermark Online',
-    'site.description': 'TikTokio – Pengunduh Video TikTok Gratis #1 Tanpa Watermark untuk unduhan tak terbatas. Unduh video TikTok dengan tautan dalam kualitas HD.',
+	'site.title': 'TikTokio – Pengunduh Video TikTok Tanpa Watermark',
+    'site.description': 'TikTokio memungkinkan Anda mengunduh video TikTok tanpa watermark dalam HD penuh. Simpan video MP4 atau audio MP3 dalam hitungan detik.',
 	'site.keywords': 'TikTokio, pengunduh video TikTok online, unduh video TikTok, unduhan TikTok tanpa batas, pengunduh TikTok gratis, simpan video TikTok, pengunduh TikTok online',
 
 	// TikTok Video Downloader Page metadata
-    'tvd.title': 'Tiktokio – Pengunduh Video TikTok Tanpa Watermark Gratis HD',
-    'tvd.description': 'Unduh video TikTok tanpa watermark dengan Pengunduh Video TikTok Online dalam format Full HD via Tiktokio. Pengunduh TikTok online tercepat dalam hitungan detik',
+    'tvd.title': 'TikTokio Pengunduh Video TikTok Tanpa Watermark Gratis HD',
+    'tvd.description': 'TikTokio adalah cara cepat mengunduh video TikTok tanpa watermark secara online. 100% gratis dengan unduhan tanpa batas. Tanpa aplikasi dan tanpa registrasi.',
     'tvd.keywords': 'TikTokio, pengunduh video TikTok, unduh video TikTok, pengunduh TikTok gratis, simpan video TikTok, pengunduh TikTok online',
     
 	// TikTok Downloader Page metadata
-	'td.title': 'Tiktokio TikTok Downloader – Unduhan HD Gratis Tanpa Watermark',
-    'td.description': 'TikTokio TikTok Downloader menghapus watermark secara instan. Unduh video & suara TikTok dalam HD gratis di ponsel atau PC. Cepat, aman, tanpa aplikasi.',
+	'td.title': 'TikTokio Pengunduh TikTok – Gratis Tanpa Watermark HD',
+    'td.description': 'Gunakan TikTokio untuk menyimpan video TikTok HD tanpa watermark, cepat dan gratis. Tanpa aplikasi dan tanpa registrasi. Berfungsi di iPhone, Android, dan PC.',
     'td.keywords': 'TikTokio, pengunduh TikTok tanpa watermark, simpan video TikTok online, cara unduh video TikTok, alat pengunduh TikTok terbaik, situs web pengunduh TikTok, aplikasi pengunduh video TikTok, penghemat video TikTok gratis, unduh TikTok MP4',
     
 	// Download TikTok Video Page metadata
-	'dtv.title': 'Tiktokio Unduh Video TikTok Tanpa Watermark – Gratis HD Cepat',
-    'dtv.description': 'Dengan Tiktokio unduh video TikTok dalam Full HD tanpa watermark dalam hitungan detik. Pengunduh Tiktokio gratis tercepat dengan unduhan tanpa batas.',
+	'dtv.title': 'Download Video TikTok Tanpa Watermark – TikTokio Gratis',
+    'dtv.description': 'Download Video TikTok tanpa watermark – TikTokio. Berfungsi di iPhone, Android, dan PC. Simpan video MP4 atau audio MP3 dalam hitungan detik.',
     'dtv.keywords': 'TikTokio, unduh video TikTok tanpa watermark, pengunduh video TikTok online, pengunduh TikTok gratis, unduh video TikTok online, simpan video TikTok tanpa watermark',
 
 	// Download Foto Tiktok Page metadata
-	'dft.title': 'TikTok Photo Downloader – Unduh Gambar Slideshow Tanpa Watermark',
-    'dft.description': 'Unduh Foto Tiktok. Unduh slideshow foto & carousel TikTok tanpa watermark Full HD dalam hitungan detik Gratis, tanpa login, berfungsi di iPhone & Android!',
+	'dft.title': 'Download Foto TikTok – Tanpa Watermark | TikTokio',
+    'dft.description': 'Unduh foto slideshow dan gambar carousel TikTok tanpa watermark dalam kualitas HD penuh. Simpan video MP4 atau audio MP3 dalam hitungan detik.',
     'dft.keywords': 'pengunduh foto tiktok tanpa watermark, unduh gambar slideshow tiktok, simpan carousel foto tiktok tanpa watermark, tiktok photo downloader 2025, unduh semua foto dari postingan tiktok',
 
 	// Musically Down Page metadata
-	'md.title': 'Musically Down - Unduh Video TikTok Tanpa Watermark Online',
-    'md.description': 'Pengunduh video TikTok Musically Down! Unduh video TikTok dengan atau tanpa watermark secara online. Simpan video TikTok dalam format HD dan MP3 dari perangkat apa pun.',
+	'md.title': 'Musically Down – Pengunduh Video TikTok Tanpa Watermark',
+    'md.description': 'Musically Down memungkinkan Anda mengunduh video TikTok tanpa watermark dalam HD penuh. Simpan video MP4 atau audio MP3 dalam hitungan detik.',
     'md.keywords': 'TikTokio, musicallydown, musically down, musicallydown com, musicallydown.com tiktok',
 
 	// Savefrom Download From Tiktok Page metadata
-	'savef.title': 'SaveFrom - Unduhan Video TikTok - Savefromnet Tiktok Downloader',
-    'savef.description': 'Temukan pengunduh video TikTok tercepat oleh savefromnet. Unduh video TikTok apa pun dalam HD tanpa watermark dalam hitungan detik. Mulai mengunduh sekarang!',
+	'savef.title': 'SaveFrom – Pengunduh Video TikTok Tanpa Watermark',
+    'savef.description': 'Gunakan SaveFrom untuk menyimpan video TikTok HD tanpa watermark, cepat dan gratis. 100% gratis dengan unduhan tanpa batas.',
     'savef.keywords': 'TikTokio, unduh video tiktok, pengunduh video tiktok, download video tiktok, unduhan video tiktok tanpa watermark, tiktok download video',
 
 	// Savetik Downloader Page metadata
-	'savetik.title': 'SaveTik Downloader - Simpan Video Tiktok Tanpa Watermark Gratis',
-    'savetik.description': 'SaveTik Downloader adalah pengunduh video Tiktok tanpa watermark. Anda dapat menyimpan video TikTok dari perangkat apa pun.',
+	'savetik.title': 'SaveTik – Pengunduh Video TikTok Tanpa Watermark',
+    'savetik.description': 'SaveTik adalah cara cepat mengunduh video TikTok tanpa watermark secara online. Tanpa aplikasi dan tanpa registrasi. Berfungsi di iPhone, Android, dan PC.',
     'savetik.keywords': 'TikTokio, unduh video TikTok tanpa watermark, pengunduh video TikTok online, pengunduh TikTok gratis, unduh video TikTok online, simpan video TikTok tanpa watermark',
 
 	// Savett Page metadata
-	'savett.title': 'SaveTT - Simpan Video TikTok Tanpa Watermark dalam Hitungan Detik',
-    'savett.description': 'SaveTT adalah cara terbaik untuk mengunduh Video TikTok secara online dalam hitungan detik. Gunakan SaveTT untuk menyimpan video tiktok dalam HD tanpa watermark. Cepat, gratis, dan berfungsi di semua perangkat.',
+	'savett.title': 'SaveTT – Pengunduh Video TikTok Tanpa Watermark',
+    'savett.description': 'SaveTT memungkinkan Anda mengunduh video TikTok tanpa watermark dalam HD penuh. Berfungsi di iPhone, Android, dan PC. 100% gratis dengan unduhan tanpa batas.',
     'savett.keywords': 'TikTokio, SaveTT, save tt, save tiktok, tiktok save, simpan tik tok, unduh video TikTok tanpa watermark, pengunduh video TikTok online, pengunduh TikTok gratis',
 
 	// SnapTik Page metadata
-	'snaptik.title': 'SnapTik - TT Video Downloader Unduh Video TikTok Tanpa Watermark',
-    'snaptik.description': 'SnapTik - Unduh video TikTok secara instan dengan SnapTik - Tik Videos Saver. SnapTik adalah pengunduh video TikTok gratis yang memungkinkan Anda mengunduh video TikTok.',
+	'snaptik.title': 'SnapTik – Pengunduh Video TikTok Tanpa Watermark',
+    'snaptik.description': 'Gunakan SnapTik untuk menyimpan video TikTok HD tanpa watermark, cepat dan gratis. Simpan video MP4 atau audio MP3 dalam hitungan detik.',
     'snaptik.keywords': 'TikTokio, snaptik, unduh video tiktok, download tiktok, pengunduh tiktok, unduh video tiktok tanpa watermark',
 
 	// SssTik Page metadata
-	'ssstik.title': 'SSSTik - TikTok Downloader Unduh video TikTok online.',
-    'ssstik.description': 'ssstiktok memungkinkan Anda mengunduh video tiktok secara instan. Pengunduh tiktok tercepat untuk menyimpan video TT dengan kualitas tinggi TikTok ke MP4.',
+	'ssstik.title': 'SSSTik – Pengunduh Video TikTok Tanpa Watermark',
+    'ssstik.description': 'SSSTik adalah cara cepat mengunduh video TikTok tanpa watermark secara online. 100% gratis dengan unduhan tanpa batas. Tanpa aplikasi dan tanpa registrasi.',
     'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, ssstik.io mp3',
 
 	// SssTikTok Page metadata
-	'ssstiktok.title': 'SSSTikTok - Pengunduh TikTok Tanpa Watermark Unduh Video TikTok Online',
-    'ssstiktok.description': 'SSSTikTok pengunduh video TikTok online adalah layanan gratis untuk mengunduh video TikTok tanpa watermark dalam format berkualitas tinggi. TikTok ke Mp4.',
+	'ssstiktok.title': 'SSSTikTok – Pengunduh Video TikTok Tanpa Watermark',
+    'ssstiktok.description': 'SSSTikTok memungkinkan Anda mengunduh video TikTok tanpa watermark dalam HD penuh. Tanpa aplikasi dan tanpa registrasi. Berfungsi di iPhone, Android, dan PC.',
     'ssstiktok.keywords': 'TikTokio, unduh video TikTok tanpa watermark, pengunduh video TikTok online, pengunduh TikTok gratis',
 
 	// Tikmate Page metadata
-	'tikmate.title': 'Tikmate - Unduh video tiktok, Tiktok downloader MP4 gratis',
-    'tikmate.description': 'Tikmate adalah pengunduh video TikTok yang cepat dan mudah, tanpa watermark dan HD. Tikmate adalah yang terbaik untuk menyimpan video tanpa login.',
+	'tikmate.title': 'Tikmate – Pengunduh Video TikTok Tanpa Watermark',
+    'tikmate.description': 'Gunakan Tikmate untuk menyimpan video TikTok HD tanpa watermark, cepat dan gratis. Berfungsi di iPhone, Android, dan PC. Tanpa aplikasi dan tanpa registrasi.',
     'tikmate.keywords': 'TikTokio, unduh video tiktok tanpa watermark, pengunduh tikmate online, pengunduh TikTok gratis',
 
 	// Tiksave Page metadata
-	'tiksave.title': 'Tiktokio - Unduh Video TikTok Online Tanpa Watermark dengan Mudah',
-    'tiksave.description': 'Unduh video TikTok tanpa watermark dengan mudah menggunakan pengunduh Tiktokio gratis. Simpan video Tiktok dalam format MP4. Tanpa daftar.',
+	'tiksave.title': 'TikSave – Pengunduh Video TikTok Tanpa Watermark',
+    'tiksave.description': 'TikSave adalah cara cepat mengunduh video TikTok tanpa watermark secara online. Simpan video MP4 atau audio MP3 dalam hitungan detik.',
     'tiksave.keywords': 'TikTokio, unduh video TikTok tanpa watermark, pengunduh video TikTok online',
 
 	// TikToksss Page metadata
-	'tiktoksss.title': 'Tiktokio - Unduh Video TikTok Online Tanpa Watermark dengan Mudah',
-    'tiktoksss.description': 'Unduh video TikTok tanpa watermark dengan mudah menggunakan pengunduh Tiktokio gratis. Simpan video Tiktok dalam format MP4. Tanpa daftar.',
+	'tiktoksss.title': 'TikTokSSS – Pengunduh Video TikTok Tanpa Watermark',
+    'tiktoksss.description': 'TikTokSSS memungkinkan Anda mengunduh video TikTok tanpa watermark dalam HD penuh. 100% gratis dengan unduhan tanpa batas.',
     'tiktoksss.keywords': 'TikTokio, unduh video TikTok tanpa watermark, pengunduh video TikTok online',
 
 	// Tmate Page metadata
-	'tmate.title': 'Tiktokio - Unduh Video TikTok Online Tanpa Watermark dengan Mudah',
-    'tmate.description': 'Unduh video TikTok tanpa watermark dengan mudah menggunakan pengunduh Tiktokio gratis. Simpan video Tiktok dalam format MP4.',
+	'tmate.title': 'Tmate – Pengunduh Video TikTok Tanpa Watermark',
+    'tmate.description': 'Gunakan Tmate untuk menyimpan video TikTok HD tanpa watermark, cepat dan gratis. Tanpa aplikasi dan tanpa registrasi. Berfungsi di iPhone, Android, dan PC.',
     'tmate.keywords': 'TikTokio, unduh video TikTok tanpa watermark, pengunduh video TikTok online',
 
 	// Ttdownloader Page metadata
-	'ttdownloader.title': 'Tiktokio - Unduh Video TikTok Online Tanpa Watermark dengan Mudah',
-    'ttdownloader.description': 'Unduh video TikTok tanpa watermark dengan mudah menggunakan pengunduh Tiktokio gratis. Simpan video Tiktok dalam format MP4.',
+	'ttdownloader.title': 'TTDownloader – Pengunduh Video TikTok Tanpa Watermark',
+    'ttdownloader.description': 'TTDownloader adalah cara cepat mengunduh video TikTok tanpa watermark secara online. Berfungsi di iPhone, Android, dan PC.',
     'ttdownloader.keywords': 'TikTokio, unduh video TikTok tanpa watermark, pengunduh video TikTok online',
  
     // Hero section
@@ -4092,94 +4156,102 @@ id: {
     // Blog section
     'blog.prev': 'Sebelumnya',
     'blog.next': 'Berikutnya',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'Download Thumbnail TikTok – Tanpa Watermark | TikTokio',
+    'thumb.description': 'Simpan thumbnail atau gambar sampul video TikTok mana pun dalam kualitas HD asli. 100% gratis dengan unduhan tanpa batas. Tanpa aplikasi dan tanpa registrasi.',
+    'terms.title': 'Syarat dan Ketentuan – TikTokio',
+    'terms.description': 'Baca Syarat dan Ketentuan TikTokio: tanggung jawab pengguna, aturan penggunaan konten, privasi, dan batasan tanggung jawab layanan kami.',
+    'blog.meta.title': 'Blog TikTokio – Tips dan Panduan Download TikTok',
+    'blog.meta.description': 'Baca blog TikTokio untuk panduan, tips, dan trik download TikTok. Pelajari cara menyimpan video TikTok tanpa watermark dalam HD.',
+    'blog.post_suffix': 'Baca selengkapnya di TikTokio, pengunduh video TikTok gratis tanpa watermark.',
   },
 
 
 ru: {
   
   // Main Site metadata
-	'site.title': 'TikTokio - Бесплатный загрузчик видео из TikTok без водяных знаков онлайн',
-    'site.description': 'TikTokio – лучший бесплатный загрузчик видео из TikTok без водяных знаков для неограниченного скачивания. Скачивайте видео из TikTok по ссылке в HD качестве.',
+	'site.title': 'TikTokio – Загрузчик Видео TikTok Без Водяных Знаков',
+    'site.description': 'TikTokio позволяет скачивать видео TikTok без водяных знаков в полном HD. Сохраняйте видео MP4 или аудио MP3 за секунды. 100% бесплатно, без ограничений.',
 	'site.keywords': 'TikTokio, загрузчик видео TikTok онлайн, скачать видео из Тик Ток, неограниченное скачивание TikTok, бесплатный загрузчик Тик Ток, сохранить видео из TikTok',
 
 	// TikTok Video Downloader Page metadata
-    'tvd.title': 'TikTokio – Загрузчик видео TikTok без водяных знаков бесплатно в HD',
-    'tvd.description': 'Скачивайте видео из TikTok без водяных знаков в Full HD через TikTokio. Самый быстрый онлайн-загрузчик Тик Ток за считанные секунды.',
+    'tvd.title': 'TikTokio Загрузчик Видео TikTok Без Водяных Знаков',
+    'tvd.description': 'TikTokio – быстрый способ скачать видео TikTok без водяных знаков онлайн. 100% бесплатно, без ограничений. Без приложений и регистрации.',
     'tvd.keywords': 'TikTokio, загрузчик видео TikTok, скачать видео TikTok, бесплатный загрузчик Тик Ток, сохранить видео TikTok, онлайн загрузчик TikTok',
     
 	// TikTok Downloader Page metadata
-	'td.title': 'TikTokio TikTok Downloader – Скачать бесплатно в HD без водяных знаков',
-    'td.description': 'Загрузчик TikTok от TikTokio мгновенно удаляет водяные знаки. Скачивайте видео и звуки TikTok в HD бесплатно на мобильный или ПК. Быстро, безопасно, без приложений.',
+	'td.title': 'TikTokio Загрузчик TikTok – Бесплатно Без Водяных Знаков HD',
+    'td.description': 'Сохраняйте видео TikTok в HD без водяных знаков с TikTokio – быстро и бесплатно. Без приложений и регистрации. Работает на iPhone, Android и ПК.',
     'td.keywords': 'TikTokio, загрузчик TikTok без водяного знака, сохранить видео TikTok онлайн, как скачать видео из Тик Ток, лучший инструмент для скачивания TikTok, TikTok MP4',
     
 	// Download TikTok Video Page metadata
-	'dtv.title': 'TikTokio Скачать видео из TikTok без водяных знаков – Бесплатно и быстро',
-    'dtv.description': 'С TikTokio скачивайте видео из TikTok в Full HD без водяных знаков за секунды. Самый быстрый бесплатный загрузчик с неограниченным скачиванием.',
+	'dtv.title': 'Скачать Видео TikTok Без Водяных Знаков – TikTokio Бесплатно',
+    'dtv.description': 'Скачать Видео TikTok без водяных знаков – TikTokio. Работает на iPhone, Android и ПК. Сохраняйте видео MP4 или аудио MP3 за секунды.',
     'dtv.keywords': 'TikTokio, скачать видео TikTok без водяного знака, онлайн загрузчик видео TikTok, скачать видео из Тик Ток бесплатно',
 
 	// Download Foto Tiktok Page metadata
-	'dft.title': 'TikTok Photo Downloader – Скачать изображения слайд-шоу без водяных знаков',
-    'dft.description': 'Скачать фото из TikTok. Скачивайте слайд-шоу и карусели фотографий TikTok без водяных знаков в Full HD. Бесплатно, без входа, работает на iPhone и Android!',
+	'dft.title': 'Скачать Фото TikTok – Без Водяных Знаков | TikTokio',
+    'dft.description': 'Скачивайте фото, слайд-шоу и карусели TikTok без водяных знаков в полном HD. Сохраняйте видео MP4 или аудио MP3 за секунды. 100% бесплатно, без ограничений.',
     'dft.keywords': 'загрузчик фото tiktok без водяного знака, скачать изображения слайд-шоу тик ток, сохранить карусель фото тик ток, скачать все фото из поста tiktok',
 
 	// Musically Down Page metadata
-	'md.title': 'Musically Down - Скачать видео TikTok без водяных знаков онлайн',
-    'md.description': 'Musically Down загрузчик видео TikTok! Скачивайте видео из TikTok с водяным знаком или без него онлайн. Сохраняйте видео TikTok в HD и MP3 на любом устройстве.',
+	'md.title': 'Musically Down – Загрузчик Видео TikTok Без Водяных Знаков',
+    'md.description': 'Musically Down позволяет скачивать видео TikTok без водяных знаков в полном HD. Сохраняйте видео MP4 или аудио MP3 за секунды. Без приложений и регистрации.',
     'md.keywords': 'TikTokio, musicallydown, мьюзикли даун, musicallydown скачать тик ток',
 
 	// Savefrom Download From Tiktok Page metadata
-	'savef.title': 'SaveFrom - Скачивание видео из TikTok - Savefromnet TikTok Downloader',
-    'savef.description': 'Откройте для себя самый быстрый загрузчик видео TikTok от savefromnet. Скачайте любое видео TikTok в HD без водяных знаков за секунды.',
+	'savef.title': 'SaveFrom – Загрузчик Видео TikTok Без Водяных Знаков',
+    'savef.description': 'Сохраняйте видео TikTok в HD без водяных знаков с SaveFrom – быстро и бесплатно. 100% бесплатно, без ограничений. Без приложений и регистрации.',
     'savef.keywords': 'TikTokio, скачать видео тик ток, загрузчик видео тик ток, скачать тик ток без водяного знака, сейвфром тик ток',
 
 	// Savetik Downloader Page metadata
-	'savetik.title': 'SaveTik Downloader - Сохранить видео Тик Ток без водяного знака бесплатно',
-    'savetik.description': 'SaveTik Downloader — это загрузчик видео TikTok без водяных знаков. Вы можете сохранять видео TikTok с любого устройства.',
+	'savetik.title': 'SaveTik – Загрузчик Видео TikTok Без Водяных Знаков',
+    'savetik.description': 'SaveTik – быстрый способ скачать видео TikTok без водяных знаков онлайн. Без приложений и регистрации. Работает на iPhone, Android и ПК.',
     'savetik.keywords': 'TikTokio, скачать видео TikTok без водяных знаков, бесплатный загрузчик TikTok, сохранить видео Тик Ток',
 
 	// Savett Page metadata
-	'savett.title': 'SaveTT - Сохранить видео TikTok без водяных знаков за секунды',
-    'savett.description': 'SaveTT — лучший способ скачивать видео из TikTok онлайн. Используйте SaveTT для сохранения видео в HD без водяных знаков. Быстро и бесплатно.',
+	'savett.title': 'SaveTT – Загрузчик Видео TikTok Без Водяных Знаков',
+    'savett.description': 'SaveTT позволяет скачивать видео TikTok без водяных знаков в полном HD. Работает на iPhone, Android и ПК. Сохраняйте видео MP4 или аудио MP3 за секунды.',
     'savett.keywords': 'TikTokio, SaveTT, сейв тт, сохранить тик ток, скачать видео из тик ток без логотипа',
 
 	// SnapTik Page metadata
-	'snaptik.title': 'SnapTik - Скачать видео из TikTok без водяных знаков',
-    'snaptik.description': 'SnapTik - Скачивайте видео из TikTok мгновенно. SnapTik — это бесплатный загрузчик, который позволяет скачивать видео в высоком качестве.',
+	'snaptik.title': 'SnapTik – Загрузчик Видео TikTok Без Водяных Знаков',
+    'snaptik.description': 'Сохраняйте видео TikTok в HD без водяных знаков с SnapTik – быстро и бесплатно. Сохраняйте видео MP4 или аудио MP3 за секунды. Без приложений и регистрации.',
     'snaptik.keywords': 'TikTokio, snaptik, снаптик, скачать видео тик ток, загрузчик тик ток без водяного знака',
 
 	// SssTik Page metadata
-	'ssstik.title': 'SSSTik - Загрузчик TikTok Скачать видео из TikTok онлайн.',
-    'ssstik.description': 'ssstiktok позволяет мгновенно скачивать видео из тик ток. Самый быстрый загрузчик для сохранения TT видео в высоком качестве MP4.',
+	'ssstik.title': 'SSSTik – Загрузчик Видео TikTok Без Водяных Знаков',
+    'ssstik.description': 'SSSTik – быстрый способ скачать видео TikTok без водяных знаков онлайн. 100% бесплатно, без ограничений. Без приложений и регистрации.',
     'ssstik.keywords': 'TikTokio, ssstik, ссс тик ток, скачать мп3 из тик ток',
 
 	// SssTikTok Page metadata
-	'ssstiktok.title': 'SSSTikTok - Загрузчик TikTok без водяных знаков Скачать видео онлайн',
-    'ssstiktok.description': 'SSSTikTok онлайн загрузчик — это бесплатный сервис для скачивания видео TikTok без водяных знаков в высоком качестве. TikTok в Mp4.',
+	'ssstiktok.title': 'SSSTikTok – Загрузчик Видео TikTok Без Водяных Знаков',
+    'ssstiktok.description': 'SSSTikTok позволяет скачивать видео TikTok без водяных знаков в полном HD. Без приложений и регистрации. Работает на iPhone, Android и ПК.',
     'ssstiktok.keywords': 'TikTokio, скачать видео из тик ток без водяного знака, бесплатный загрузчик видео онлайн',
 
 	// Tikmate Page metadata
-	'tikmate.title': 'Tikmate - Скачать видео тик ток, TikTok загрузчик MP4 бесплатно',
-    'tikmate.description': 'Tikmate — это быстрый и простой загрузчик видео TikTok без водяных знаков в HD качестве. Лучший способ сохранить видео без входа в систему.',
+	'tikmate.title': 'Tikmate – Загрузчик Видео TikTok Без Водяных Знаков',
+    'tikmate.description': 'Сохраняйте видео TikTok в HD без водяных знаков с Tikmate – быстро и бесплатно. Работает на iPhone, Android и ПК. 100% бесплатно, без ограничений.',
     'tikmate.keywords': 'TikTokio, тикмейт, скачать видео тик ток без водяного знака, бесплатный загрузчик',
 
 	// Tiksave Page metadata
-	'tiksave.title': 'Tiktokio - Скачать видео из TikTok онлайн без водяных знаков легко',
-    'tiksave.description': 'Легко скачивайте видео из TikTok без водяных знаков с помощью бесплатного загрузчика TikTokio. Сохраняйте в формате MP4.',
+	'tiksave.title': 'TikSave – Загрузчик Видео TikTok Без Водяных Знаков',
+    'tiksave.description': 'TikSave – быстрый способ скачать видео TikTok без водяных знаков онлайн. Сохраняйте видео MP4 или аудио MP3 за секунды. 100% бесплатно, без ограничений.',
     'tiksave.keywords': 'TikTokio, тиксейв, скачать видео тик ток без логотипа',
 
 	// TikToksss Page metadata
-	'tiktoksss.title': 'Tiktokio - Скачать видео из TikTok онлайн без водяных знаков легко',
-    'tiktoksss.description': 'Легко скачивайте видео из TikTok без водяных знаков. Без регистрации, бесплатные загрузки на всех устройствах.',
+	'tiktoksss.title': 'TikTokSSS – Загрузчик Видео TikTok Без Водяных Знаков',
+    'tiktoksss.description': 'TikTokSSS позволяет скачивать видео TikTok без водяных знаков в полном HD. 100% бесплатно, без ограничений. Без приложений и регистрации.',
     'tiktoksss.keywords': 'TikTokio, скачать видео тик ток, тик ток ссс',
 
 	// Tmate Page metadata
-	'tmate.title': 'Tmate - Скачать видео из TikTok онлайн без водяных знаков легко',
-    'tmate.description': 'Скачивайте видео TikTok без водяных знаков с помощью Tmate. Быстро, бесплатно и качественно.',
+	'tmate.title': 'Tmate – Загрузчик Видео TikTok Без Водяных Знаков',
+    'tmate.description': 'Сохраняйте видео TikTok в HD без водяных знаков с Tmate – быстро и бесплатно. Без приложений и регистрации. Работает на iPhone, Android и ПК.',
     'tmate.keywords': 'TikTokio, tmate, тмейт, скачать видео тик ток',
 
 	// Ttdownloader Page metadata
-	'ttdownloader.title': 'TTDownloader - Скачать видео из TikTok онлайн без водяных знаков легко',
-    'ttdownloader.description': 'Скачивайте видео из TikTok в формате MP4 без водяных знаков. Популярный и надежный инструмент для сохранения контента.',
+	'ttdownloader.title': 'TTDownloader – Загрузчик Видео TikTok Без Водяных Знаков',
+    'ttdownloader.description': 'TTDownloader – быстрый способ скачать видео TikTok без водяных знаков онлайн. Работает на iPhone, Android и ПК. Сохраняйте видео MP4 или аудио MP3 за секунды.',
     'ttdownloader.keywords': 'TikTokio, тт загрузчик, скачать видео тик ток',
  
     // Hero section
@@ -4492,93 +4564,101 @@ ru: {
     // Blog section
     'blog.prev': 'Назад',
     'blog.next': 'Вперед',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'Скачать Обложку TikTok – Без Водяных Знаков | TikTokio',
+    'thumb.description': 'Сохраните превью или обложку любого видео TikTok в исходном HD-качестве. 100% бесплатно, без ограничений. Без приложений и регистрации.',
+    'terms.title': 'Условия использования – TikTokio',
+    'terms.description': 'Прочитайте условия использования TikTokio: обязанности пользователей, правила использования контента, конфиденциальность и ограничение ответственности.',
+    'blog.meta.title': 'Блог TikTokio – Советы и гайды по скачиванию TikTok',
+    'blog.meta.description': 'Читайте блог TikTokio: гайды, советы и хитрости по скачиванию TikTok. Узнайте, как сохранять видео TikTok без водяных знаков в HD.',
+    'blog.post_suffix': 'Читайте больше на TikTokio – бесплатном загрузчике видео TikTok без водяных знаков.',
   },
 
   pt: {
   
   // Main Site metadata
-	'site.title': 'TikTokio - Downloader de Vídeo do TikTok Grátis Online Sem Marca d\'Água',
-    'site.description': 'TikTokio – O melhor baixador de vídeos do TikTok online e gratuito sem marca d\'água para downloads ilimitados. Baixe vídeos do TikTok com link em HD.',
+	'site.title': 'TikTokio – Baixar Vídeos do TikTok Sem Marca d\'Água',
+    'site.description': 'TikTokio permite baixar vídeos do TikTok sem marca d\'água em HD completo. Salve vídeos MP4 ou áudio MP3 em segundos. 100% grátis com downloads ilimitados.',
 	'site.keywords': 'TikTokio, downloader de vídeo do TikTok online, baixar vídeo do TikTok, downloads ilimitados do TikTok, baixador de TikTok grátis, salvar vídeos do TikTok, TikTok downloader online',
 
 	// TikTok Video Downloader Page metadata
-    'tvd.title': 'Tiktokio – Baixador de Vídeos do TikTok Sem Marca d\'Água Grátis HD',
-    'tvd.description': 'Baixe vídeos do TikTok sem marca d\'água com o Downloader de Vídeo do TikTok Online em Full HD via Tiktokio. O baixador de TikTok online mais rápido.',
+    'tvd.title': 'TikTokio Baixar Vídeos do TikTok Sem Marca d\'Água Grátis HD',
+    'tvd.description': 'TikTokio é um jeito rápido de baixar vídeos do TikTok sem marca d\'água online. 100% grátis com downloads ilimitados. Sem app e sem cadastro.',
     'tvd.keywords': 'TikTokio, downloader de vídeo do TikTok, baixar vídeo do TikTok, baixador de TikTok grátis, salvar vídeos do TikTok, TikTok downloader online',
     
 	// TikTok Downloader Page metadata
-	'td.title': 'Tiktokio TikTok Downloader – Download HD Grátis Sem Marca d\'Água',
-    'td.description': 'O Tiktokio TikTok Downloader remove marcas d\'água instantaneamente. Baixe vídeos e áudios do TikTok em HD gratuitamente no celular ou PC. Rápido e seguro.',
+	'td.title': 'TikTokio Downloader TikTok – Grátis Sem Marca d\'Água HD',
+    'td.description': 'Use TikTokio para salvar vídeos do TikTok em HD sem marca d\'água, rápido e grátis. Sem app e sem cadastro. Funciona no iPhone, Android e PC.',
     'td.keywords': 'TikTokio, downloader de TikTok sem marca d\'água, salvar vídeos do TikTok online, como baixar vídeos do TikTok, melhor ferramenta de download do TikTok, baixar TikTok MP4',
     
 	// Download TikTok Video Page metadata
-	'dtv.title': 'Tiktokio Baixar Vídeo do TikTok Sem Marca d\'Água – Grátis HD Rápido',
-    'dtv.description': 'Com o Tiktokio, baixe vídeos do TikTok em Full HD sem marca d\'água em segundos. O downloader Tiktokio gratuito mais rápido com downloads ilimitados.',
+	'dtv.title': 'Baixar Vídeo do TikTok Sem Marca d\'Água – TikTokio Grátis',
+    'dtv.description': 'Baixar Vídeo do TikTok sem marca d\'água – TikTokio. Funciona no iPhone, Android e PC. Salve vídeos MP4 ou áudio MP3 em segundos. Sem app e sem cadastro.',
     'dtv.keywords': 'TikTokio, baixar vídeo do TikTok sem marca d\'água, downloader de vídeo TikTok online, baixador de TikTok grátis, salvar vídeos do TikTok sem marca d\'água',
 
 	// Download Foto Tiktok Page metadata
-	'dft.title': 'TikTok Photo Downloader – Baixar Imagens de Slideshow Sem Marca d\'Água',
-    'dft.description': 'Baixar Fotos do TikTok. Baixe apresentações de slides e carrosséis de fotos do TikTok sem marca d\'água em Full HD. Grátis, sem login, funciona em iPhone e Android!',
+	'dft.title': 'Baixar Fotos do TikTok – Sem Marca d\'Água | TikTokio',
+    'dft.description': 'Baixe slideshows e fotos em carrossel do TikTok sem marca d\'água em HD completo. Salve vídeos MP4 ou áudio MP3 em segundos. Sem app e sem cadastro.',
     'dft.keywords': 'baixar fotos do tiktok sem marca d\'água, baixar imagens de slideshow do tiktok, salvar carrossel de fotos do tiktok, baixar todas as fotos de um post do tiktok',
 
 	// Musically Down Page metadata
-	'md.title': 'Musically Down - Baixar Vídeo do TikTok Sem Marca d\'Água Online',
-    'md.description': 'Downloader de vídeos Musically Down! Baixe vídeos do TikTok com ou sem marca d\'água online. Salve vídeos do TikTok em HD e MP3 em qualquer dispositivo.',
+	'md.title': 'Musically Down – Baixar Vídeos do TikTok Sem Marca d\'Água',
+    'md.description': 'Musically Down permite baixar vídeos do TikTok sem marca d\'água em HD completo. Salve vídeos MP4 ou áudio MP3 em segundos. Sem app e sem cadastro.',
     'md.keywords': 'TikTokio, musicallydown, musically down brasil, baixar tiktok musically down',
 
 	// Savefrom Download From Tiktok Page metadata
-	'savef.title': 'SaveFrom - Downloads de Vídeos do TikTok - Savefromnet Tiktok Downloader',
-    'savef.description': 'Descubra o downloader de vídeos do TikTok mais rápido do savefromnet. Baixe qualquer vídeo do TikTok em HD sem marca d\'água em segundos.',
+	'savef.title': 'SaveFrom – Baixar Vídeos do TikTok Sem Marca d\'Água',
+    'savef.description': 'Use SaveFrom para salvar vídeos do TikTok em HD sem marca d\'água, rápido e grátis. 100% grátis com downloads ilimitados. Sem app e sem cadastro.',
     'savef.keywords': 'TikTokio, baixar vídeo do tiktok, downloader de vídeo do tiktok, download de vídeo do tiktok sem marca d\'água, savefrom tiktok',
 
 	// Savetik Downloader Page metadata
-	'savetik.title': 'SaveTik Downloader - Salvar Vídeos do Tiktok Sem Marca d\'Água Grátis',
-    'savetik.description': 'O SaveTik Downloader é um baixador de vídeos do Tiktok sem marca d\'água. Você pode salvar vídeos do TikTok em qualquer dispositivo.',
+	'savetik.title': 'SaveTik – Baixar Vídeos do TikTok Sem Marca d\'Água',
+    'savetik.description': 'SaveTik é um jeito rápido de baixar vídeos do TikTok sem marca d\'água online. Sem app e sem cadastro. Funciona no iPhone, Android e PC.',
     'savetik.keywords': 'TikTokio, baixar vídeo do TikTok sem marca d\'água, downloader de TikTok online, savetik grátis',
 
 	// Savett Page metadata
-	'savett.title': 'SaveTT - Salvar Vídeos do TikTok Sem Marca d\'Água em Segundos',
-    'savett.description': 'O SaveTT é a melhor maneira de baixar vídeos do TikTok online. Use o SaveTT para salvar vídeos em HD sem marcas d\'água. Rápido, gratuito e multiplataforma.',
+	'savett.title': 'SaveTT – Baixar Vídeos do TikTok Sem Marca d\'Água',
+    'savett.description': 'SaveTT permite baixar vídeos do TikTok sem marca d\'água em HD completo. Funciona no iPhone, Android e PC. Salve vídeos MP4 ou áudio MP3 em segundos.',
     'savett.keywords': 'TikTokio, SaveTT, save tt, baixar tiktok grátis, salvar tiktok sem marca d\'água',
 
 	// SnapTik Page metadata
-	'snaptik.title': 'SnapTik - TT Video Downloader Baixar Vídeos do TikTok Sem Marca d\'Água',
-    'snaptik.description': 'SnapTik - Baixe vídeos do TikTok instantaneamente com o SnapTik. O SnapTik é um downloader gratuito que permite baixar vídeos em alta qualidade.',
+	'snaptik.title': 'SnapTik – Baixar Vídeos do TikTok Sem Marca d\'Água',
+    'snaptik.description': 'Use SnapTik para salvar vídeos do TikTok em HD sem marca d\'água, rápido e grátis. Salve vídeos MP4 ou áudio MP3 em segundos. Sem app e sem cadastro.',
     'snaptik.keywords': 'TikTokio, snaptik, baixar vídeo do tiktok, download tiktok, snaptik sem marca d\'água',
 
 	// SssTik Page metadata
-	'ssstik.title': 'SSSTik - TikTok Downloader Baixar vídeos do TikTok online.',
-    'ssstik.description': 'O ssstiktok permite baixar vídeos do tiktok instantaneamente. O downloader mais rápido para salvar vídeos do TT em MP4 de alta qualidade.',
+	'ssstik.title': 'SSSTik – Baixar Vídeos do TikTok Sem Marca d\'Água',
+    'ssstik.description': 'SSSTik é um jeito rápido de baixar vídeos do TikTok sem marca d\'água online. 100% grátis com downloads ilimitados. Sem app e sem cadastro.',
     'ssstik.keywords': 'TikTokio, ssstik, ssstiktok mp3, baixar vídeo do tiktok ssstik',
 
 	// SssTikTok Page metadata
-	'ssstiktok.title': 'SSSTikTok - Downloader do TikTok Sem Marca d\'Água Baixar Vídeo Online',
-    'ssstiktok.description': 'SSSTikTok é um serviço gratuito para baixar vídeos do TikTok sem marca d\'água em formato de alta qualidade. Conversor de TikTok para Mp4.',
+	'ssstiktok.title': 'SSSTikTok – Baixar Vídeos do TikTok Sem Marca d\'Água',
+    'ssstiktok.description': 'SSSTikTok permite baixar vídeos do TikTok sem marca d\'água em HD completo. Sem app e sem cadastro. Funciona no iPhone, Android e PC.',
     'ssstiktok.keywords': 'TikTokio, baixar vídeo do TikTok sem marca d\'água, downloader de TikTok grátis',
 
 	// Tikmate Page metadata
-	'tikmate.title': 'Tikmate - Baixar vídeo do tiktok, Tiktok downloader MP4 grátis',
-    'tikmate.description': 'O Tikmate é um downloader de vídeos do TikTok rápido e fácil, sem marca d\'água e em HD. Ideal para salvar vídeos sem precisar de login.',
+	'tikmate.title': 'Tikmate – Baixar Vídeos do TikTok Sem Marca d\'Água',
+    'tikmate.description': 'Use Tikmate para salvar vídeos do TikTok em HD sem marca d\'água, rápido e grátis. Funciona no iPhone, Android e PC. Salve vídeos MP4 ou áudio MP3 em segundos.',
     'tikmate.keywords': 'TikTokio, baixar vídeo do tiktok sem marca d\'água, tikmate downloader online',
 
 	// Tiksave Page metadata
-	'tiksave.title': 'Tiktokio - Baixar Vídeo do TikTok Online Sem Marca d\'Água facilmente',
-    'tiksave.description': 'Baixe vídeos do TikTok sem marca d\'água facilmente com o downloader gratuito Tiktokio. Salve vídeos em MP4. Sem registro.',
+	'tiksave.title': 'TikSave – Baixar Vídeos do TikTok Sem Marca d\'Água',
+    'tiksave.description': 'TikSave é um jeito rápido de baixar vídeos do TikTok sem marca d\'água online. Salve vídeos MP4 ou áudio MP3 em segundos. 100% grátis com downloads ilimitados.',
     'tiksave.keywords': 'TikTokio, baixar vídeo do tiktok sem logo, tiksave online',
 
 	// TikToksss Page metadata
-	'tiktoksss.title': 'Tiktokio - Baixar Vídeo do TikTok Online Sem Marca d\'Água facilmente',
-    'tiktoksss.description': 'Baixe vídeos do TikTok sem marca d\'água com o downloader gratuito Tiktokio. Salve vídeos em MP4 sem complicações.',
+	'tiktoksss.title': 'TikTokSSS – Baixar Vídeos do TikTok Sem Marca d\'Água',
+    'tiktoksss.description': 'TikTokSSS permite baixar vídeos do TikTok sem marca d\'água em HD completo. 100% grátis com downloads ilimitados. Sem app e sem cadastro.',
     'tiktoksss.keywords': 'TikTokio, baixar vídeo do tiktok sem marca d\'água, tiktoksss',
 
 	// Tmate Page metadata
-	'tmate.title': 'Tiktokio - Baixar Vídeo do TikTok Online Sem Marca d\'Água facilmente',
-    'tmate.description': 'Baixe vídeos do TikTok sem marca d\'água com o Tmate. Rápido, gratuito e em alta qualidade.',
+	'tmate.title': 'Tmate – Baixar Vídeos do TikTok Sem Marca d\'Água',
+    'tmate.description': 'Use Tmate para salvar vídeos do TikTok em HD sem marca d\'água, rápido e grátis. Sem app e sem cadastro. Funciona no iPhone, Android e PC.',
     'tmate.keywords': 'TikTokio, tmate tiktok downloader, baixar vídeo tiktok tmate',
 
 	// Ttdownloader Page metadata
-	'ttdownloader.title': 'Tiktokio - Baixar Vídeo do TikTok Online Sem Marca d\'Água facilmente',
-    'ttdownloader.description': 'Baixe vídeos do TikTok sem marca d\'água no formato MP4. Ferramenta confiável e gratuita para todos os dispositivos.',
+	'ttdownloader.title': 'TTDownloader – Baixar Vídeos do TikTok Sem Marca d\'Água',
+    'ttdownloader.description': 'TTDownloader é um jeito rápido de baixar vídeos do TikTok sem marca d\'água online. Funciona no iPhone, Android e PC. 100% grátis com downloads ilimitados.',
     'ttdownloader.keywords': 'TikTokio, ttdownloader, baixar vídeo tiktok sem marca d\'água',
  
     // Hero section
@@ -4891,93 +4971,101 @@ ru: {
     // Blog section
     'blog.prev': 'Anterior',
     'blog.next': 'Próximo',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'Baixar Miniaturas do TikTok – Sem Marca d\'Água | TikTokio',
+    'thumb.description': 'Salve a miniatura ou a capa de qualquer vídeo do TikTok em HD original. 100% grátis com downloads ilimitados. Sem app e sem cadastro.',
+    'terms.title': 'Termos e Condições – TikTokio',
+    'terms.description': 'Leia os Termos e Condições do TikTokio: responsabilidades do usuário, uso de conteúdo, privacidade e limites de responsabilidade do serviço.',
+    'blog.meta.title': 'Blog TikTokio – Guias e Dicas para Baixar TikTok',
+    'blog.meta.description': 'Veja o blog do TikTokio com guias, dicas e truques para baixar TikTok. Aprenda a salvar vídeos do TikTok sem marca d\'água em HD.',
+    'blog.post_suffix': 'Leia mais no TikTokio, o downloader grátis de vídeos do TikTok sem marca d\'água.',
   },
 
 ko: {
   
   // Main Site metadata
-	'site.title': 'TikTokio - 무료 틱톡 비디오 다운로더 온라인 (워터마크 없음)',
-    'site.description': 'TikTokio – 무제한 틱톡 다운로드를 위한 최고의 무료 온라인 틱톡 비디오 다운로더. 링크만으로 HD 화질의 틱톡 영상을 워터마크 없이 다운로드하세요.',
+	'site.title': 'TikTokio – 틱톡 비디오 다운로더 워터마크 없이',
+    'site.description': 'TikTokio로 틱톡 영상을 워터마크 없이 풀 HD 화질로 다운로드하세요. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다. 100% 무료이며 다운로드 횟수 제한이 없습니다. 앱 설치나 회원가입이 필요 없습니다. 아이폰, 안드로이드, PC 모두 지원합니다.',
 	'site.keywords': 'TikTokio, 틱톡 비디오 다운로더 온라인, 틱톡 영상 다운로드, 무제한 틱톡 다운로드, 무료 틱톡 다운로더, 틱톡 영상 저장, 틱톡 다운로더 사이트',
 
 	// TikTok Video Downloader Page metadata
-    'tvd.title': 'Tiktokio – 틱톡 비디오 다운로더 워터마크 없음 무료 HD',
-    'tvd.description': 'Tiktokio를 통해 온라인 틱톡 비디오 다운로더로 워터마크 없는 풀 HD 영상을 다운로드하세요. 몇 초 만에 완료되는 가장 빠른 온라인 틱톡 다운로더.',
+    'tvd.title': 'TikTokio 틱톡 비디오 다운로더 워터마크 없이 무료 HD',
+    'tvd.description': 'TikTokio는 틱톡 영상을 워터마크 없이 온라인으로 받는 가장 빠른 방법입니다. 100% 무료이며 다운로드 횟수 제한이 없습니다. 앱 설치나 회원가입이 필요 없습니다. 아이폰, 안드로이드, PC 모두 지원합니다. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다.',
     'tvd.keywords': 'TikTokio, 틱톡 비디오 다운로더, 틱톡 영상 다운로드, 무료 틱톡 다운로더, 틱톡 영상 저장, 온라인 틱톡 다운로더',
     
 	// TikTok Downloader Page metadata
-	'td.title': 'Tiktokio 틱톡 다운로더 – 무료 워터마크 없는 HD 다운로드',
-    'td.description': 'Tiktokio 틱톡 다운로더는 워터마크를 즉시 제거합니다. 모바일이나 PC에서 틱톡 비디오와 음원을 HD 화질로 무료 다운로드하세요. 빠르고 안전하며 앱 설치가 필요 없습니다.',
+	'td.title': 'TikTokio 틱톡 다운로더 – 무료 워터마크 없이 HD',
+    'td.description': 'TikTokio로 틱톡 영상을 HD 워터마크 없이 빠르고 무료로 저장하세요. 앱 설치나 회원가입이 필요 없습니다. 아이폰, 안드로이드, PC 모두 지원합니다. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다. 100% 무료이며 다운로드 횟수 제한이 없습니다.',
     'td.keywords': 'TikTokio, 틱톡 워터마크 없이 다운로드, 틱톡 영상 온라인 저장, 틱톡 영상 다운로드 방법, 최고의 틱톡 다운로더 도구, 틱톡 다운로드 사이트, 무료 틱톡 영상 저장, 틱톡 MP4 다운로드',
     
 	// Download TikTok Video Page metadata
-	'dtv.title': 'Tiktokio 틱톡 비디오 다운로드 (워터마크 제거) – 무료 HD 빠른 속도',
-    'dtv.description': 'Tiktokio를 사용하여 몇 초 만에 워터마크 없는 풀 HD 틱톡 비디오를 다운로드하세요. 무제한 다운로드가 가능한 가장 빠른 무료 Tiktokio 다운로더.',
+	'dtv.title': '틱톡 영상 다운로드 워터마크 없이 – TikTokio 무료',
+    'dtv.description': '틱톡 영상 다운로드 워터마크 없이 – TikTokio. 아이폰, 안드로이드, PC 모두 지원합니다. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다. 100% 무료이며 다운로드 횟수 제한이 없습니다. 앱 설치나 회원가입이 필요 없습니다.',
     'dtv.keywords': 'TikTokio, 틱톡 비디오 워터마크 없이 다운로드, 온라인 틱톡 비디오 다운로더, 무료 틱톡 다운로더, 온라인 틱톡 영상 다운로드, 워터마크 없는 틱톡 영상 저장',
 
 	// Download Foto Tiktok Page metadata
-	'dft.title': '틱톡 사진 다운로더 – 슬라이드쇼 이미지 워터마크 없이 다운로드',
-    'dft.description': '틱톡 사진 다운로드. 틱톡 사진 슬라이드쇼 및 카로셀을 워터마크 없이 풀 HD로 몇 초 만에 다운로드하세요. 무료, 로그인 불필요, 아이폰 및 안드로이드 지원!',
+	'dft.title': '틱톡 사진 다운로더 – 워터마크 없이 | TikTokio',
+    'dft.description': '틱톡 사진 슬라이드쇼와 캐러셀 이미지를 워터마크 없이 풀 HD 화질로 다운로드하세요. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다. 100% 무료이며 다운로드 횟수 제한이 없습니다. 앱 설치나 회원가입이 필요 없습니다. 아이폰, 안드로이드, PC 모두 지원합니다.',
     'dft.keywords': '틱톡 사진 다운로더 워터마크 없음, 틱톡 슬라이드쇼 이미지 다운로드, 틱톡 사진 카로셀 워터마크 없이 저장, 틱톡 포스트 모든 사진 다운로드',
 
 	// Musically Down Page metadata
-	'md.title': 'Musically Down - 틱톡 비디오 워터마크 없이 온라인 다운로드',
-    'md.description': 'Musically Down 틱톡 비디오 다운로더! 워터마크 유무와 상관없이 온라인으로 틱톡 영상을 다운로드하세요. 모든 기기에서 틱톡 비디오를 HD 및 MP3로 저장하세요.',
+	'md.title': 'Musically Down – 틱톡 비디오 다운로더 워터마크 없이',
+    'md.description': 'Musically Down로 틱톡 영상을 워터마크 없이 풀 HD 화질로 다운로드하세요. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다. 100% 무료이며 다운로드 횟수 제한이 없습니다. 앱 설치나 회원가입이 필요 없습니다.',
     'md.keywords': 'TikTokio, 뮤지컬리 다운, musicallydown, 틱톡 영상 다운로드 도구',
 
 	// Savefrom Download From Tiktok Page metadata
-	'savef.title': 'SaveFrom - 틱톡 비디오 다운로드 - Savefromnet 틱톡 다운로더',
-    'savef.description': 'savefromnet의 가장 빠른 틱톡 비디오 다운로더를 만나보세요. 어떤 틱톡 영상이든 워터마크 없이 HD 화질로 다운로드하세요. 지금 시작하세요!',
+	'savef.title': 'SaveFrom – 틱톡 비디오 다운로더 워터마크 없이',
+    'savef.description': 'SaveFrom로 틱톡 영상을 HD 워터마크 없이 빠르고 무료로 저장하세요. 100% 무료이며 다운로드 횟수 제한이 없습니다. 앱 설치나 회원가입이 필요 없습니다. 아이폰, 안드로이드, PC 모두 지원합니다. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다.',
     'savef.keywords': 'TikTokio, 틱톡 비디오 다운로드, 틱톡 비디오 다운로더, 세이브프롬 틱톡, 워터마크 없는 틱톡 다운로드',
 
 	// Savetik Downloader Page metadata
-	'savetik.title': 'SaveTik 다운로더 - 틱톡 비디오 워터마크 없이 무료 저장',
-    'savetik.description': 'SaveTik 다운로더는 워터마크 없는 틱톡 비디오 다운로더입니다. 모든 기기에서 틱톡 영상을 저장할 수 있습니다.',
+	'savetik.title': 'SaveTik – 틱톡 비디오 다운로더 워터마크 없이',
+    'savetik.description': 'SaveTik는 틱톡 영상을 워터마크 없이 온라인으로 받는 가장 빠른 방법입니다. 앱 설치나 회원가입이 필요 없습니다. 아이폰, 안드로이드, PC 모두 지원합니다. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다. 100% 무료이며 다운로드 횟수 제한이 없습니다.',
     'savetik.keywords': 'TikTokio, 틱톡 비디오 워터마크 없이 다운로드, 온라인 틱톡 다운로더, 무료 틱톡 다운로더, 세이브틱',
 
 	// Savett Page metadata
-	'savett.title': 'SaveTT - 몇 초 만에 틱톡 비디오 워터마크 없이 저장',
-    'savett.description': 'SaveTT는 온라인으로 틱톡 비디오를 다운로드하는 가장 좋은 방법입니다. SaveTT를 사용하여 워터마크 없는 HD 영상을 저장하세요. 빠르고 무료이며 모든 기기에서 작동합니다.',
+	'savett.title': 'SaveTT – 틱톡 비디오 다운로더 워터마크 없이',
+    'savett.description': 'SaveTT로 틱톡 영상을 워터마크 없이 풀 HD 화질로 다운로드하세요. 아이폰, 안드로이드, PC 모두 지원합니다. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다. 100% 무료이며 다운로드 횟수 제한이 없습니다. 앱 설치나 회원가입이 필요 없습니다.',
     'savett.keywords': 'TikTokio, SaveTT, 세이브TT, 틱톡 저장, 틱톡 다운로드, 틱톡 비디오 워터마크 없이 다운로드',
 
 	// SnapTik Page metadata
-	'snaptik.title': 'SnapTik - 틱톡 비디오 다운로더 워터마크 없이 다운로드',
-    'snaptik.description': 'SnapTik - SnapTik을 사용하여 틱톡 영상을 즉시 다운로드하세요. SnapTik은 틱톡 비디오를 다운로드할 수 있는 무료 도구입니다.',
+	'snaptik.title': 'SnapTik – 틱톡 비디오 다운로더 워터마크 없이',
+    'snaptik.description': 'SnapTik로 틱톡 영상을 HD 워터마크 없이 빠르고 무료로 저장하세요. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다. 100% 무료이며 다운로드 횟수 제한이 없습니다. 앱 설치나 회원가입이 필요 없습니다. 아이폰, 안드로이드, PC 모두 지원합니다.',
     'snaptik.keywords': 'TikTokio, snaptik, 스냅틱, 틱톡 비디오 다운로드, 틱톡 다운로더, 워터마크 없는 틱톡 영상 다운로드',
 
 	// SssTik Page metadata
-	'ssstik.title': 'SSSTik - 틱톡 다운로더 온라인 틱톡 비디오 다운로드',
-    'ssstik.description': 'ssstiktok을 사용하면 틱톡 영상을 즉시 다운로드할 수 있습니다. 고화질 틱톡 MP4 저장을 위한 가장 빠른 다운로더.',
+	'ssstik.title': 'SSSTik – 틱톡 비디오 다운로더 워터마크 없이',
+    'ssstik.description': 'SSSTik는 틱톡 영상을 워터마크 없이 온라인으로 받는 가장 빠른 방법입니다. 100% 무료이며 다운로드 횟수 제한이 없습니다. 앱 설치나 회원가입이 필요 없습니다. 아이폰, 안드로이드, PC 모두 지원합니다. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다.',
     'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss 틱톡, ssstik mp3 다운로드',
 
 	// SssTikTok Page metadata
-	'ssstiktok.title': 'SSSTikTok - 틱톡 다운로더 워터마크 없이 온라인 틱톡 비디오 다운로드',
-    'ssstiktok.description': 'SSSTikTok 온라인 틱톡 비디오 다운로더는 워터마크 없이 고화질 형식으로 비디오를 다운로드할 수 있는 무료 서비스입니다. 틱톡 MP4 변환.',
+	'ssstiktok.title': 'SSSTikTok – 틱톡 비디오 다운로더 워터마크 없이',
+    'ssstiktok.description': 'SSSTikTok로 틱톡 영상을 워터마크 없이 풀 HD 화질로 다운로드하세요. 앱 설치나 회원가입이 필요 없습니다. 아이폰, 안드로이드, PC 모두 지원합니다. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다. 100% 무료이며 다운로드 횟수 제한이 없습니다.',
     'ssstiktok.keywords': 'TikTokio, 틱톡 비디오 워터마크 없이 다운로드, 온라인 틱톡 다운로더, 무료 틱톡 다운로더',
 
 	// Tikmate Page metadata
-	'tikmate.title': 'Tikmate - 틱톡 비디오 다운로드, 틱톡 다운로더 MP4 무료',
-    'tikmate.description': 'Tikmate는 빠르고 쉬운 틱톡 비디오 다운로더로, 워터마크가 없으며 HD 화질을 지원합니다. 로그인 없이 영상을 저장하기에 가장 적합합니다.',
+	'tikmate.title': 'Tikmate – 틱톡 비디오 다운로더 워터마크 없이',
+    'tikmate.description': 'Tikmate로 틱톡 영상을 HD 워터마크 없이 빠르고 무료로 저장하세요. 아이폰, 안드로이드, PC 모두 지원합니다. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다. 100% 무료이며 다운로드 횟수 제한이 없습니다. 앱 설치나 회원가입이 필요 없습니다.',
     'tikmate.keywords': 'TikTokio, 틱톡 영상 워터마크 없이 다운로드, 틱메이트 다운로더, 무료 틱톡 다운로더',
 
 	// Tiksave Page metadata
-	'tiksave.title': 'Tiktokio - 틱톡 비디오 온라인 워터마크 없이 쉽게 다운로드',
-    'tiksave.description': 'Tiktokio 무료 틱톡 다운로더로 워터마크 없는 영상을 쉽게 다운로드하세요. MP4 형식으로 저장하며 회원가입이 필요 없습니다.',
+	'tiksave.title': 'TikSave – 틱톡 비디오 다운로더 워터마크 없이',
+    'tiksave.description': 'TikSave는 틱톡 영상을 워터마크 없이 온라인으로 받는 가장 빠른 방법입니다. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다. 100% 무료이며 다운로드 횟수 제한이 없습니다. 앱 설치나 회원가입이 필요 없습니다. 아이폰, 안드로이드, PC 모두 지원합니다.',
     'tiksave.keywords': 'TikTokio, 틱톡 영상 워터마크 없이 다운로드, 온라인 틱톡 다운로더, 무료 틱톡 다운로더',
 
 	// TikToksss Page metadata
-	'tiktoksss.title': 'Tiktokio - 틱톡 비디오 온라인 워터마크 없이 쉽게 다운로드',
-    'tiktoksss.description': 'Tiktokio 무료 틱톡 다운로더로 워터마크 없는 영상을 쉽게 다운로드하세요. 모든 기기에서 무료 다운로드가 가능합니다.',
+	'tiktoksss.title': 'TikTokSSS – 틱톡 비디오 다운로더 워터마크 없이',
+    'tiktoksss.description': 'TikTokSSS로 틱톡 영상을 워터마크 없이 풀 HD 화질로 다운로드하세요. 100% 무료이며 다운로드 횟수 제한이 없습니다. 앱 설치나 회원가입이 필요 없습니다. 아이폰, 안드로이드, PC 모두 지원합니다. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다.',
     'tiktoksss.keywords': 'TikTokio, 틱톡 영상 워터마크 없이 다운로드, 틱톡sss',
 
 	// Tmate Page metadata
-	'tmate.title': 'Tmate - 틱톡 비디오 온라인 워터마크 없이 쉽게 다운로드',
-    'tmate.description': 'Tmate를 사용하여 틱톡 영상을 워터마크 없이 다운로드하세요. 빠르고 무료이며 고화질을 지원합니다.',
+	'tmate.title': 'Tmate – 틱톡 비디오 다운로더 워터마크 없이',
+    'tmate.description': 'Tmate로 틱톡 영상을 HD 워터마크 없이 빠르고 무료로 저장하세요. 앱 설치나 회원가입이 필요 없습니다. 아이폰, 안드로이드, PC 모두 지원합니다. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다. 100% 무료이며 다운로드 횟수 제한이 없습니다.',
     'tmate.keywords': 'TikTokio, tmate 틱톡 다운로더, 틱톡 비디오 워터마크 없이 다운로드',
 
 	// Ttdownloader Page metadata
-	'ttdownloader.title': 'TTDownloader - 틱톡 비디오 온라인 워터마크 없이 쉽게 다운로드',
-    'ttdownloader.description': '워터마크 없는 틱톡 비디오를 MP4 형식으로 다운로드하세요. 모든 기기에서 사용 가능한 신뢰할 수 있는 무료 도구입니다.',
+	'ttdownloader.title': 'TTDownloader – 틱톡 비디오 다운로더 워터마크 없이',
+    'ttdownloader.description': 'TTDownloader는 틱톡 영상을 워터마크 없이 온라인으로 받는 가장 빠른 방법입니다. 아이폰, 안드로이드, PC 모두 지원합니다. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다. 100% 무료이며 다운로드 횟수 제한이 없습니다.',
     'ttdownloader.keywords': 'TikTokio, ttdownloader, 틱톡 비디오 다운로드, 틱톡 다운로더',
  
     // Hero section
@@ -5315,93 +5403,101 @@ ko: {
     // Blog section
     'blog.prev': '이전',
     'blog.next': '다음',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': '틱톡 썸네일 다운로더 – 워터마크 없이 | TikTokio',
+    'thumb.description': '모든 틱톡 영상의 썸네일과 커버 이미지를 원본 HD 화질로 저장하세요. 100% 무료이며 다운로드 횟수 제한이 없습니다. 앱 설치나 회원가입이 필요 없습니다. 아이폰, 안드로이드, PC 모두 지원합니다. MP4 영상이나 MP3 오디오를 몇 초 만에 저장할 수 있습니다.',
+    'terms.title': '이용 약관 – TikTokio',
+    'terms.description': 'TikTokio 이용 약관을 확인하세요. 이용자의 책임, 콘텐츠 사용 규정, 개인정보 보호, 서비스의 책임 한계를 안내합니다. 무료 틱톡 다운로더를 안전하게 이용하기 위해 이용 전 꼭 읽어보시기 바랍니다.',
+    'blog.meta.title': 'TikTokio 블로그 – 틱톡 다운로드 가이드와 팁',
+    'blog.meta.description': 'TikTokio 블로그에서 틱톡 다운로드 가이드와 팁, 노하우를 확인하세요. 워터마크 없이 틱톡 영상을 HD로 저장하는 방법과 최신 소식을 지금 바로 만나보세요. 매주 새로운 글이 올라오니 자주 방문해 주세요.',
+    'blog.post_suffix': '무료 틱톡 영상 다운로더 TikTokio에서 워터마크 없이 영상을 저장해 보세요. 앱 설치 없이 HD 화질로 빠르게 다운로드할 수 있습니다.',
   },
 
 tl: {
   
   // Main Site metadata
-	'site.title': 'TikTokio: Libreng TikTok Downloader Walang Watermark (MP4 at MP3)',
-	'site.description': 'Paano mag-download ng TikTok video nang walang watermark sa iPhone, Android at PC gamit ang tiktokio.cam. MP4, MP3, slideshow at solusyon sa mga problema.',
+	'site.title': 'TikTokio – TikTok Video Downloader Walang Watermark',
+	'site.description': 'Hinahayaan ka ng TikTokio na mag-download ng TikTok video nang walang watermark sa buong HD. Mag-save ng MP4 video o MP3 audio sa ilang segundo.',
 	'site.keywords': 'tiktokio, tiktokio.cam, tiktok downloader, download tiktok video, tiktok walang watermark, tiktok mp3, tiktok mp4',
 
 	// TikTok Video Downloader Page metadata
-    'tvd.title': 'Tiktokio – TikTok Video Downloader Walang Watermark Libreng HD',
-    'tvd.description': 'I-download ang mga video sa TikTok nang walang watermark gamit ang Online Tiktok Video Downloader sa full HD via Tiktokio. Pinakamabilis na online TikTok downloader sa loob ng ilang segundo',
+    'tvd.title': 'TikTokio TikTok Video Downloader Walang Watermark Libre HD',
+    'tvd.description': 'Ang TikTokio ay mabilis na paraan para mag-download ng TikTok video nang walang watermark. 100% libre at walang limitasyong download.',
     'tvd.keywords': 'TikTokio, TikTok video downloader, i-download ang video sa TikTok, libreng TikTok downloader, i-save ang mga video sa TikTok, TikTok downloader online',
     
 	// TikTok Downloader Page metadata
-	'td.title': 'Tiktokio TikTok Downloader – Libreng Walang Watermark HD Download',
-    'td.description': 'Agad na tinatanggal ng Tiktokio TikTok Downloader ang mga watermark. I-download ang mga video at tunog sa TikTok sa HD nang libre sa mobile o PC. Mabilis, ligtas, walang app.',
+	'td.title': 'TikTokio TikTok Downloader – Libre Walang Watermark HD',
+    'td.description': 'Gamitin ang TikTokio para mag-save ng TikTok video sa HD nang walang watermark, mabilis at libre. Walang app at walang sign-up.',
     'td.keywords': 'TikTokio, TikTok downloader walang watermark, i-save ang mga video sa TikTok online, paano mag-download ng mga video sa TikTok, pinakamahusay na TikTok downloader tool, TikTok downloader website, libreng TikTok video saver, i-download ang TikTok MP4',
     
 	// Download TikTok Video Page metadata
-	'dtv.title': 'Tiktokio Download TikTok Video Walang Watermark – Libre HD Mabilis',
-    'dtv.description': 'Sa Tiktokio, i-download ang video sa TikTok sa full HD nang walang watermark sa loob ng ilang segundo. Pinakamabilis na libreng Tiktokio downloader na may Unli downloads.',
+	'dtv.title': 'I-download ang TikTok Video Walang Watermark – TikTokio',
+    'dtv.description': 'I-download ang TikTok Video nang walang watermark – TikTokio. Gumagana sa iPhone, Android at PC. Mag-save ng MP4 video o MP3 audio sa ilang segundo.',
     'dtv.keywords': 'TikTokio, i-download ang video sa TikTok nang walang watermark, TikTok video downloader online, libreng TikTok downloader, i-download ang mga video sa TikTok online, i-save ang mga video sa TikTok nang walang watermark',
 
 	// Download Foto Tiktok Page metadata
-	'dft.title': 'TikTok Photo Downloader – I-download ang Slideshow Images Walang Watermark',
-    'dft.description': 'I-download ang Foto sa Tiktok. I-download ang mga TikTok photo slideshow at carousel nang walang watermark full HD sa loob ng ilang segundo. Libre, walang login, gumagana sa iPhone at Android!',
+	'dft.title': 'TikTok Photo Downloader – Walang Watermark | TikTokio',
+    'dft.description': 'Mag-download ng TikTok photo slideshow at carousel nang walang watermark sa buong HD. Mag-save ng MP4 video o MP3 audio sa ilang segundo.',
     'dft.keywords': 'tiktok photo downloader walang watermark, i-download ang tiktok slideshow images, i-save ang tiktok photo carousel nang walang watermark, tiktok photo downloader 2025, i-download ang lahat ng litrato mula sa tiktok post',
 
 	// Musically Down Page metadata
-	'md.title': 'Musically Down - I-download ang Video sa TikTok Walang Watermark Online',
-    'md.description': 'Musically Down TikTok video downloader! I-download ang mga video sa TikTok na mayroon o walang watermark online. I-save ang mga video sa TikTok sa HD at MP3 mula sa anumang device.',
+	'md.title': 'Musically Down – TikTok Video Downloader Walang Watermark',
+    'md.description': 'Hinahayaan ka ng Musically Down na mag-download ng TikTok video nang walang watermark sa buong HD. Mag-save ng MP4 video o MP3 audio sa ilang segundo.',
     'md.keywords': 'TikTokio, musicallydown, musically down, musicallydown com, musically down tagalog, musicallydown.com tiktok',
 
 	// Savefrom Download From Tiktok Page metadata
-	'savef.title': 'SaveFrom - TikTok Video Downloads - Savefromnet Tiktok Downloader',
-    'savef.description': 'Tuklasin ang pinakamabilis na TikTok video downloader ng savefromnet. I-download ang anumang video sa TikTok sa HD nang walang watermark sa loob ng ilang segundo. Simulan ang pag-download ngayon!',
+	'savef.title': 'SaveFrom – TikTok Video Downloader Walang Watermark',
+    'savef.description': 'Gamitin ang SaveFrom para mag-save ng TikTok video sa HD nang walang watermark, mabilis at libre. 100% libre at walang limitasyong download.',
     'savef.keywords': 'TikTokio, tiktok video download, tiktok video downloader, i-download ang video sa tiktok, tiktok video download walang watermark, tiktok download video',
 
 	// Savetik Downloader Page metadata
-	'savetik.title': 'SaveTik Downloader - I-save ang mga Video sa Tiktok Walang Watermark Libre',
-    'savetik.description': 'Ang SaveTik Downloader ay isang Tiktok video downloader nang walang watermark. Maaari kang mag-save ng mga video sa TikTok mula sa anumang device.',
+	'savetik.title': 'SaveTik – TikTok Video Downloader Walang Watermark',
+    'savetik.description': 'Ang SaveTik ay mabilis na paraan para mag-download ng TikTok video nang walang watermark. Walang app at walang sign-up. Gumagana sa iPhone, Android at PC.',
     'savetik.keywords': 'TikTokio, i-download ang video sa TikTok nang walang watermark, TikTok video downloader online, libreng TikTok downloader, i-save ang mga video sa TikTok nang walang watermark',
 
 	// Savett Page metadata
-	'savett.title': 'SaveTT - I-save ang mga Video sa TikTok Walang Watermark sa Loob ng Ilang Segundo',
-    'savett.description': 'Ang SaveTT ay ang pinakamahusay na paraan upang i-download ang mga Video sa TikTok online sa loob ng ilang segundo. Gamitin ang SaveTT para i-save ang mga video sa tiktok sa HD nang walang watermark. Mabilis, libre at gumagana sa lahat ng device.',
+	'savett.title': 'SaveTT – TikTok Video Downloader Walang Watermark',
+    'savett.description': 'Hinahayaan ka ng SaveTT na mag-download ng TikTok video nang walang watermark sa buong HD. Gumagana sa iPhone, Android at PC. Walang app at walang sign-up.',
     'savett.keywords': 'TikTokio, SaveTT, save tt, save tiktok, tiktok save, tik tok saving, i-download ang video sa TikTok nang walang watermark, libreng TikTok downloader',
 
 	// SnapTik Page metadata
-	'snaptik.title': 'SnapTik - TT Video Downloader I-download ang mga Video sa TikTok Walang Watermark',
-    'snaptik.description': 'SnapTik - I-download ang mga video sa TikTok nang mabilis gamit ang SnapTik - Tik Videos Saver. Ang SnapTik ay isang libreng TikTok video downloader na nagbibigay-daan sa iyong mag-download ng mga video sa TikTok.',
+	'snaptik.title': 'SnapTik – TikTok Video Downloader Walang Watermark',
+    'snaptik.description': 'Gamitin ang SnapTik para mag-save ng TikTok video sa HD nang walang watermark, mabilis at libre. Mag-save ng MP4 video o MP3 audio sa ilang segundo.',
     'snaptik.keywords': 'TikTokio, snaptik, i-download ang video sa tiktok, download tiktok, tiktok downloader, i-download ang video sa tiktok nang walang watermark',
 
 	// SssTik Page metadata
-	'ssstik.title': 'SSSTik - TikTok Downloader I-download ang mga video sa TikTok online.',
-    'ssstik.description': 'Binibigyang-daan ka ng ssstiktok na i-download ang video sa tiktok nang mabilis. Pinakamabilis na tiktok downloader para i-save ang mga TT video na may mataas na kalidad na TikTok sa MP4.',
+	'ssstik.title': 'SSSTik – TikTok Video Downloader Walang Watermark',
+    'ssstik.description': 'Ang SSSTik ay mabilis na paraan para mag-download ng TikTok video nang walang watermark. 100% libre at walang limitasyong download.',
     'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, ssstik.io mp3, ssstik. io',
 
 	// SssTikTok Page metadata
-	'ssstiktok.title': 'SSSTikTok - TikTok Downloader Walang Watermark I-download ang Video sa TikTok Online',
-    'ssstiktok.description': 'Ang SSSTikTok TikTok video downloader online ay isang libreng serbisyo para i-download ang mga video sa TikTok nang walang watermark sa high-quality na format. TikTok to Mp4 video download.',
+	'ssstiktok.title': 'SSSTikTok – TikTok Video Downloader Walang Watermark',
+    'ssstiktok.description': 'Hinahayaan ka ng SSSTikTok na mag-download ng TikTok video nang walang watermark sa buong HD. Walang app at walang sign-up. Gumagana sa iPhone, Android at PC.',
     'ssstiktok.keywords': 'TikTokio, i-download ang video sa TikTok nang walang watermark, TikTok video downloader online, libreng TikTok downloader',
 
 	// Tikmate Page metadata
-	'tikmate.title': 'Tikmate - I-download ang video sa tiktok, Tiktok downloader MP4 libre',
-    'tikmate.description': 'Ang Tikmate ay mabilis at madaling TikTok video downloader, walang watermark at HD. Ang Tikmate downloader ay pinakamahusay para mag-save na mayroon o walang watermark na video nang walang login.',
+	'tikmate.title': 'Tikmate – TikTok Video Downloader Walang Watermark',
+    'tikmate.description': 'Gamitin ang Tikmate para mag-save ng TikTok video sa HD nang walang watermark, mabilis at libre. Gumagana sa iPhone, Android at PC.',
     'tikmate.keywords': 'TikTokio, i-download ang video sa tiktok nang walang watermark, tikmate downloader online, libreng TikTok downloader',
 
 	// Tiksave Page metadata
-	'tiksave.title': 'Tiktokio - I-download ang Video sa TikTok Online Walang Watermark nang Madali',
-    'tiksave.description': 'Madaling i-download ang mga video sa TikTok nang walang watermark gamit ang Tiktokio libreng Tiktok downloader. I-save ang Tiktok video sa MP4 format. Walang sign-up.',
+	'tiksave.title': 'TikSave – TikTok Video Downloader Walang Watermark',
+    'tiksave.description': 'Ang TikSave ay mabilis na paraan para mag-download ng TikTok video nang walang watermark. Mag-save ng MP4 video o MP3 audio sa ilang segundo.',
     'tiksave.keywords': 'TikTokio, i-download ang video sa TikTok nang walang watermark, TikTok video downloader online, libreng TikTok downloader',
 
 	// TikToksss Page metadata
-	'tiktoksss.title': 'Tiktokio - I-download ang Video sa TikTok Online Walang Watermark nang Madali',
-    'tiktoksss.description': 'Madaling i-download ang mga video sa TikTok nang walang watermark gamit ang Tiktokio libreng Tiktok downloader. I-save ang Tiktok video sa MP4 format sa lahat ng device.',
+	'tiktoksss.title': 'TikTokSSS – TikTok Video Downloader Walang Watermark',
+    'tiktoksss.description': 'Hinahayaan ka ng TikTokSSS na mag-download ng TikTok video nang walang watermark sa buong HD. 100% libre at walang limitasyong download.',
     'tiktoksss.keywords': 'TikTokio, i-download ang video sa TikTok nang walang watermark, TikTok video downloader online, libreng TikTok downloader',
 
 	// Tmate Page metadata
-	'tmate.title': 'Tiktokio - I-download ang Video sa TikTok Online Walang Watermark nang Madali',
-    'tmate.description': 'Madaling i-download ang mga video sa TikTok nang walang watermark gamit ang Tiktokio libreng Tiktok downloader. Walang sign-up, libreng downloads sa lahat ng device.',
+	'tmate.title': 'Tmate – TikTok Video Downloader Walang Watermark',
+    'tmate.description': 'Gamitin ang Tmate para mag-save ng TikTok video sa HD nang walang watermark, mabilis at libre. Walang app at walang sign-up.',
     'tmate.keywords': 'TikTokio, i-download ang video sa TikTok nang walang watermark, TikTok video downloader online, libreng TikTok downloader',
 
 	// Ttdownloader Page metadata
-	'ttdownloader.title': 'Tiktokio - I-download ang Video sa TikTok Online Walang Watermark nang Madali',
-    'ttdownloader.description': 'Madaling i-download ang mga video sa TikTok nang walang watermark gamit ang Tiktokio libreng Tiktok downloader. I-save ang Tiktok video sa MP4 format.',
+	'ttdownloader.title': 'TTDownloader – TikTok Video Downloader Walang Watermark',
+    'ttdownloader.description': 'Ang TTDownloader ay mabilis na paraan para mag-download ng TikTok video nang walang watermark. Gumagana sa iPhone, Android at PC.',
     'ttdownloader.keywords': 'TikTokio, i-download ang video sa TikTok nang walang watermark, TikTok video downloader online, libreng TikTok downloader',
  
     // Hero section
@@ -5813,93 +5909,101 @@ tl: {
     // Blog section
     'blog.prev': 'Nakaraan',
     'blog.next': 'Susunod',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'TikTok Thumbnail Downloader – Walang Watermark | TikTokio',
+    'thumb.description': 'I-save ang thumbnail o cover image ng anumang TikTok video sa orihinal na HD. 100% libre at walang limitasyong download. Walang app at walang sign-up.',
+    'terms.title': 'Mga Tuntunin at Kundisyon – TikTokio',
+    'terms.description': 'Basahin ang Mga Tuntunin at Kundisyon ng TikTokio: responsibilidad ng user, patakaran sa paggamit ng content, privacy at limitasyon ng pananagutan.',
+    'blog.meta.title': 'TikTokio Blog – Mga Gabay at Tips sa TikTok Download',
+    'blog.meta.description': 'Basahin ang TikTokio blog para sa mga gabay, tips at tricks sa pag-download ng TikTok. Alamin kung paano mag-save ng TikTok video nang walang watermark.',
+    'blog.post_suffix': 'Magbasa pa sa TikTokio, ang libreng TikTok video downloader na walang watermark.',
   },
 
   nl: {
   
   // Main Site metadata
-	'site.title': 'TikTokio - Gratis TikTok Video Downloader Online Zonder Watermerk',
-    'site.description': 'TikTokio – de #1 gratis online TikTok video downloader zonder watermerk voor onbeperkt downloaden. Download TikTok video\'s via een link in HD.',
+	'site.title': 'TikTokio – TikTok Video Downloader Zonder Watermerk',
+    'site.description': 'Met TikTokio download je TikTok-video\'s zonder watermerk in volledige HD. Sla MP4-video\'s of MP3-audio op in enkele seconden. Werkt op iPhone, Android en pc.',
 	'site.keywords': 'TikTokio, TikTok video downloader online, TikTok video downloaden, onbeperkt TikTok downloaden, gratis TikTok downloader, TikTok video\'s opslaan, online TikTok downloader',
 
 	// TikTok Video Downloader Page metadata
-    'tvd.title': 'TikTokio – TikTok Video Downloader Zonder Watermerk Gratis HD',
-    'tvd.description': 'Download TikTok video\'s zonder watermerk met de online TikTok video downloader in full HD via TikTokio. De snelste online TikTok downloader in seconden.',
+    'tvd.title': 'TikTokio TikTok Video Downloader Zonder Watermerk Gratis HD',
+    'tvd.description': 'TikTokio is een snelle manier om TikTok-video\'s zonder watermerk online te downloaden. 100% gratis met onbeperkte downloads. Werkt op iPhone, Android en pc.',
     'tvd.keywords': 'TikTokio, TikTok video downloader, download TikTok video, gratis TikTok downloader, TikTok video\'s opslaan, TikTok downloader online',
     
 	// TikTok Downloader Page metadata
-	'td.title': 'TikTokio TikTok Downloader – Gratis Downloaden Zonder Watermerk HD',
-    'td.description': 'TikTokio TikTok Downloader verwijdert watermerken direct. Download TikTok video\'s en geluiden gratis in HD op mobiel of pc. Snel, veilig, geen app nodig.',
+	'td.title': 'TikTokio TikTok Downloader – Gratis Zonder Watermerk HD',
+    'td.description': 'Sla TikTok-video\'s in HD zonder watermerk op met TikTokio – snel en gratis. Geen app en geen registratie nodig. Werkt op iPhone, Android en pc.',
     'td.keywords': 'TikTokio, TikTok downloader zonder watermerk, TikTok video\'s online opslaan, hoe TikTok video\'s downloaden, beste TikTok downloader tool, TikTok downloader website, gratis TikTok video saver, TikTok MP4 downloaden',
     
 	// Download TikTok Video Page metadata
-	'dtv.title': 'TikTokio Download TikTok Video Zonder Watermerk – Gratis HD Snel',
-    'dtv.description': 'Met TikTokio download je TikTok video\'s in full HD zonder watermerk in enkele seconden. Snelste gratis TikTokio downloader met onbeperkte downloads.',
+	'dtv.title': 'TikTok Video Downloaden Zonder Watermerk – TikTokio Gratis',
+    'dtv.description': 'TikTok Video Downloaden zonder watermerk – TikTokio. Werkt op iPhone, Android en pc. Sla MP4-video\'s of MP3-audio op in enkele seconden.',
     'dtv.keywords': 'TikTokio, TikTok video downloaden zonder watermerk, online TikTok video downloader, gratis TikTok downloader, TikTok video\'s online downloaden, TikTok video\'s opslaan zonder watermerk',
 
 	// Download Foto Tiktok Page metadata
-	'dft.title': 'TikTok Foto Downloader – Download Slideshow Afbeeldingen Zonder Watermerk',
-    'dft.description': 'Download Foto Tiktok. Download TikTok foto-slideshows & carrousels zonder watermerk in full HD binnen seconden. Gratis, geen login, werkt op iPhone & Android!',
+	'dft.title': 'TikTok Foto Downloader – Zonder Watermerk | TikTokio',
+    'dft.description': 'Download TikTok-fotoslideshows en carrouselafbeeldingen zonder watermerk in volledige HD. Sla MP4-video\'s of MP3-audio op in enkele seconden.',
     'dft.keywords': 'tiktok foto downloader zonder watermerk, tiktok slideshow afbeeldingen downloaden, tiktok foto carrousel opslaan zonder watermerk, tiktok foto downloader 2025, alle foto\'s van tiktok post downloaden',
 
 	// Musically Down Page metadata
-	'md.title': 'Musically Down - TikTok Video Downloaden Zonder Watermerk Online',
-    'md.description': 'Musically Down TikTok video downloader! Download TikTok video\'s met of zonder watermerk online. Sla TikTok video\'s op in HD en MP3 vanaf elk apparaat.',
+	'md.title': 'Musically Down – TikTok Video Downloader Zonder Watermerk',
+    'md.description': 'Met Musically Down download je TikTok-video\'s zonder watermerk in volledige HD. Sla MP4-video\'s of MP3-audio op in enkele seconden.',
     'md.keywords': 'TikTokio, musicallydown, musically down, musicallydown com, musicallydown nederlands',
 
 	// Savefrom Download From Tiktok Page metadata
-	'savef.title': 'SaveFrom - TikTok Video Downloads - Savefromnet Tiktok Downloader',
-    'savef.description': 'Ontdek de snelste TikTok video downloader van savefromnet. Download elke TikTok video in HD zonder watermerk in seconden. Begin nu met downloaden!',
+	'savef.title': 'SaveFrom – TikTok Video Downloader Zonder Watermerk',
+    'savef.description': 'Sla TikTok-video\'s in HD zonder watermerk op met SaveFrom – snel en gratis. 100% gratis met onbeperkte downloads. Geen app en geen registratie nodig.',
     'savef.keywords': 'TikTokio, tiktok video downloaden, tiktok video downloader, download tiktok video, tiktok video download zonder watermerk',
 
 	// Savetik Downloader Page metadata
-	'savetik.title': 'SaveTik Downloader - TikTok Video\'s Opslaan Zonder Watermerk Gratis',
-    'savetik.description': 'SaveTik Downloader is een TikTok video downloader zonder watermerk. Je kunt TikTok video\'s opslaan vanaf elk apparaat.',
+	'savetik.title': 'SaveTik – TikTok Video Downloader Zonder Watermerk',
+    'savetik.description': 'SaveTik is een snelle manier om TikTok-video\'s zonder watermerk online te downloaden. Geen app en geen registratie nodig. Werkt op iPhone, Android en pc.',
     'savetik.keywords': 'TikTokio, download TikTok video zonder watermerk, online TikTok video downloader, gratis TikTok downloader, savetik',
 
 	// Savett Page metadata
-	'savett.title': 'SaveTT - TikTok Video\'s Opslaan Zonder Watermerk in Seconden',
-    'savett.description': 'SaveTT is de beste manier om online TikTok video\'s te downloaden. Gebruik SaveTT om tiktok video\'s in HD op te slaan zonder watermerk. Snel, gratis en werkt op alle apparaten.',
+	'savett.title': 'SaveTT – TikTok Video Downloader Zonder Watermerk',
+    'savett.description': 'Met SaveTT download je TikTok-video\'s zonder watermerk in volledige HD. Werkt op iPhone, Android en pc. Sla MP4-video\'s of MP3-audio op in enkele seconden.',
     'savett.keywords': 'TikTokio, SaveTT, save tt, tiktok opslaan, tiktok downloaden zonder watermerk',
 
 	// SnapTik Page metadata
-	'snaptik.title': 'SnapTik - TT Video Downloader TikTok Video\'s Downloaden Zonder Watermerk',
-    'snaptik.description': 'SnapTik - Download TikTok video\'s direct met SnapTik. SnapTik is een gratis TikTok video downloader waarmee je video\'s in hoge kwaliteit kunt downloaden.',
+	'snaptik.title': 'SnapTik – TikTok Video Downloader Zonder Watermerk',
+    'snaptik.description': 'Sla TikTok-video\'s in HD zonder watermerk op met SnapTik – snel en gratis. Sla MP4-video\'s of MP3-audio op in enkele seconden. Werkt op iPhone, Android en pc.',
     'snaptik.keywords': 'TikTokio, snaptik, video tiktok downloaden, download tiktok, tiktok downloader, tiktok zonder watermerk',
 
 	// SssTik Page metadata
-	'ssstik.title': 'SSSTik - TikTok Downloader Download TikTok video\'s online.',
-    'ssstik.description': 'ssstiktok laat je direct video\'s van tiktok downloaden. Snelste downloader om TT-video\'s op te slaan in hoge kwaliteit MP4.',
+	'ssstik.title': 'SSSTik – TikTok Video Downloader Zonder Watermerk',
+    'ssstik.description': 'SSSTik is een snelle manier om TikTok-video\'s zonder watermerk online te downloaden. 100% gratis met onbeperkte downloads. Geen app en geen registratie nodig.',
     'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, ssstik mp3 downloaden',
 
 	// SssTikTok Page metadata
-	'ssstiktok.title': 'SSSTikTok - TikTok Downloader Zonder Watermerk TikTok Video Online Downloaden',
-    'ssstiktok.description': 'SSSTikTok online TikTok video downloader is een gratis service om TikTok video\'s zonder watermerk te downloaden in hoge kwaliteit. TikTok naar Mp4.',
+	'ssstiktok.title': 'SSSTikTok – TikTok Video Downloader Zonder Watermerk',
+    'ssstiktok.description': 'Met SSSTikTok download je TikTok-video\'s zonder watermerk in volledige HD. Geen app en geen registratie nodig. Werkt op iPhone, Android en pc.',
     'ssstiktok.keywords': 'TikTokio, download TikTok video zonder watermerk, gratis TikTok downloader',
 
 	// Tikmate Page metadata
-	'tikmate.title': 'Tikmate - Video tiktok downloaden, Tiktok downloader MP4 gratis',
-    'tikmate.description': 'Tikmate is een snelle en makkelijke TikTok video downloader, zonder watermerk en in HD. Sla video\'s op zonder login of gebruikersinformatie.',
+	'tikmate.title': 'Tikmate – TikTok Video Downloader Zonder Watermerk',
+    'tikmate.description': 'Sla TikTok-video\'s in HD zonder watermerk op met Tikmate – snel en gratis. Werkt op iPhone, Android en pc. Sla MP4-video\'s of MP3-audio op in enkele seconden.',
     'tikmate.keywords': 'TikTokio, video tiktok downloaden zonder watermerk, tikmate downloader online',
 
 	// Tiksave Page metadata
-	'tiksave.title': 'TikTokio - TikTok Video Online Zonder Watermerk makkelijk downloaden',
-    'tiksave.description': 'Download eenvoudig TikTok video\'s zonder watermerk met TikTokio. Sla video\'s op in MP4-formaat. Geen registratie nodig.',
+	'tiksave.title': 'TikSave – TikTok Video Downloader Zonder Watermerk',
+    'tiksave.description': 'TikSave is een snelle manier om TikTok-video\'s zonder watermerk online te downloaden. Sla MP4-video\'s of MP3-audio op in enkele seconden.',
     'tiksave.keywords': 'TikTokio, download tiktok video zonder watermerk, tiksave online',
 
 	// TikToksss Page metadata
-	'tiktoksss.title': 'TikTokio - TikTok Video Online Zonder Watermerk makkelijk downloaden',
-    'tiktoksss.description': 'Sla TikTok video\'s op zonder watermerk met de gratis TikTokio downloader. Werkt op alle apparaten.',
+	'tiktoksss.title': 'TikTokSSS – TikTok Video Downloader Zonder Watermerk',
+    'tiktoksss.description': 'Met TikTokSSS download je TikTok-video\'s zonder watermerk in volledige HD. 100% gratis met onbeperkte downloads. Geen app en geen registratie nodig.',
     'tiktoksss.keywords': 'TikTokio, tiktok video downloaden zonder watermerk, tiktoksss',
 
 	// Tmate Page metadata
-	'tmate.title': 'TikTokio - TikTok Video Online Zonder Watermerk makkelijk downloaden',
-    'tmate.description': 'Gebruik Tmate om TikTok video\'s zonder watermerk te downloaden. Snel, gratis en in HD kwaliteit.',
+	'tmate.title': 'Tmate – TikTok Video Downloader Zonder Watermerk',
+    'tmate.description': 'Sla TikTok-video\'s in HD zonder watermerk op met Tmate – snel en gratis. Geen app en geen registratie nodig. Werkt op iPhone, Android en pc.',
     'tmate.keywords': 'TikTokio, tmate tiktok downloader, tiktok zonder watermerk downloaden',
 
 	// Ttdownloader Page metadata
-	'ttdownloader.title': 'TikTokio - TikTok Video Online Zonder Watermerk makkelijk downloaden',
-    'ttdownloader.description': 'Eenvoudig TikTok video\'s downloaden zonder watermerk in MP4-formaat. Geen software-installatie nodig.',
+	'ttdownloader.title': 'TTDownloader – TikTok Video Downloader Zonder Watermerk',
+    'ttdownloader.description': 'TTDownloader is een snelle manier om TikTok-video\'s zonder watermerk online te downloaden. Werkt op iPhone, Android en pc. Geen app en geen registratie nodig.',
     'ttdownloader.keywords': 'TikTokio, ttdownloader, tiktok video downloaden',
  
     // Hero section
@@ -6223,92 +6327,100 @@ tl: {
     // Blog section
     'blog.prev': 'Vorige',
     'blog.next': 'Volgende',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'TikTok Thumbnail Downloader – Zonder Watermerk | TikTokio',
+    'thumb.description': 'Bewaar de thumbnail of coverafbeelding van elke TikTok-video in originele HD. 100% gratis met onbeperkte downloads. Geen app en geen registratie nodig.',
+    'terms.title': 'Algemene Voorwaarden – TikTokio',
+    'terms.description': 'Lees de algemene voorwaarden van TikTokio: verantwoordelijkheden van gebruikers, regels voor contentgebruik, privacy en aansprakelijkheid van onze dienst.',
+    'blog.meta.title': 'TikTokio Blog – Tips en Gidsen voor TikTok Downloads',
+    'blog.meta.description': 'Lees de TikTokio blog voor gidsen, tips en trucs over TikTok downloaden. Ontdek hoe je TikTok-video\'s zonder watermerk in HD opslaat.',
+    'blog.post_suffix': 'Lees meer op TikTokio, de gratis TikTok video downloader zonder watermerk.',
   },
 ms: {
   
   // Main Site metadata
-	'site.title': 'TikTokio - Pemuat Turun Video TikTok Percuma Online Tanpa Tera Air',
-    'site.description': 'TikTokio – Pemuat Turun Video TikTok Percuma #1 Online Tanpa Tera Air untuk muat turun TikTok tanpa had. Muat turun video TikTok dengan pautan dalam HD.',
+	'site.title': 'TikTokio – Muat Turun Video TikTok Tanpa Watermark',
+    'site.description': 'TikTokio membolehkan anda memuat turun video TikTok tanpa watermark dalam HD penuh. Simpan video MP4 atau audio MP3 dalam beberapa saat.',
 	'site.keywords': 'TikTokio, pemuat turun video TikTok online, muat turun video TikTok, muat turun TikTok tanpa had, pemuat turun TikTok percuma, simpan video TikTok, pemuat turun TikTok dalam talian',
 
 	// TikTok Video Downloader Page metadata
-    'tvd.title': 'Tiktokio – Pemuat Turun Video TikTok Tanpa Tera Air Percuma HD',
-    'tvd.description': 'Muat turun video TikTok tanpa tera air dengan Pemuat Turun Video Tiktok Online dalam HD penuh melalui Tiktokio. Pemuat turun TikTok online terpantas dalam beberapa saat',
+    'tvd.title': 'TikTokio Muat Turun Video TikTok Tanpa Watermark Percuma HD',
+    'tvd.description': 'TikTokio ialah cara pantas memuat turun video TikTok tanpa watermark dalam talian. 100% percuma dengan muat turun tanpa had.',
     'tvd.keywords': 'TikTokio, pemuat turun video TikTok, muat turun video TikTok, pemuat turun TikTok percuma, simpan video TikTok, pemuat turun TikTok online',
     
 	// TikTok Downloader Page metadata
-	'td.title': 'Tiktokio TikTok Downloader – Muat Turun HD Percuma Tanpa Tera Air',
-    'td.description': 'Tiktokio TikTok Downloader membuang tera air serta-merta. Muat turun video & bunyi TikTok dalam HD secara percuma di mudah alih atau PC. Pantas, selamat, tanpa aplikasi.',
+	'td.title': 'TikTokio Pemuat Turun TikTok – Percuma Tanpa Watermark HD',
+    'td.description': 'Gunakan TikTokio untuk simpan video TikTok HD tanpa watermark, pantas dan percuma. Tiada aplikasi dan tiada pendaftaran.',
     'td.keywords': 'TikTokio, pemuat turun TikTok tanpa tera air, simpan video TikTok online, cara muat turun video TikTok, alat pemuat turun TikTok terbaik, laman web pemuat turun TikTok, pemuat turun MP4 TikTok',
     
 	// Download TikTok Video Page metadata
-	'dtv.title': 'Tiktokio Muat Turun Video TikTok Tanpa Tera Air – Percuma HD Pantas',
-    'dtv.description': 'Dengan Tiktokio, muat turun video TikTok dalam HD penuh tanpa tera air dalam beberapa saat. Pemuat turun Tiktokio percuma terpantas dengan muat turun tanpa had.',
+	'dtv.title': 'Muat Turun Video TikTok Tanpa Watermark – TikTokio Percuma',
+    'dtv.description': 'Muat Turun Video TikTok tanpa watermark – TikTokio. Berfungsi pada iPhone, Android dan PC. Simpan video MP4 atau audio MP3 dalam beberapa saat.',
     'dtv.keywords': 'TikTokio, muat turun video TikTok tanpa tera air, pemuat turun video TikTok online, pemuat turun TikTok percuma, simpan video TikTok tanpa tera air',
 
 	// Download Foto Tiktok Page metadata
-	'dft.title': 'TikTok Photo Downloader – Muat Turun Imej Slaid Tanpa Tera Air',
-    'dft.description': 'Muat Turun Foto Tiktok. Muat turun slaid foto & karousel TikTok tanpa tera air HD penuh dalam beberapa saat. Percuma, tanpa log masuk, berfungsi di iPhone & Android!',
+	'dft.title': 'Muat Turun Foto TikTok – Tanpa Watermark | TikTokio',
+    'dft.description': 'Muat turun foto slideshow dan imej karusel TikTok tanpa watermark dalam kualiti HD penuh. Simpan video MP4 atau audio MP3 dalam beberapa saat.',
     'dft.keywords': 'pemuat turun foto tiktok tanpa tera air, muat turun imej slaid tiktok, simpan karousel foto tiktok tanpa tera air, tiktok photo downloader 2025, muat turun semua foto dari post tiktok',
 
 	// Musically Down Page metadata
-	'md.title': 'Musically Down - Muat Turun Video TikTok Tanpa Tera Air Online',
-    'md.description': 'Pemuat turun video TikTok Musically Down! Muat turun video TikTok dengan atau tanpa tera air secara online. Simpan video TikTok dalam HD dan MP3 dari mana-mana peranti.',
+	'md.title': 'Musically Down – Muat Turun Video TikTok Tanpa Watermark',
+    'md.description': 'Musically Down membolehkan anda memuat turun video TikTok tanpa watermark dalam HD penuh. Simpan video MP4 atau audio MP3 dalam beberapa saat.',
     'md.keywords': 'TikTokio, musicallydown, musically down, musicallydown com, musicallydown.com tiktok',
 
 	// Savefrom Download From Tiktok Page metadata
-	'savef.title': 'SaveFrom - Muat Turun Video TikTok - Savefromnet Tiktok Downloader',
-    'savef.description': 'Temui pemuat turun video TikTok terpantas oleh savefromnet. Muat turun sebarang video TikTok dalam HD tanpa tera air dalam beberapa saat. Mula muat turun sekarang!',
+	'savef.title': 'SaveFrom – Muat Turun Video TikTok Tanpa Watermark',
+    'savef.description': 'Gunakan SaveFrom untuk simpan video TikTok HD tanpa watermark, pantas dan percuma. 100% percuma dengan muat turun tanpa had.',
     'savef.keywords': 'TikTokio, muat turun video tiktok, pemuat turun video tiktok, muat turun video tiktok tanpa tera air',
 
 	// Savetik Downloader Page metadata
-	'savetik.title': 'SaveTik Downloader - Simpan Video Tiktok Tanpa Tera Air Percuma',
-    'savetik.description': 'SaveTik Downloader adalah pemuat turun video Tiktok tanpa tera air. Anda boleh Simpan video TikTok dari mana-mana peranti.',
+	'savetik.title': 'SaveTik – Muat Turun Video TikTok Tanpa Watermark',
+    'savetik.description': 'SaveTik ialah cara pantas memuat turun video TikTok tanpa watermark dalam talian. Tiada aplikasi dan tiada pendaftaran. Berfungsi pada iPhone, Android dan PC.',
     'savetik.keywords': 'TikTokio, muat turun video TikTok tanpa tera air, pemuat turun video TikTok online, pemuat turun TikTok percuma, simpan video TikTok tanpa tera air',
 
 	// Savett Page metadata
-	'savett.title': 'SaveTT - Simpan Video TikTok Tanpa Tera Air dalam Beberapa Saat',
-    'savett.description': 'SaveTT adalah cara terbaik untuk memuat turun Video TikTok secara online dalam beberapa saat. Gunakan SaveTT untuk simpan video tiktok dalam HD tanpa tera air. Pantas, percuma dan berfungsi pada semua peranti.',
+	'savett.title': 'SaveTT – Muat Turun Video TikTok Tanpa Watermark',
+    'savett.description': 'SaveTT membolehkan anda memuat turun video TikTok tanpa watermark dalam HD penuh. Berfungsi pada iPhone, Android dan PC. Tiada aplikasi dan tiada pendaftaran.',
     'savett.keywords': 'TikTokio, SaveTT, save tt, simpan tiktok, tiktok save, muat turun video TikTok tanpa tera air, pemuat turun video TikTok online',
 
 	// SnapTik Page metadata
-	'snaptik.title': 'SnapTik - TT Video Downloader Muat Turun Video TikTok Tanpa Tera Air',
-    'snaptik.description': 'SnapTik - Muat turun video TikTok serta-merta dengan SnapTik - Tik Videos Saver. SnapTik adalah pemuat turun video TikTok percuma yang membolehkan anda memuat turun video TikTok.',
+	'snaptik.title': 'SnapTik – Muat Turun Video TikTok Tanpa Watermark',
+    'snaptik.description': 'Gunakan SnapTik untuk simpan video TikTok HD tanpa watermark, pantas dan percuma. Simpan video MP4 atau audio MP3 dalam beberapa saat.',
     'snaptik.keywords': 'TikTokio, snaptik, muat turun video tiktok, download tiktok, pemuat turun tiktok, muat turun video tiktok tanpa watermark',
 
 	// SssTik Page metadata
-	'ssstik.title': 'SSSTik - TikTok Downloader Muat turun video TikTok secara online.',
-    'ssstik.description': 'ssstiktok membolehkan anda memuat turun video tiktok serta-merta. Pemuat turun tiktok terpantas untuk Simpan video TT dengan kualiti tinggi TikTok ke MP4.',
+	'ssstik.title': 'SSSTik – Muat Turun Video TikTok Tanpa Watermark',
+    'ssstik.description': 'SSSTik ialah cara pantas memuat turun video TikTok tanpa watermark dalam talian. 100% percuma dengan muat turun tanpa had.',
     'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, ssstik.io mp3',
 
 	// SssTikTok Page metadata
-	'ssstiktok.title': 'SSSTikTok - TikTok Downloader Tanpa Tera Air Muat Turun Video TikTok Online',
-    'ssstiktok.description': 'SSSTikTok pemuat turun video TikTok online adalah perkhidmatan percuma untuk memuat turun video TikTok tanpa tera air dalam format berkualiti tinggi. TikTok ke Mp4.',
+	'ssstiktok.title': 'SSSTikTok – Muat Turun Video TikTok Tanpa Watermark',
+    'ssstiktok.description': 'SSSTikTok membolehkan anda memuat turun video TikTok tanpa watermark dalam HD penuh. Tiada aplikasi dan tiada pendaftaran.',
     'ssstiktok.keywords': 'TikTokio, muat turun video TikTok tanpa tera air, pemuat turun video TikTok online, pemuat turun TikTok percuma',
 
 	// Tikmate Page metadata
-	'tikmate.title': 'Tikmate - Muat turun video tiktok, Tiktok downloader MP4 percuma',
-    'tikmate.description': 'Tikmate adalah pemuat turun video TikTok yang pantas dan mudah, tanpa tera air dan HD. Tikmate adalah yang terbaik untuk simpan video tanpa log masuk.',
+	'tikmate.title': 'Tikmate – Muat Turun Video TikTok Tanpa Watermark',
+    'tikmate.description': 'Gunakan Tikmate untuk simpan video TikTok HD tanpa watermark, pantas dan percuma. Berfungsi pada iPhone, Android dan PC. Tiada aplikasi dan tiada pendaftaran.',
     'tikmate.keywords': 'TikTokio, muat turun video tiktok tanpa tera air, tikmate downloader online, pemuat turun TikTok percuma',
 
 	// Tiksave Page metadata
-	'tiksave.title': 'Tiktokio - Muat Turun Video TikTok Online Tanpa Tera Air dengan mudah',
-    'tiksave.description': 'Muat turun video TikTok tanpa tera air dengan mudah menggunakan pemuat turun Tiktokio percuma. Simpan video Tiktok dalam format MP4. Tiada pendaftaran.',
+	'tiksave.title': 'TikSave – Muat Turun Video TikTok Tanpa Watermark',
+    'tiksave.description': 'TikSave ialah cara pantas memuat turun video TikTok tanpa watermark dalam talian. Simpan video MP4 atau audio MP3 dalam beberapa saat.',
     'tiksave.keywords': 'TikTokio, muat turun video TikTok tanpa tera air, pemuat turun video TikTok online, pemuat turun TikTok percuma',
 
 	// TikToksss Page metadata
-	'tiktoksss.title': 'Tiktokio - Muat Turun Video TikTok Online Tanpa Tera Air dengan mudah',
-    'tiktoksss.description': 'Muat turun video TikTok tanpa tera air dengan mudah menggunakan pemuat turun Tiktokio percuma. Simpan video Tiktok dalam format MP4. Tanpa pendaftaran.',
+	'tiktoksss.title': 'TikTokSSS – Muat Turun Video TikTok Tanpa Watermark',
+    'tiktoksss.description': 'TikTokSSS membolehkan anda memuat turun video TikTok tanpa watermark dalam HD penuh. 100% percuma dengan muat turun tanpa had.',
     'tiktoksss.keywords': 'TikTokio, muat turun video TikTok tanpa tera air, pemuat turun video TikTok online, pemuat turun TikTok percuma',
 
 	// Tmate Page metadata
-	'tmate.title': 'Tiktokio - Muat Turun Video TikTok Online Tanpa Tera Air dengan mudah',
-    'tmate.description': 'Muat turun video TikTok tanpa tera air dengan mudah menggunakan pemuat turun Tiktokio percuma. Simpan video Tiktok dalam format MP4. Tanpa pendaftaran.',
+	'tmate.title': 'Tmate – Muat Turun Video TikTok Tanpa Watermark',
+    'tmate.description': 'Gunakan Tmate untuk simpan video TikTok HD tanpa watermark, pantas dan percuma. Tiada aplikasi dan tiada pendaftaran. Berfungsi pada iPhone, Android dan PC.',
     'tmate.keywords': 'TikTokio, muat turun video TikTok tanpa tera air, pemuat turun video TikTok online, pemuat turun TikTok percuma',
 
 	// Ttdownloader Page metadata
-	'ttdownloader.title': 'Tiktokio - Muat Turun Video TikTok Online Tanpa Tera Air dengan mudah',
-    'ttdownloader.description': 'Muat turun video TikTok tanpa tera air dengan mudah menggunakan pemuat turun Tiktokio percuma. Simpan video Tiktok dalam format MP4. Tanpa pendaftaran.',
+	'ttdownloader.title': 'TTDownloader – Muat Turun Video TikTok Tanpa Watermark',
+    'ttdownloader.description': 'TTDownloader ialah cara pantas memuat turun video TikTok tanpa watermark dalam talian. Berfungsi pada iPhone, Android dan PC.',
     'ttdownloader.keywords': 'TikTokio, muat turun video TikTok tanpa tera air, pemuat turun video TikTok online, pemuat turun TikTok percuma',
  
     // Hero section
@@ -6620,93 +6732,101 @@ ms: {
     // Blog section
     'blog.prev': 'Sebelumnya',
     'blog.next': 'Seterusnya',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'Muat Turun Thumbnail TikTok – Tanpa Watermark | TikTokio',
+    'thumb.description': 'Simpan thumbnail atau imej muka depan mana-mana video TikTok dalam kualiti HD asal. 100% percuma dengan muat turun tanpa had.',
+    'terms.title': 'Terma dan Syarat – TikTokio',
+    'terms.description': 'Baca Terma dan Syarat TikTokio: tanggungjawab pengguna, peraturan penggunaan kandungan, privasi dan had liabiliti perkhidmatan percuma kami.',
+    'blog.meta.title': 'Blog TikTokio – Panduan dan Tip Muat Turun TikTok',
+    'blog.meta.description': 'Baca blog TikTokio untuk panduan, tip dan helah memuat turun TikTok. Ketahui cara menyimpan video TikTok tanpa watermark dalam HD.',
+    'blog.post_suffix': 'Baca lagi di TikTokio, pemuat turun video TikTok percuma tanpa watermark.',
   },
 
   tr: {
   
   // Main Site metadata
-	'site.title': 'TikTokio - Filigransız Ücretsiz Online TikTok Video İndirici',
-    'site.description': 'TikTokio – Sınırsız TikTok indirme işlemi için #1 numaralı filigransız ücretsiz online TikTok video indirici. Bağlantı ile HD kalitesinde TikTok videoları indirin.',
+	'site.title': 'TikTokio – TikTok Video İndirici Filigransız',
+    'site.description': 'TikTokio ile TikTok videolarını filigransız tam HD kalitesinde indirin. MP4 video veya MP3 sesi saniyeler içinde kaydedin. %100 ücretsiz ve sınırsız indirme.',
 	'site.keywords': 'TikTokio, online tiktok video indirici, tiktok videosu indir, sınırsız tiktok indirme, ücretsiz tiktok indirici, tiktok videolarını kaydet, online tiktok downloader',
 
 	// TikTok Video Downloader Page metadata
-    'tvd.title': 'Tiktokio – Filigransız Ücretsiz HD TikTok Video İndirici',
-    'tvd.description': 'Tiktokio ile online TikTok video indiriciyi kullanarak videoları filigransız ve full HD olarak indirin. Saniyeler içinde en hızlı online TikTok indirici.',
+    'tvd.title': 'TikTokio TikTok Video İndirici Filigransız Ücretsiz HD',
+    'tvd.description': 'TikTokio, TikTok videolarını filigransız online indirmenin hızlı yoludur. %100 ücretsiz ve sınırsız indirme. Uygulama veya üyelik gerekmez.',
     'tvd.keywords': 'TikTokio, tiktok video indirici, tiktok videosu indir, ücretsiz tiktok indirici, tiktok videolarını kaydet, online tiktok indirici',
     
 	// TikTok Downloader Page metadata
-	'td.title': 'Tiktokio TikTok İndirici – Ücretsiz Filigransız HD İndirme',
-    'td.description': 'Tiktokio TikTok İndirici filigranları anında kaldırır. Mobil veya PC\'de TikTok videolarını ve seslerini ücretsiz HD indirin. Hızlı, güvenli, uygulama gerektirmez.',
+	'td.title': 'TikTokio TikTok İndirici – Ücretsiz Filigransız HD',
+    'td.description': 'TikTokio ile TikTok videolarını HD filigransız kaydedin, hızlı ve ücretsiz. Uygulama veya üyelik gerekmez. iPhone, Android ve PC\'de çalışır.',
     'td.keywords': 'TikTokio, filigransız tiktok indirici, tiktok videolarını online kaydet, tiktok videoları nasıl indirilir, en iyi tiktok indirme aracı, tiktok indirici sitesi, tiktok mp4 indir',
     
 	// Download TikTok Video Page metadata
-	'dtv.title': 'Tiktokio Filigransız TikTok Videosu İndir – Ücretsiz HD Hızlı',
-    'dtv.description': 'Tiktokio ile TikTok videolarını saniyeler içinde filigransız ve full HD olarak indirin. Sınırsız indirme imkanı sunan en hızlı ücretsiz Tiktokio indirici.',
+	'dtv.title': 'TikTok Video İndir Filigransız – TikTokio Ücretsiz',
+    'dtv.description': 'TikTok Video İndir filigransız – TikTokio. iPhone, Android ve PC\'de çalışır. MP4 video veya MP3 sesi saniyeler içinde kaydedin. Uygulama veya üyelik gerekmez.',
     'dtv.keywords': 'TikTokio, filigransız tiktok videosu indir, online tiktok video indirici, ücretsiz tiktok indirici, online tiktok videosu kaydet',
 
 	// Download Foto Tiktok Page metadata
-	'dft.title': 'TikTok Fotoğraf İndirici – Filigransız Slayt Gösterisi Resimlerini İndir',
-    'dft.description': 'TikTok Fotoğraf İndir. TikTok fotoğraf slayt gösterilerini ve karusellerini saniyeler içinde filigransız full HD indirin. Ücretsiz, giriş gerektirmez, iPhone ve Android\'de çalışır!',
+	'dft.title': 'TikTok Fotoğraf İndirici – Filigransız | TikTokio',
+    'dft.description': 'TikTok fotoğraf slayt gösterilerini ve carousel görsellerini filigransız tam HD indirin. MP4 video veya MP3 sesi saniyeler içinde kaydedin.',
     'dft.keywords': 'tiktok fotoğraf indirici filigransız, tiktok slayt gösterisi resimlerini indir, tiktok foto karuseli kaydet, tiktok postundaki tüm fotoğrafları indir',
 
 	// Musically Down Page metadata
-	'md.title': 'Musically Down - Filigransız Online TikTok Videosu İndir',
-    'md.description': 'Musically Down TikTok video indirici! TikTok videolarını online olarak filigranlı veya filigransız indirin. Herhangi bir cihazdan TikTok videolarını HD ve MP3 olarak kaydedin.',
+	'md.title': 'Musically Down – TikTok Video İndirici Filigransız',
+    'md.description': 'Musically Down ile TikTok videolarını filigransız tam HD kalitesinde indirin. MP4 video veya MP3 sesi saniyeler içinde kaydedin.',
     'md.keywords': 'TikTokio, musicallydown, musically down türkçe, musicallydown com tiktok',
 
 	// Savefrom Download From Tiktok Page metadata
-	'savef.title': 'SaveFrom - TikTok Video İndirme - Savefromnet Tiktok İndirici',
-    'savef.description': 'Savefromnet tarafından sunulan en hızlı TikTok video indiriciyi keşfedin. Herhangi bir TikTok videosunu saniyeler içinde filigransız HD indirin. Şimdi indirmeye başlayın!',
+	'savef.title': 'SaveFrom – TikTok Video İndirici Filigransız',
+    'savef.description': 'SaveFrom ile TikTok videolarını HD filigransız kaydedin, hızlı ve ücretsiz. %100 ücretsiz ve sınırsız indirme. Uygulama veya üyelik gerekmez.',
     'savef.keywords': 'TikTokio, tiktok video indir, tiktok video indirici, tiktok videosu indir, filigransız tiktok videosu indir',
 
 	// Savetik Downloader Page metadata
-	'savetik.title': 'SaveTik İndirici - Filigransız Ücretsiz TikTok Videoları Kaydet',
-    'savetik.description': 'SaveTik İndirici, filigransız bir TikTok video indiricidir. TikTok videolarını herhangi bir cihazdan kaydedebilirsiniz.',
+	'savetik.title': 'SaveTik – TikTok Video İndirici Filigransız',
+    'savetik.description': 'SaveTik, TikTok videolarını filigransız online indirmenin hızlı yoludur. Uygulama veya üyelik gerekmez. iPhone, Android ve PC\'de çalışır.',
     'savetik.keywords': 'TikTokio, filigransız tiktok videosu indir, online tiktok video indirici, ücretsiz tiktok indirici, savetik',
 
 	// Savett Page metadata
-	'savett.title': 'SaveTT - Saniyeler İçinde Filigransız TikTok Videoları Kaydet',
-    'savett.description': 'SaveTT, online TikTok videoları indirmek için en iyi yoldur. TikTok videolarını filigransız HD olarak kaydetmek için SaveTT kullanın. Hızlı, ücretsiz ve tüm cihazlarda çalışır.',
+	'savett.title': 'SaveTT – TikTok Video İndirici Filigransız',
+    'savett.description': 'SaveTT ile TikTok videolarını filigransız tam HD kalitesinde indirin. iPhone, Android ve PC\'de çalışır. MP4 video veya MP3 sesi saniyeler içinde kaydedin.',
     'savett.keywords': 'TikTokio, SaveTT, save tt, tiktok kaydet, tiktok indir, filigransız tiktok videosu indir',
 
 	// SnapTik Page metadata
-	'snaptik.title': 'SnapTik - TT Video İndirici Filigransız TikTok Videoları İndir',
-    'snaptik.description': 'SnapTik - SnapTik ile TikTok videolarını anında indirin. SnapTik, TikTok videolarını indirmenize izin veren ücretsiz bir TikTok video indiricidir.',
+	'snaptik.title': 'SnapTik – TikTok Video İndirici Filigransız',
+    'snaptik.description': 'SnapTik ile TikTok videolarını HD filigransız kaydedin, hızlı ve ücretsiz. MP4 video veya MP3 sesi saniyeler içinde kaydedin. Uygulama veya üyelik gerekmez.',
     'snaptik.keywords': 'TikTokio, snaptik, tiktok video indir, tiktok indir, tiktok indirici, filigransız tiktok indir',
 
 	// SssTik Page metadata
-	'ssstik.title': 'SSSTik - TikTok İndirici Online TikTok videoları indir.',
-    'ssstik.description': 'ssstiktok, tiktok videolarını anında indirmenizi sağlar. TT videolarını yüksek kaliteli TikTok MP4 olarak kaydetmek için en hızlı tiktok indirici.',
+	'ssstik.title': 'SSSTik – TikTok Video İndirici Filigransız',
+    'ssstik.description': 'SSSTik, TikTok videolarını filigransız online indirmenin hızlı yoludur. %100 ücretsiz ve sınırsız indirme. Uygulama veya üyelik gerekmez.',
     'ssstik.keywords': 'TikTokio, ssstik tok, ssstik io, ss tiktok, ssstik.io mp3',
 
 	// SssTikTok Page metadata
-	'ssstiktok.title': 'SSSTikTok - Filigransız TikTok İndirici Online Video İndir',
-    'ssstiktok.description': 'SSSTikTok online TikTok video indirici, videoları filigransız yüksek kalitede indirmek için ücretsiz bir hizmettir. TikTok\'tan Mp4 video indirme.',
+	'ssstiktok.title': 'SSSTikTok – TikTok Video İndirici Filigransız',
+    'ssstiktok.description': 'SSSTikTok ile TikTok videolarını filigransız tam HD kalitesinde indirin. Uygulama veya üyelik gerekmez. iPhone, Android ve PC\'de çalışır.',
     'ssstiktok.keywords': 'TikTokio, filigransız tiktok videosu indir, online tiktok video indirici, ücretsiz tiktok indirici',
 
 	// Tikmate Page metadata
-	'tikmate.title': 'Tikmate - Tiktok video indir, Tiktok indirici MP4 ücretsiz',
-    'tikmate.description': 'Tikmate, filigransız ve HD kalitesinde hızlı ve kolay bir TikTok video indiricidir. Giriş yapmadan video kaydetmek için en iyisidir.',
+	'tikmate.title': 'Tikmate – TikTok Video İndirici Filigransız',
+    'tikmate.description': 'Tikmate ile TikTok videolarını HD filigransız kaydedin, hızlı ve ücretsiz. iPhone, Android ve PC\'de çalışır. %100 ücretsiz ve sınırsız indirme.',
     'tikmate.keywords': 'TikTokio, filigransız tiktok video indir, tikmate indirici online, ücretsiz tiktok indirici',
 
 	// Tiksave Page metadata
-	'tiksave.title': 'Tiktokio - Online Filigransız TikTok Videosunu kolayca indir',
-    'tiksave.description': 'Ücretsiz Tiktokio indiricisi ile TikTok videolarını filigransız kolayca indirin. Videoyu MP4 formatında kaydedin. Kayıt gerekmez.',
+	'tiksave.title': 'TikSave – TikTok Video İndirici Filigransız',
+    'tiksave.description': 'TikSave, TikTok videolarını filigransız online indirmenin hızlı yoludur. MP4 video veya MP3 sesi saniyeler içinde kaydedin. %100 ücretsiz ve sınırsız indirme.',
     'tiksave.keywords': 'TikTokio, filigransız tiktok videosu indir, online tiktok video indirici, tiksave',
 
 	// TikToksss Page metadata
-	'tiktoksss.title': 'Tiktokio - Online Filigransız TikTok Videosunu kolayca indir',
-    'tiktoksss.description': 'TikTok videolarını filigransız MP4 formatında ücretsiz indirin. Tüm cihazlarda kayıt olmadan sınırsız indirme.',
+	'tiktoksss.title': 'TikTokSSS – TikTok Video İndirici Filigransız',
+    'tiktoksss.description': 'TikTokSSS ile TikTok videolarını filigransız tam HD kalitesinde indirin. %100 ücretsiz ve sınırsız indirme. Uygulama veya üyelik gerekmez.',
     'tiktoksss.keywords': 'TikTokio, tiktok videosu indir, tiktoksss',
 
 	// Tmate Page metadata
-	'tmate.title': 'Tiktokio - Online Filigransız TikTok Videosunu kolayca indir',
-    'tmate.description': 'Tmate kullanarak TikTok videolarını filigransız indirin. Hızlı, ücretsiz ve yüksek kalitede MP4 indirme.',
+	'tmate.title': 'Tmate – TikTok Video İndirici Filigransız',
+    'tmate.description': 'Tmate ile TikTok videolarını HD filigransız kaydedin, hızlı ve ücretsiz. Uygulama veya üyelik gerekmez. iPhone, Android ve PC\'de çalışır.',
     'tmate.keywords': 'TikTokio, tmate tiktok indirici, filigransız tiktok indir',
 
 	// Ttdownloader Page metadata
-	'ttdownloader.title': 'Tiktokio - Online Filigransız TikTok Videosunu kolayca indir',
-    'ttdownloader.description': 'TikTok videolarını filigransız MP4 formatında indirmek için ücretsiz online araç. Yazılım kurulumu gerektirmez.',
+	'ttdownloader.title': 'TTDownloader – TikTok Video İndirici Filigransız',
+    'ttdownloader.description': 'TTDownloader, TikTok videolarını filigransız online indirmenin hızlı yoludur. iPhone, Android ve PC\'de çalışır. %100 ücretsiz ve sınırsız indirme.',
     'ttdownloader.keywords': 'TikTokio, ttdownloader, tiktok video indir',
  
     // Hero section
@@ -7016,6 +7136,14 @@ ms: {
     // Blog section
     'blog.prev': 'Önceki',
     'blog.next': 'Sonraki',
+    // SEO meta (titles <=60 chars, descriptions 110-160 chars)
+    'thumb.title': 'TikTok Kapak Resmi İndirici – Filigransız | TikTokio',
+    'thumb.description': 'Herhangi bir TikTok videosunun küçük resmini veya kapağını orijinal HD kalitede kaydedin. %100 ücretsiz ve sınırsız indirme. Uygulama veya üyelik gerekmez.',
+    'terms.title': 'Hizmet Şartları – TikTokio',
+    'terms.description': 'TikTokio Hizmet Şartları\'nı okuyun: kullanıcı sorumlulukları, içerik kullanım kuralları, gizlilik ve hizmetimizin sorumluluk sınırları.',
+    'blog.meta.title': 'TikTokio Blog – TikTok İndirme Rehberleri ve İpuçları',
+    'blog.meta.description': 'TikTok indirme rehberleri, ipuçları ve püf noktaları için TikTokio blogunu okuyun. TikTok videolarını filigransız HD kaydetmeyi öğrenin.',
+    'blog.post_suffix': 'TikTokio\'da daha fazlasını okuyun: filigransız ücretsiz TikTok video indirici.',
   },
 
 } as const;

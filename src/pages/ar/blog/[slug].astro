@@ -4,6 +4,7 @@ export const prerender = true;
 import { getCollection } from "astro:content";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
+import { buildPostDescription } from "../../../i18n/seo";
 import BlogPostSchema from "@components/BlogPostSchema.astro";
 import { getArticleReadingTime } from "@utils/blog";
 
@@ -48,7 +49,7 @@ function localizePath(path: string) {
 }
 ---
 
-<Layout title={post.data.title} lang={lang} dir="rtl">
+<Layout title={post.data.title} description={buildPostDescription(post.data.snippet, lang)} lang={lang} dir="rtl">
 	<BlogPostSchema slot="head" title={post.data.title} description={post.data.snippet} image={post.data.image?.src} datePublished={post.data.publishDate} author={post.data.author} category={post.data.category} tags={post.data.tags} lang={lang} />
 	<Container>
 		<div class="mx-auto prose prose-lg dark:prose-invert mt-14">

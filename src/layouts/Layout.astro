@@ -7,6 +7,7 @@ import ThemeSelector from '../components/themeselector.astro';
 import LanguageSelector from '../components/languageselector.astro';
 
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { clampTitle, clampDescription } from '../i18n/seo';
 
 const safeUrl = Astro.url || new URL('/', Astro.site || 'http://localhost:4321');
 const lang = getLangFromUrl(safeUrl);
@@ -19,14 +20,48 @@ try {
   t = (key: string) => key;
 }
 
+// Page slug (without language prefix) -> key prefix in src/i18n/ui.ts for <title>/<meta description>
+const PAGE_KEYS: Record<string, string> = {
+  'tiktok-video-downloader': 'tvd',
+  'tiktok-downloader': 'td',
+  'download-tiktok-video': 'dtv',
+  'tiktok-photo-downloader': 'dft',
+  'tiktok-thumbnail-downloader': 'thumb',
+  'musical-down-tiktok-downloader': 'md',
+  'savefrom-download-from-tiktok': 'savef',
+  'savetik-download-tiktok-video-without-watermark-free': 'savetik',
+  'savett-tiktok-downloader-save-tiktok-videos': 'savett',
+  'snaptik-tiktok-downloader-download-video-tiktok-without-watermark': 'snaptik',
+  'ssstiktok-download-tiktok-videos-without-watermark-free-tiktok-video-downloader': 'ssstiktok',
+  'tikmate-tiktok-downloader-without-watermark-in-hd': 'tikmate',
+  'tiksave-download-tiktok-video-without-watermark-with-tiktok-downloader': 'tiksave',
+  'tiktoksss-tiktok-downloader-without-watermark': 'tiktoksss',
+  'tmate-tiktok-downloader': 'tmate',
+  'ttdownloader-downloader-no-watermark-video-downloader-for-tiktok': 'ttdownloader',
+  'terms-of-service': 'terms',
+};
+const _slug = Astro.url.pathname.replace(/^\/(it|vi|ar|fr|de|es|hi|id|ru|pt|ko|tl|nl|ms|tr)\//, '/').replace(/^\/|\/$/g, '');
+const pageKey = PAGE_KEYS[_slug] ?? (/^blog(\/\d+)?$/.test(_slug) ? 'blog.meta' : undefined);
+const pageTitle = pageKey ? (t as any)(`${pageKey}.title`) : undefined;
+const pageDescription = pageKey ? (t as any)(`${pageKey}.description`) : undefined;
+
+// Blog tag and category archives: noindex, nofollow (and never listed in the sitemaps)
+const isTaxonomyPage = /^blog\/(tag|category)\//.test(_slug);
+
 const {
-  title = t('site.title') ?? 'TikTokio - Free TikTok Video Downloader Online No Watermark',
-  description = t('site.description') ?? 'Download TikTok videos in HD instantly 100% free, no app, no registration!',
-  keywords = t('site.keywords') ?? 'tiktok downloader, video downloader, no watermark, download tiktok',
+  title: titleProp,
+  description: descriptionProp,
+  keywords = t('site.keywords') ?? 'tiktokio, tiktok downloader, video downloader, no watermark, download tiktok',
   image = 'meta/opengraph.webp',
   ogType = 'website',
   variant = 'default',
+  noindex = isTaxonomyPage,
 } = Astro.props;
+
+// ui.ts keys win for the pages above; otherwise explicit props; otherwise site defaults.
+// clampTitle/clampDescription are a safety net (title <= 60, description <= 160 characters).
+const title = clampTitle(pageTitle ?? titleProp ?? t('site.title') ?? 'TikTokio - Free TikTok Video Downloader Online No Watermark');
+const description = clampDescription(pageDescription ?? descriptionProp ?? t('site.description') ?? 'TikTokio is 100% free to Download TikTok videos in HD instantly, no app, no registration!');
 
 const siteUrl = (Astro.site ? Astro.site.toString().replace(/\/$/, '') : '') || 'https://tiktokio.cam';
 const canonicalUrl = `${siteUrl}${Astro.url.pathname}`;
@@ -47,6 +82,7 @@ const pathWithoutLang = Astro.url.pathname.replace(/^\/(it|vi|ar|fr|de|es|hi|id|
     <!-- Basic SEO -->
     <title>{title}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <meta name="keywords" content={keywords} />
 
     <!-- Canonical -->
