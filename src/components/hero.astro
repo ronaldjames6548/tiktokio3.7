@@ -12,9 +12,14 @@ const t = useTranslations("en");
       <h1 class="text-2xl font-bold tracking-tight text-black sm:text-4xl">{t("home.main.hero.title")}</h1>
       <p class="mt-2 text-lg leading-8 text-gray-900">{t("home.main.hero.subtitle")}</p>
       <InputScreen client:only="solid-js" />
-      <!-- Native banner ad: fixed 300px box centered on the page; the ad fills this box -->
-      <div class="hero-ad mx-auto mt-6 w-[300px] max-w-full min-h-[250px] overflow-hidden">
-        <script data-cfasync="false" async type="text/javascript" src="//qv.ithielalture.com/tGMBKSaX8hetVBRXw/161737"></script>
+      <!-- Two native banners: side by side on desktop (1 row x 2), stacked on mobile (2 rows x 1) -->
+      <div class="mx-auto mt-6 grid grid-cols-1 justify-center justify-items-center gap-4 md:grid-cols-[300px_300px]">
+        <div class="hero-ad w-[300px] max-w-full min-h-[250px] overflow-hidden">
+          <script data-cfasync="false" async type="text/javascript" src="//qv.ithielalture.com/tGMBKSaX8hetVBRXw/161737"></script>
+        </div>
+        <div class="hero-ad w-[300px] max-w-full min-h-[250px] overflow-hidden">
+          <script data-cfasync="false" async type="text/javascript" src="//lq.afghansmistral.com/tF4AyVeH0EPq5ILK/161737"></script>
+        </div>
       </div>
     </div>
   </div>
@@ -22,7 +27,7 @@ const t = useTranslations("en");
 </div>
 
 <style is:global>
-  /* Force whatever the ad script injects to sit centered inside its 300px box */
+  /* Force whatever the ad scripts inject to sit centered inside their 300px boxes */
   .hero-ad { text-align: center; }
   .hero-ad > *,
   .hero-ad > div > * {
