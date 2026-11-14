@@ -145,8 +145,8 @@ function ResultSection(props: ResultSectionProps) {
     return filename;
   };
 
-  // Download avatar directly without modal using proxy
-  const downloadAvatar = (e: Event) => {
+  // Download avatar via same-origin proxy (/api/download) and verify the bytes
+  const downloadAvatar = async (e: Event) => {
     e.preventDefault();
     e.stopPropagation();
 
@@ -157,19 +157,33 @@ function ResultSection(props: ResultSectionProps) {
     }
 
     const finalFilename = generateFilename(props.getSafeFilename(), 'avatar');
-    console.log("Downloading avatar as:", finalFilename);
+    const proxyUrl = `/api/download.json?url=${encodeURIComponent(avatarUrl)}&type=.jpg&title=${encodeURIComponent(finalFilename)}`;
 
-    const proxyUrl = `https://dl.tiktokiocdn.workers.dev/api/download?url=${encodeURIComponent(avatarUrl)}&type=.jpg&title=${encodeURIComponent(finalFilename)}`;
+    try {
+      const res = await fetch(proxyUrl);
+      if (!res.ok) {
+        let detail = `HTTP ${res.status}`;
+        try { const j = await res.json(); detail = `${j.error || detail}${j.reason ? ` (${j.reason})` : ''}${j.host ? ` [${j.host}]` : ''}`; } catch {}
+        throw new Error(detail);
+      }
+      const blob = await res.blob();
+      if (!blob.size) throw new Error("Empty file received");
 
-    const link = document.createElement('a');
-    link.href = proxyUrl;
-    link.download = finalFilename;
-    link.style.display = 'none';
-    document.body.appendChild(link);
-    link.click();
-    setTimeout(() => document.body.removeChild(link), 100);
+      const ext = blob.type.includes("png") ? ".png" : blob.type.includes("webp") ? ".webp" : ".jpg";
+      const name = finalFilename.replace(/\.[a-z0-9]{2,4}$/i, "") + ext;
 
-    console.log("✅ Avatar download started with filename:", finalFilename);
+      const objectUrl = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = objectUrl;
+      link.download = name;
+      link.style.display = 'none';
+      document.body.appendChild(link);
+      link.click();
+      setTimeout(() => { document.body.removeChild(link); URL.revokeObjectURL(objectUrl); }, 1000);
+    } catch (err) {
+      console.error("Avatar download failed:", err);
+      alert(`Could not download the profile picture.\n${(err as Error).message}`);
+    }
   };
 
   // Stats with defaults

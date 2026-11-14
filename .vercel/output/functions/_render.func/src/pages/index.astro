@@ -1,0 +1,30 @@
+---
+import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
+
+import HomeHero from "@components/hero.astro";
+import HomeFeatures from "@components/features.astro";
+import HomeGuide from "@components/guide.astro";
+import HomeFaq from "@components/faq.astro";
+import MoreLinks from "@components/morelinks.astro";
+import { ui } from "../i18n/ui";
+
+// English homepage: SEO title/description/keywords come from home.meta.* keys
+const en = ui.en as Record<string, string>;
+---
+
+<Layout
+  title={en["home.meta.title"]}
+  description={en["home.meta.description"]}
+  keywords={en["home.meta.keywords"]}
+>
+  <HomeHero />
+  <div>
+    <Container>
+      <HomeFeatures />
+      <HomeGuide />
+      <HomeFaq />
+      <MoreLinks />
+    </Container>
+  </div>
+</Layout>

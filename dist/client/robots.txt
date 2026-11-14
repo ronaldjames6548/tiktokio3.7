@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_astro/          # Astro build artifacts
+Disallow: /*?url=*          # Keep this
+Disallow: /*?*url=*         # Keep this
+
+# Optional: block pagination if you have it
+# Disallow: /*/page/*
+
+Allow: /
+Sitemap: https://tiktokio.cam/sitemap-0.xml
+Sitemap: https://tiktokio.cam/sitemap-index.xml
+Sitemap: https://tiktokio.cam/sitemap-core.xml
+Sitemap: https://tiktokio.cam/sitemap-blog.xml
+Sitemap: https://tiktokio.cam/sitemap-blog-index.xml

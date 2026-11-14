@@ -27,6 +27,17 @@ async function resolveShortUrl(url: string): Promise<string> {
   }
 }
 
+// Normalise a scraped image URL (decode &amp;, add protocol, force https)
+function cleanImageUrl(value: any): string | null {
+  const v = Array.isArray(value) ? value.find((x) => typeof x === "string" && x) : value;
+  if (!v || typeof v !== "string") return null;
+  let u = v.trim().replace(/&amp;/g, "&");
+  if (u.startsWith("data:")) return u;
+  if (u.startsWith("//")) u = "https:" + u;
+  if (u.startsWith("http://")) u = "https://" + u.slice(7);
+  return /^https:\/\//.test(u) ? u : null;
+}
+
 // Helper function to safely extract stats from multiple possible paths
 function extractStats(result: any) {
   console.log("=== EXTRACTING STATS ===");
@@ -133,7 +144,7 @@ function transformLibraryResponse(libraryData: any) {
     result: {
       type: result.type || (result.images ? "image" : "video"),
       author: {
-        avatar: avatar,
+        avatar: cleanImageUrl(avatar),
         nickname: result.author?.nickname || result.author?.username || result.author?.uniqueId || "Unknown Author"
       },
       desc: result.desc || result.title || "No description available",
@@ -205,7 +216,8 @@ async function fallbackToExternalServices(url: string) {
         console.log("TikWM extracted stats:", { likes, views, comments, shares });
         
         // Extract avatar with multiple fallback options
-        const avatar = data.data?.author?.avatar_thumb?.url_list?.[0]
+        const avatar = data.data?.author?.avatar
+          || data.data?.author?.avatar_thumb?.url_list?.[0]
           || data.data?.author?.avatar_larger?.url_list?.[0]
           || data.data?.author?.avatar_medium?.url_list?.[0]
           || data.data?.author?.avatar
@@ -223,7 +235,8 @@ async function fallbackToExternalServices(url: string) {
           result: {
             type: data.data?.images ? "image" : "video",
             author: {
-              avatar: data.data?.author?.avatar || null,
+              avatar: cleanImageUrl(avatar)
+                || (data.data?.author?.avatar ? cleanImageUrl("https://www.tikwm.com" + data.data.author.avatar) : null),
               nickname: data.data?.author?.unique_id || data.data?.author?.nickname || "Unknown Author"
             },
             desc: data.data?.title || "No description available",

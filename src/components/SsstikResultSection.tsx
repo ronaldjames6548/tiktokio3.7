@@ -108,7 +108,7 @@ function ResultSection(props: ResultSectionProps) {
                   <button
                     class="absolute inset-0 flex items-center justify-center bg-black/50 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
                     onClick={() => props.onDownloadClick(
-                      `https://dl.tiktokiocdn.workers.dev/api/download?url=${encodeURIComponent(props.getAuthorInfo().avatar)}&type=.jpg&title=${props.getAuthorInfo().nickname}_avatar`,
+                      `/api/download.json?url=${encodeURIComponent(props.getAuthorInfo().avatar)}&type=.jpg&title=${props.getAuthorInfo().nickname}_avatar`,
                       `${props.getAuthorInfo().nickname}_avatar`
                     )}
                     title="Download Avatar"

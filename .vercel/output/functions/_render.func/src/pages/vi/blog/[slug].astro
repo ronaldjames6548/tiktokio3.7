@@ -1,0 +1,89 @@
+---
+import { getCollection } from "astro:content";
+import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
+import { buildPostDescription } from "../../../i18n/seo";
+import BlogPostSchema from "@components/BlogPostSchema.astro";
+import { getArticleReadingTime } from "@utils/blog";
+
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { Icon } from "astro-icon/components";
+
+const requestedLang = Astro.params.lang || getLangFromUrl(Astro.url) || 'en';
+const requestedSlug = Astro.params.slug;
+
+console.log("=== DEBUG [slug].astro ===");
+console.log("URL:", Astro.url.pathname);
+console.log("Detected Lang:", requestedLang);
+console.log("Requested Slug:", requestedSlug);
+
+const allPosts = await getCollection("blog");
+
+const post = allPosts.find((p) => {
+  const [postLang, ...rest] = p.slug.split('/');
+  const fileSlug = rest.join('/');
+
+  const normalizedFile = fileSlug.toLowerCase().replace(/[-\s]+/g, '-');
+  const normalizedRequest = requestedSlug.toLowerCase().replace(/[-\s]+/g, '-');
+
+  return postLang === requestedLang && normalizedFile === normalizedRequest;
+});
+
+if (!post) {
+  console.log("❌ POST NOT FOUND for", requestedLang);
+  return Astro.redirect(`/${requestedLang}/404`);
+}
+
+console.log("✅ LOADED:", post.slug);
+
+const { data, render } = post;
+const { Content } = await render();
+const readTime = getArticleReadingTime(post.body);
+
+const currentLang = requestedLang;
+const t = useTranslations(currentLang);
+
+function localizePath(path: string) {
+  if (!path || path.startsWith('http') || path === '#') return path;
+  return getRelativeLocaleUrl(currentLang, path);
+}
+---
+
+<Layout title={data.title} description={buildPostDescription(data.snippet, currentLang)} lang={currentLang}>
+	<BlogPostSchema slot="head" title={data.title} description={data.snippet} image={data.image?.src} datePublished={data.publishDate} author={data.author} category={data.category} tags={data.tags} lang={currentLang} />
+  <Container>
+    <div class="mx-auto prose prose-lg dark:prose-invert mt-14">
+      {data.category && (
+        <a href={localizePath(`/blog/category/${data.category?.toLowerCase()}`)} 
+           class="text-blue-400 dark:text-stone-400 uppercase tracking-wider text-sm font-medium">
+          {data.category}
+        </a>
+      )}
+
+      <h1 class="text-4xl mb-3 lg:text-5xl font-bold lg:tracking-tight mt-1 lg:leading-tight dark:text-white">
+        {data.title}
+      </h1>
+
+      <div class="flex gap-2 mt-4 text-sm text-gray-500">
+        <span>{data.author}</span>
+        <span>•</span>
+        <span>{readTime} min read</span>
+        <span>•</span>
+        <time datetime={data.publishDate?.toISOString() || ''}>
+          {data.publishDate?.toDateString() || ''}
+        </time>
+      </div>
+
+      <article class="prose prose-lg dark:prose-invert mt-10">
+        <Content />
+      </article>
+
+      <div class="mt-16 text-center">
+        <a href={localizePath("/blog")} class="inline-flex items-center gap-2 hover:underline">
+          ← Back to Blog
+        </a>
+      </div>
+    </div>
+  </Container>
+</Layout>
