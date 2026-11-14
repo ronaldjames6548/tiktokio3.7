@@ -209,7 +209,7 @@ function ResultSection(props: ResultSectionProps) {
                     <button
                       class="download-button bg-purple-600 w-full p-3 rounded text-white font-bold flex items-center justify-center cursor-pointer hover:bg-purple-700 transition-colors"
                       onClick={() => props.onDownloadClick(
-                        `/api/download.json?url=${encodeURIComponent(thumbnail)}&type=.jpg&title=${props.getSafeFilename()}_thumbnail`,
+                        `https://dl.tiktokiocdn.workers.dev/api/download?url=${encodeURIComponent(thumbnail)}&type=.jpg&title=${props.getSafeFilename()}_thumbnail`,
                         generateFilename(props.getSafeFilename(), 'thumbnail')
                       )}
                     >
