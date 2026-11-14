@@ -400,7 +400,7 @@ function InputScreen({}: Props) {
       script.setAttribute('data-cfasync', 'false');
       script.async = true;
       script.type = 'text/javascript';
-      script.src = '//qh.misweenownself.com/tCciuVIqr69/105741';
+      script.src = '//qv.ithielalture.com/tGMBKSaX8hetVBRXw/161737';
       adContainerRef.appendChild(script);
       console.log("Ad script loaded into main container");
     } else {
