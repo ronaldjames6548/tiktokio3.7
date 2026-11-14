@@ -1,11 +1,11 @@
 import { a as createComponent, m as maybeRenderHead, u as unescapeHTML, b as renderTemplate, d as addAttribute, r as renderComponent } from '../chunks/astro/server_CwGvPYwL.mjs';
 import 'piccolore';
 import { $ as $$Container } from '../chunks/container_CyegQXfd.mjs';
-import { d as ui, $ as $$Layout } from '../chunks/Layout_CoVKR8pR.mjs';
-import { $ as $$Hero } from '../chunks/hero_5p21tiNT.mjs';
-import { $ as $$Features } from '../chunks/features_uQHm1fcu.mjs';
+import { d as ui, $ as $$Layout } from '../chunks/Layout_CJ6Z25vH.mjs';
+import { $ as $$Hero } from '../chunks/hero_HN9CvYh2.mjs';
+import { $ as $$Features } from '../chunks/features_Bucc78n1.mjs';
 import 'clsx';
-import { $ as $$Faq } from '../chunks/faq_DH2QyEe6.mjs';
+import { $ as $$Faq } from '../chunks/faq_DP0753al.mjs';
 export { renderers } from '../renderers.mjs';
 
 const $$Guide = createComponent(($$result, $$props, $$slots) => {

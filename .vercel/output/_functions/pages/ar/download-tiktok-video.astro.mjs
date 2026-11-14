@@ -1,8 +1,8 @@
 import { c as createAstro, a as createComponent, r as renderComponent, b as renderTemplate } from '../../chunks/astro/server_CwGvPYwL.mjs';
 import 'piccolore';
 import { $ as $$Container } from '../../chunks/container_CyegQXfd.mjs';
-import { $ as $$DtvHero, a as $$Dtvfeatures, b as $$DtvFaq } from '../../chunks/dtv-hero_DDGS-MuD.mjs';
-import { g as getLangFromUrl, $ as $$Layout, u as useTranslations } from '../../chunks/Layout_CoVKR8pR.mjs';
+import { $ as $$DtvHero, a as $$Dtvfeatures, b as $$DtvFaq } from '../../chunks/dtv-hero_Xz0Y32wA.mjs';
+import { g as getLangFromUrl, $ as $$Layout, u as useTranslations } from '../../chunks/Layout_CJ6Z25vH.mjs';
 export { renderers } from '../../renderers.mjs';
 
 const $$Astro = createAstro("https://tiktokio.cam");

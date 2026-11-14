@@ -119,7 +119,7 @@ function ResultSection(props: ResultSectionProps) {
   // ─── Helpers ─────────────────────────────────────────────────────────────
 
   // Generate filename based on type
-  const generateFilename = (baseName: string, type: 'video' | 'audio' | 'watermark' | 'avatar') => {
+  const generateFilename = (baseName: string, type: 'video' | 'audio' | 'watermark' | 'avatar' | 'thumbnail') => {
     let filename = (baseName || 'tiktok-video').trim();
 
     if (type === 'audio') {
@@ -128,13 +128,15 @@ function ResultSection(props: ResultSectionProps) {
       filename += '_watermark';
     } else if (type === 'avatar') {
       filename += '_avatar';
+    } else if (type === 'thumbnail') {
+      filename += '_thumbnail';
     }
 
     if (!filename.startsWith('tiktokio.cam')) {
       filename = `tiktokio.cam_${filename}`;
     }
 
-    if (type === 'avatar') {
+    if (type === 'avatar' || type === 'thumbnail') {
       if (!filename.toLowerCase().endsWith('.jpg')) filename += '.jpg';
     } else if (type === 'audio') {
       if (!filename.toLowerCase().endsWith('.mp3')) filename += '.mp3';
@@ -145,8 +147,8 @@ function ResultSection(props: ResultSectionProps) {
     return filename;
   };
 
-  // Download avatar directly without modal using proxy
-  const downloadAvatar = (e: Event) => {
+  // Download avatar via same-origin proxy (/api/download) and verify the bytes
+  const downloadAvatar = async (e: Event) => {
     e.preventDefault();
     e.stopPropagation();
 
@@ -157,19 +159,74 @@ function ResultSection(props: ResultSectionProps) {
     }
 
     const finalFilename = generateFilename(props.getSafeFilename(), 'avatar');
-    console.log("Downloading avatar as:", finalFilename);
+    const proxyUrl = `/api/download.json?url=${encodeURIComponent(avatarUrl)}&type=.jpg&title=${encodeURIComponent(finalFilename)}`;
 
-    const proxyUrl = `https://dl.tiktokiocdn.workers.dev/api/download?url=${encodeURIComponent(avatarUrl)}&type=.jpg&title=${encodeURIComponent(finalFilename)}`;
+    try {
+      const res = await fetch(proxyUrl);
+      if (!res.ok) {
+        let detail = `HTTP ${res.status}`;
+        try { const j = await res.json(); detail = `${j.error || detail}${j.reason ? ` (${j.reason})` : ''}${j.host ? ` [${j.host}]` : ''}`; } catch {}
+        throw new Error(detail);
+      }
+      const blob = await res.blob();
+      if (!blob.size) throw new Error("Empty file received");
 
-    const link = document.createElement('a');
-    link.href = proxyUrl;
-    link.download = finalFilename;
-    link.style.display = 'none';
-    document.body.appendChild(link);
-    link.click();
-    setTimeout(() => document.body.removeChild(link), 100);
+      const ext = blob.type.includes("png") ? ".png" : blob.type.includes("webp") ? ".webp" : ".jpg";
+      const name = finalFilename.replace(/\.[a-z0-9]{2,4}$/i, "") + ext;
 
-    console.log("✅ Avatar download started with filename:", finalFilename);
+      const objectUrl = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = objectUrl;
+      link.download = name;
+      link.style.display = 'none';
+      document.body.appendChild(link);
+      link.click();
+      setTimeout(() => { document.body.removeChild(link); URL.revokeObjectURL(objectUrl); }, 1000);
+    } catch (err) {
+      console.error("Avatar download failed:", err);
+      alert(`Could not download the profile picture.\n${(err as Error).message}`);
+    }
+  };
+
+  // Download video thumbnail via same-origin proxy (/api/download.json) and verify the bytes
+  const downloadThumbnail = async (e: Event) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    const thumbUrl = result.thumbnail;
+    if (!thumbUrl) {
+      console.error("No thumbnail URL available");
+      return;
+    }
+
+    const finalFilename = generateFilename(props.getSafeFilename(), 'thumbnail');
+    const proxyUrl = `/api/download.json?url=${encodeURIComponent(thumbUrl)}&type=.jpg&title=${encodeURIComponent(finalFilename)}`;
+
+    try {
+      const res = await fetch(proxyUrl);
+      if (!res.ok) {
+        let detail = `HTTP ${res.status}`;
+        try { const j = await res.json(); detail = `${j.error || detail}${j.reason ? ` (${j.reason})` : ''}${j.host ? ` [${j.host}]` : ''}`; } catch {}
+        throw new Error(detail);
+      }
+      const blob = await res.blob();
+      if (!blob.size) throw new Error("Empty file received");
+
+      const ext = blob.type.includes("png") ? ".png" : blob.type.includes("webp") ? ".webp" : ".jpg";
+      const name = finalFilename.replace(/\.[a-z0-9]{2,4}$/i, "") + ext;
+
+      const objectUrl = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = objectUrl;
+      link.download = name;
+      link.style.display = 'none';
+      document.body.appendChild(link);
+      link.click();
+      setTimeout(() => { document.body.removeChild(link); URL.revokeObjectURL(objectUrl); }, 1000);
+    } catch (err) {
+      console.error("Thumbnail download failed:", err);
+      alert(`Could not download the thumbnail.\n${(err as Error).message}`);
+    }
   };
 
   // Stats with defaults
@@ -370,6 +427,19 @@ function ResultSection(props: ResultSectionProps) {
                   )}
                 </div>
 
+                {/* Download Profile Picture (between stats and ad banner) */}
+                {avatarUrl && (
+                  <button
+                    class="download-button bg-pink-600 hover:bg-pink-700 w-full p-3 rounded text-white font-bold flex items-center justify-center cursor-pointer transition-colors mb-4"
+                    onClick={downloadAvatar}
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                    </svg>
+                    Download Profile Picture
+                  </button>
+                )}
+
                 {/* ── Ad Banner (between stats and download buttons) ───────────── */}
                 <AdBanner
                   onRef={handleAdRef}
@@ -441,6 +511,19 @@ function ResultSection(props: ResultSectionProps) {
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path>
                       </svg>
                       Download Audio Only
+                    </button>
+                  )}
+
+                  {/* Download Thumbnail */}
+                  {result.thumbnail && (
+                    <button
+                      class="download-button bg-teal-600 hover:bg-teal-700 w-full p-3 rounded text-white font-bold flex items-center justify-center cursor-pointer transition-colors"
+                      onClick={downloadThumbnail}
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                      </svg>
+                      Download Thumbnail
                     </button>
                   )}
 

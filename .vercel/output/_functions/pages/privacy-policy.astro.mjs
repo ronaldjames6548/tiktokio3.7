@@ -1,6 +1,6 @@
 import { c as createAstro, a as createComponent, r as renderComponent, b as renderTemplate, m as maybeRenderHead } from '../chunks/astro/server_CwGvPYwL.mjs';
 import 'piccolore';
-import { g as getLangFromUrl, $ as $$Layout } from '../chunks/Layout_CoVKR8pR.mjs';
+import { g as getLangFromUrl, $ as $$Layout } from '../chunks/Layout_CJ6Z25vH.mjs';
 export { renderers } from '../renderers.mjs';
 
 const $$Astro = createAstro("https://tiktokio.cam");

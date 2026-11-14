@@ -1,11 +1,11 @@
 import { c as createAstro, a as createComponent, r as renderComponent, b as renderTemplate, F as Fragment } from '../../chunks/astro/server_CwGvPYwL.mjs';
 import 'piccolore';
 import { $ as $$Container } from '../../chunks/container_CyegQXfd.mjs';
-import { g as getLangFromUrl, $ as $$Layout } from '../../chunks/Layout_CoVKR8pR.mjs';
-import { $ as $$TiktoksssHero } from '../../chunks/tiktoksss-hero_Dbj99wff.mjs';
-import { $ as $$Features } from '../../chunks/features_uQHm1fcu.mjs';
-import { $ as $$Logos, a as $$Newsletter } from '../../chunks/logos_CFQEKSOX.mjs';
-import { $ as $$Faq } from '../../chunks/faq_DH2QyEe6.mjs';
+import { g as getLangFromUrl, $ as $$Layout } from '../../chunks/Layout_CJ6Z25vH.mjs';
+import { $ as $$TiktoksssHero } from '../../chunks/tiktoksss-hero_CeIxrnI7.mjs';
+import { $ as $$Features } from '../../chunks/features_Bucc78n1.mjs';
+import { $ as $$Logos, a as $$Newsletter } from '../../chunks/logos_CI8fjLs2.mjs';
+import { $ as $$Faq } from '../../chunks/faq_DP0753al.mjs';
 export { renderers } from '../../renderers.mjs';
 
 const $$Astro = createAstro("https://tiktokio.cam");

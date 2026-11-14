@@ -1,8 +1,8 @@
 import { c as createAstro, a as createComponent, r as renderComponent, b as renderTemplate, m as maybeRenderHead, d as addAttribute } from '../../../chunks/astro/server_CwGvPYwL.mjs';
 import 'piccolore';
-import { g as getCollection } from '../../../chunks/_astro_content_L1ZQ1O-k.mjs';
+import { g as getCollection } from '../../../chunks/_astro_content_BKmu8Jye.mjs';
 import { $ as $$Container } from '../../../chunks/container_CyegQXfd.mjs';
-import { g as getLangFromUrl, b as buildPostDescription, $ as $$Layout, c as getRelativeLocaleUrl } from '../../../chunks/Layout_CoVKR8pR.mjs';
+import { g as getLangFromUrl, b as buildPostDescription, $ as $$Layout, c as getRelativeLocaleUrl } from '../../../chunks/Layout_CJ6Z25vH.mjs';
 import { $ as $$BlogPostSchema } from '../../../chunks/BlogPostSchema_D31yxSQQ.mjs';
 import { g as getArticleReadingTime } from '../../../chunks/blog_CFImKJjS.mjs';
 export { renderers } from '../../../renderers.mjs';
