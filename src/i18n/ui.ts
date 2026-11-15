@@ -151,6 +151,11 @@ export const ui = {
 	'ttdownloader.hero.title': 'TTDownloader - TikTok Video Download Without Watermark',
     'ttdownloader.hero.subtitle': 'Download TikTok video without watermarks — HD quality, MP4 format',
 
+    'snaptik.hero.title': 'SnapTik - Download TikTok Videos Without Watermark',
+    'snaptik.hero.subtitle': 'Save TikTok videos in HD with SnapTik - fast and free, in MP4 or MP3',
+    'savett.hero.title': 'SaveTT - TikTok Video Downloader Without Watermark',
+    'savett.hero.subtitle': 'Download TikTok videos in full HD with SaveTT - works on iPhone, Android and PC',
+
 
 	
 	// Header/Navigation
@@ -683,6 +688,11 @@ vi: {
 'tmate.hero.subtitle': 'Trình tải video trực tuyến cho TikTok - Không watermark - TMate',
 'ttdownloader.hero.title': 'TTDownloader - Tải video TikTok không watermark',
 'ttdownloader.hero.subtitle': 'Tải video TikTok không watermark — chất lượng HD, định dạng MP4',
+
+'snaptik.hero.title': 'SnapTik - Tải video TikTok không watermark',
+'snaptik.hero.subtitle': 'Lưu video TikTok HD với SnapTik - nhanh, miễn phí, định dạng MP4 hoặc MP3',
+'savett.hero.title': 'SaveTT - Trình tải video TikTok không watermark',
+'savett.hero.subtitle': 'Tải video TikTok chất lượng HD đầy đủ với SaveTT - hoạt động trên iPhone, Android và máy tính',
 // Header/Navigation
 'header.blog_link': 'Cách lưu video TikTok?',
 'header.nav_1': 'Trình tải TikTok',
@@ -1082,6 +1092,11 @@ it: {
 'tmate.hero.subtitle': 'Scaricatore Video Online per TikTok - Senza Watermark - TMate',
 'ttdownloader.hero.title': 'TTDownloader - Download Video TikTok Senza Watermark',
 'ttdownloader.hero.subtitle': 'Scarica video TikTok senza watermark — qualità HD, formato MP4',
+
+'snaptik.hero.title': 'SnapTik - Scarica Video TikTok Senza Watermark',
+'snaptik.hero.subtitle': 'Salva video TikTok in HD con SnapTik - veloce e gratis, in MP4 o MP3',
+'savett.hero.title': 'SaveTT - Scaricatore Video TikTok Senza Watermark',
+'savett.hero.subtitle': 'Scarica video TikTok in HD completo con SaveTT - funziona su iPhone, Android e PC',
 
 // Header/Navigation
 'header.blog_link': 'Come salvare un video TikTok?',
@@ -1530,6 +1545,11 @@ ar: {
 
 	'ttdownloader.hero.title': 'TTDownloader - تحميل فيديو تيك توك بدون علامة مائية',
     'ttdownloader.hero.subtitle': 'تحميل فيديو تيك توك بدون علامات مائية — جودة HD، صيغة MP4',
+
+    'snaptik.hero.title': 'SnapTik - تحميل فيديوهات تيك توك بدون علامة مائية',
+    'snaptik.hero.subtitle': 'احفظ فيديوهات تيك توك بجودة HD مع SnapTik - سريع ومجاني، بصيغة MP4 أو MP3',
+    'savett.hero.title': 'SaveTT - أداة تحميل فيديوهات تيك توك بدون علامة مائية',
+    'savett.hero.subtitle': 'حمّل فيديوهات تيك توك بجودة HD كاملة مع SaveTT - يعمل على iPhone وAndroid والكمبيوتر',
 
 
 	
@@ -2014,6 +2034,11 @@ ar: {
 	'ttdownloader.hero.title': 'TTDownloader - Téléchargement Vidéo TikTok Sans Filigrane',
     'ttdownloader.hero.subtitle': 'Télécharger vidéo TikTok sans filigrane — Qualité HD, format MP4',
 
+    'snaptik.hero.title': 'SnapTik - Télécharger Vidéos TikTok Sans Filigrane',
+    'snaptik.hero.subtitle': 'Enregistrez des vidéos TikTok en HD avec SnapTik - rapide et gratuit, en MP4 ou MP3',
+    'savett.hero.title': 'SaveTT - Téléchargeur Vidéo TikTok Sans Filigrane',
+    'savett.hero.subtitle': 'Téléchargez des vidéos TikTok en HD complet avec SaveTT - compatible iPhone, Android et PC',
+
 	// Header/Navigation
     'header.blog_link': 'Comment enregistrer une vidéo TikTok ?',
     'header.nav_1': 'TikTok Downloader',
@@ -2491,6 +2516,11 @@ ar: {
 	'ttdownloader.hero.title': 'TTDownloader - TikTok Video Download Ohne Wasserzeichen',
     'ttdownloader.hero.subtitle': 'TikTok Video ohne Wasserzeichen herunterladen — HD Qualität, MP4 Format',
 
+    'snaptik.hero.title': 'SnapTik - TikTok Videos Ohne Wasserzeichen Herunterladen',
+    'snaptik.hero.subtitle': 'Speichere TikTok-Videos in HD mit SnapTik - schnell und kostenlos, als MP4 oder MP3',
+    'savett.hero.title': 'SaveTT - TikTok Video Downloader Ohne Wasserzeichen',
+    'savett.hero.subtitle': 'Lade TikTok-Videos in voller HD-Qualität mit SaveTT herunter - funktioniert auf iPhone, Android und PC',
+
 	// Header/Navigation
     'header.blog_link': 'Wie speichert man ein TikTok Video?',
     'header.nav_1': 'TikTok Downloader',
@@ -2967,6 +2997,11 @@ es: {
 
 	'ttdownloader.hero.title': 'TTDownloader - Descargar video de TikTok sin logo',
     'ttdownloader.hero.subtitle': 'Descarga videos de TikTok sin marcas de agua — Calidad HD, formato MP4',
+
+    'snaptik.hero.title': 'SnapTik - Descargar videos de TikTok sin marca de agua',
+    'snaptik.hero.subtitle': 'Guarda videos de TikTok en HD con SnapTik - rápido y gratis, en MP4 o MP3',
+    'savett.hero.title': 'SaveTT - Descargador de videos de TikTok sin marca de agua',
+    'savett.hero.subtitle': 'Descarga videos de TikTok en HD completo con SaveTT - funciona en iPhone, Android y PC',
 	
 	// Header/Navigation
     'header.blog_link': '¿Cómo guardar un video de TikTok?',
@@ -3440,6 +3475,11 @@ es: {
 	'ttdownloader.hero.title': 'TTDownloader - बिना वॉटरमार्क टिकटॉक वीडियो डाउनलोड',
     'ttdownloader.hero.subtitle': 'बिना वॉटरमार्क टिकटॉक वीडियो डाउनलोड करें — एचडी क्वालिटी, एमपी4 फॉर्मेट',
 
+    'snaptik.hero.title': 'SnapTik - बिना वॉटरमार्क टिकटॉक वीडियो डाउनलोड करें',
+    'snaptik.hero.subtitle': 'SnapTik से टिकटॉक वीडियो HD में सेव करें - तेज़ और मुफ़्त, MP4 या MP3 में',
+    'savett.hero.title': 'SaveTT - बिना वॉटरमार्क टिकटॉक वीडियो डाउनलोडर',
+    'savett.hero.subtitle': 'SaveTT से टिकटॉक वीडियो फुल HD में डाउनलोड करें - iPhone, Android और PC पर काम करता है',
+
 
 	
 	// Header/Navigation
@@ -3867,6 +3907,11 @@ id: {
 
 	'ttdownloader.hero.title': 'TTDownloader - Unduh Video TikTok Tanpa Watermark',
     'ttdownloader.hero.subtitle': 'Unduh video TikTok tanpa watermark — kualitas HD, format MP4',
+
+    'snaptik.hero.title': 'SnapTik - Unduh Video TikTok Tanpa Watermark',
+    'snaptik.hero.subtitle': 'Simpan video TikTok HD dengan SnapTik - cepat dan gratis, dalam MP4 atau MP3',
+    'savett.hero.title': 'SaveTT - Pengunduh Video TikTok Tanpa Watermark',
+    'savett.hero.subtitle': 'Unduh video TikTok dalam HD penuh dengan SaveTT - berfungsi di iPhone, Android, dan PC',
 
 	
 	// Header/Navigation
@@ -4297,6 +4342,11 @@ ru: {
 	'ttdownloader.hero.title': 'TTDownloader - Скачать видео TikTok без водяных знаков',
     'ttdownloader.hero.subtitle': 'Скачать видео TikTok без логотипа — HD качество, формат MP4',
 
+    'snaptik.hero.title': 'SnapTik - Скачать видео из TikTok без водяных знаков',
+    'snaptik.hero.subtitle': 'Сохраняйте видео TikTok в HD с SnapTik - быстро и бесплатно, в формате MP4 или MP3',
+    'savett.hero.title': 'SaveTT - Загрузчик видео TikTok без водяных знаков',
+    'savett.hero.subtitle': 'Скачивайте видео TikTok в полном HD с SaveTT - работает на iPhone, Android и ПК',
+
 
 	
 	// Header/Navigation
@@ -4704,6 +4754,11 @@ ru: {
 	'ttdownloader.hero.title': 'TTDownloader - Baixar Vídeo do TikTok Sem Marca d\'Água',
     'ttdownloader.hero.subtitle': 'Baixe vídeos do TikTok sem marcas d\'água — Qualidade HD, formato MP4',
 
+    'snaptik.hero.title': 'SnapTik - Baixar Vídeos do TikTok Sem Marca d\'Água',
+    'snaptik.hero.subtitle': 'Salve vídeos do TikTok em HD com o SnapTik - rápido e grátis, em MP4 ou MP3',
+    'savett.hero.title': 'SaveTT - Baixador de Vídeos do TikTok Sem Marca d\'Água',
+    'savett.hero.subtitle': 'Baixe vídeos do TikTok em HD completo com o SaveTT - funciona no iPhone, Android e PC',
+
 
 	
 	// Header/Navigation
@@ -5110,6 +5165,11 @@ ko: {
 
 	'ttdownloader.hero.title': 'TTDownloader - 틱톡 비디오 워터마크 없이 다운로드',
     'ttdownloader.hero.subtitle': '워터마크 없는 틱톡 비디오 다운로드 — HD 화질, MP4 형식',
+
+    'snaptik.hero.title': 'SnapTik - 틱톡 비디오 워터마크 없이 다운로드',
+    'snaptik.hero.subtitle': 'SnapTik으로 틱톡 영상을 HD로 빠르고 무료로 저장하세요 - MP4 또는 MP3 지원',
+    'savett.hero.title': 'SaveTT - 워터마크 없는 틱톡 비디오 다운로더',
+    'savett.hero.subtitle': 'SaveTT로 틱톡 영상을 풀 HD로 다운로드하세요 - 아이폰, 안드로이드, PC 지원',
 
 	
 	// Header/Navigation
@@ -5542,6 +5602,11 @@ tl: {
 
 	'ttdownloader.hero.title': 'TTDownloader - TikTok Video Download Walang Watermark',
     'ttdownloader.hero.subtitle': 'I-download ang video sa TikTok nang walang watermark — HD na kalidad, MP4 format',
+
+    'snaptik.hero.title': 'SnapTik - I-download ang mga Video sa TikTok Walang Watermark',
+    'snaptik.hero.subtitle': 'Mag-save ng TikTok video sa HD gamit ang SnapTik - mabilis at libre, sa MP4 o MP3',
+    'savett.hero.title': 'SaveTT - TikTok Video Downloader Walang Watermark',
+    'savett.hero.subtitle': 'Mag-download ng TikTok video sa buong HD gamit ang SaveTT - gumagana sa iPhone, Android at PC',
 
 
 	
@@ -6049,6 +6114,11 @@ tl: {
 	'ttdownloader.hero.title': 'TTDownloader - TikTok Video Download Zonder Watermerk',
     'ttdownloader.hero.subtitle': 'Download TikTok video\'s zonder watermerk — HD kwaliteit, MP4 formaat',
 
+    'snaptik.hero.title': 'SnapTik - TikTok Video\'s Zonder Watermerk Downloaden',
+    'snaptik.hero.subtitle': 'Sla TikTok-video\'s op in HD met SnapTik - snel en gratis, als MP4 of MP3',
+    'savett.hero.title': 'SaveTT - TikTok Video Downloader Zonder Watermerk',
+    'savett.hero.subtitle': 'Download TikTok-video\'s in volledige HD met SaveTT - werkt op iPhone, Android en pc',
+
 
 	
 	// Header/Navigation
@@ -6466,6 +6536,11 @@ ms: {
 	'ttdownloader.hero.title': 'TTDownloader - Muat Turun Video TikTok Tanpa Tera Air',
     'ttdownloader.hero.subtitle': 'Muat turun video TikTok tanpa tera air — kualiti HD, format MP4',
 
+    'snaptik.hero.title': 'SnapTik - Muat Turun Video TikTok Tanpa Watermark',
+    'snaptik.hero.subtitle': 'Simpan video TikTok HD dengan SnapTik - pantas dan percuma, dalam MP4 atau MP3',
+    'savett.hero.title': 'SaveTT - Pemuat Turun Video TikTok Tanpa Watermark',
+    'savett.hero.subtitle': 'Muat turun video TikTok dalam HD penuh dengan SaveTT - berfungsi pada iPhone, Android dan PC',
+
 
 	
 	// Header/Navigation
@@ -6871,6 +6946,11 @@ ms: {
 
 	'ttdownloader.hero.title': 'TTDownloader - Filigransız TikTok Video İndir',
     'ttdownloader.hero.subtitle': 'TikTok Videolarını Filigransız İndir — HD Kalite, MP4 Formatı',
+
+    'snaptik.hero.title': 'SnapTik - Filigransız TikTok Videoları İndir',
+    'snaptik.hero.subtitle': 'SnapTik ile TikTok videolarını HD olarak kaydedin - hızlı ve ücretsiz, MP4 veya MP3',
+    'savett.hero.title': 'SaveTT - Filigransız TikTok Video İndirici',
+    'savett.hero.subtitle': 'SaveTT ile TikTok videolarını tam HD kalitesinde indirin - iPhone, Android ve PC\'de çalışır',
 
 	// Header/Navigation
     'header.blog_link': 'TikTok videosu nasıl kaydedilir?',
